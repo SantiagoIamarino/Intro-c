@@ -129,7 +129,7 @@ button {
     background: 0 0;
 }
 .bg-pattern-01 {
-    background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat fixed;
+    background-color: gainsboro;
 }
 .block-revealer {
     position: absolute;
