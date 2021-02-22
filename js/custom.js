@@ -6,3 +6,18 @@ function seeAllProjects(e) {
         display: 'none'
     })
 }
+
+$(document).ready(() => {
+    $('.media-project').on('click', (e) => {
+        const target = e.target;
+        let parent;
+
+        if(target.className.indexOf('media-project') >= 0) {
+            parent = target;
+        } else {
+            parent = $(target).parent('.media-project');
+        }
+
+        $(parent).find('a').click();
+    })
+})
