@@ -13703,3 +13703,13 @@ button:focus {
 .tp-bgimg.defaultimg {
     filter: grayscale(0);
 }
+
+.img-client img{
+    filter: grayscale(1);
+    width: auto;
+    max-height: 100px;
+}
+
+.tp-bgimg.defaultimg {
+    filter:brightness(0.3);
+}
