@@ -129,7 +129,7 @@ button {
     background: 0 0;
 }
 .bg-pattern-01 {
-    background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat fixed;
+    background-color: gainsboro;
 }
 .block-revealer {
     position: absolute;
@@ -13702,4 +13702,14 @@ button:focus {
 
 .tp-bgimg.defaultimg {
     filter: grayscale(0);
+}
+
+.img-client img{
+    filter: grayscale(1);
+    width: auto;
+    max-height: 100px;
+}
+
+.tp-bgimg.defaultimg {
+    filter:brightness(0.3);
 }
