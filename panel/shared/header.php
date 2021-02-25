@@ -5,6 +5,17 @@
     //     return;
     // }
 
+    $dsn = 'mysql:dbname=intro;host=localhost';
+    $user = 'root';
+    $password = 'root';
+
+    try {
+        $db = new PDO($dsn, $user, $password);
+        $db->exec("set names utf8");
+    } catch (PDOException $e) {
+        echo 'Falló la conexión: ' . $e->getMessage();
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +28,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="shared/header.css">
+    <link rel="stylesheet" href="shared/main.css">
 </head>
 <body>
     <header>
