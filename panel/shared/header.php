@@ -1,19 +1,16 @@
 <?php session_start();
     
-    // if(!isset($_SESSION['userEmail']) || isset($_SESSION['userName'])) {
-    //     header('Location: ./login');
-    //     return;
-    // }
+    if(!isset($_SESSION['userEmail']) || !isset($_SESSION['userName'])) {
+        header('Location: ./login');
+        return;
+    }
 
-    $dsn = 'mysql:dbname=intro;host=localhost';
-    $user = 'root';
-    $password = 'root';
+    include('../config.php');
 
-    try {
-        $db = new PDO($dsn, $user, $password);
-        $db->exec("set names utf8");
-    } catch (PDOException $e) {
-        echo 'Falló la conexión: ' . $e->getMessage();
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['logout'])){
+        session_destroy();
+
+        header('Location: ./login');
     }
 
 ?>
@@ -38,10 +35,13 @@
                     <img src="../images/icon/logo_intro.png" alt="" class="d-inline-block align-top">
                     <span>Administración Intro</span>
                 </a>
-                <button class='btn btn-info'>
-                    Cerrar sesión
-                    <i class="bi bi-box-arrow-right"></i>
-                </button>
+                <form method='POST' action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
+                    <button type='submit' name='logout' class='btn btn-info'>
+                        Cerrar sesión
+                        <i class="bi bi-box-arrow-right"></i>
+                    </button>
+                </form>
+               
             </div>
         </nav>
     </header>

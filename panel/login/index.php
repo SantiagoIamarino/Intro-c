@@ -1,7 +1,51 @@
+<?php 
+	session_start();
+
+	ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+	include('../../config.php');
+
+	if(isset($_SESSION['userEmail']) || isset($_SESSION['userName'])) {
+        header('Location: ../');
+        return;
+    }
+
+	if($_SERVER['REQUEST_METHOD'] == 'POST') {
+		if(!isset($_POST['email']) || empty($_POST['email'])){
+			echo '<script>alert("Debes indicar tu email")</script>';
+		} else if(!isset($_POST['password']) || empty($_POST['password'])){
+			echo '<script>alert("Debes indicar tu contraseña")</script>';
+		} else {
+			$statement = $db->prepare('SELECT * FROM users WHERE email = :email');
+			$statement->execute(array(
+				'email' => $_POST['email']
+			));
+
+			$userDB = $statement->fetch();
+
+			if(!$userDB) {
+				echo '<script>alert("No existe un usuario con este email")</script>';
+			} else {
+				$password = hash('md5', $_POST['password']);
+				if($password == $userDB['password']) {
+					$_SESSION['userEmail'] = $userDB['email'];
+					$_SESSION['userName'] = $userDB['name'];
+
+					header('Location: ../');
+				} else {
+					echo '<script>alert("La contraseña es incorrecta")</script>';
+				}
+			}
+		}
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V6</title>
+	<title>Intro Arquitectura | Panel</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -32,7 +76,8 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-85 p-b-20">
-				<form class="login100-form validate-form">
+				<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>"
+					method='post' class="login100-form validate-form">
 					<span class="login100-form-title p-b-70">
 						Bienvenido
 					</span>
@@ -41,17 +86,19 @@
 					</span>
 
 					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Ingresa tu correo">
-						<input class="input100" type="text" name="username">
-						<span class="focus-input100" data-placeholder="Nombre de usuario"></span>
+						<input value="<?php echo (isset($_POST['email']) ? $_POST['email'] : '') ?>"
+							class="input100" type="email" name="email">
+						<span class="focus-input100" data-placeholder="Email"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-50" data-validate="Ingresa tu contraseña">
-						<input class="input100" type="password" name="pass">
+						<input value="<?php echo (isset($_POST['password']) ? $_POST['password'] : '') ?>"
+							class="input100" type="password" name="password">
 						<span class="focus-input100" data-placeholder="Contraseña"></span>
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button type='submit' class="login100-form-btn">
 							Iniciar sesión
 						</button>
 					</div>

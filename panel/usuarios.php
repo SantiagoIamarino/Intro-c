@@ -14,7 +14,7 @@
 
     getUsers();
 
-    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['users'])) {
         if(!isset($_POST['email']) || empty($_POST['email'])){
             echo "<script>alert('Debes indicar un email')</script>";
         } else if(!isset($_POST['name']) || empty($_POST['name'])){
@@ -77,30 +77,30 @@
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" name="email"
-                                value="<?php (isset($_POST['email'])) ? $_POST['email'] : '' ?>"
+                                value="<?php echo (isset($_POST['email'])) ? $_POST['email'] : '' ?>"
                                 id="email" placeholder="usuario@ejemplo.com">
                         </div>
                         <div class="mb-3">
                             <label for="name" class="form-label">Nombre</label>
                             <input type="text" class="form-control" name="name"
-                                value="<?php (isset($_POST['name'])) ? $_POST['name'] : '' ?>"
+                                value="<?php echo (isset($_POST['name'])) ? $_POST['name'] : '' ?>"
                                 id="name" placeholder="Nombre">
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" name="password"
-                                value="<?php (isset($_POST['password'])) ? $_POST['password'] : '' ?>"
+                                value="<?php echo (isset($_POST['password'])) ? $_POST['password'] : '' ?>"
                                 id="password" placeholder="Contraseña">
                         </div>
                         <div class="mb-3">
                             <label for="rePassword" class="form-label">Repite la contraseña</label>
                             <input type="password" class="form-control" name="rePassword"
-                                value="<?php (isset($_POST['rePassword'])) ? $_POST['rePassword'] : '' ?>"
+                                value="<?php echo (isset($_POST['rePassword'])) ? $_POST['rePassword'] : '' ?>"
                                 id="rePassword" placeholder="Repite la contraseña">
                         </div>
 
                         <div class="w-100 save-btn d-flex justify-content-end">
-                            <button type='submit'>
+                            <button type='submit' name='users'>
                                 <i class="bi bi-save"></i>
                                 Agregar usuario
                             </button>
