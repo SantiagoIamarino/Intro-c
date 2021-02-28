@@ -61,7 +61,7 @@
 
 ?>
 
-    <div class="users">
+    <div class="users page-container">
         <div class="title">
             <h2>Administración de usuarios</h2>
             <hr>
@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="w-100 save-btn d-flex justify-content-end">
-                            <button type='submit' name='users'>
+                            <button class='save-btn' type='submit' name='users'>
                                 <i class="bi bi-save"></i>
                                 Agregar usuario
                             </button>
@@ -143,9 +143,6 @@
                 </table>
             </div>
         </div>
-
-        
-        
     </div>
 
 <?php include('./shared/footer.php') ?>

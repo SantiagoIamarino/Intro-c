@@ -1,15 +1,28 @@
-.users{
+.page-container{
     padding: 3vh 3vw;
 }
 
-.users .title{
+.page-container .title{
     margin-top: 30px;
 }
 
-.users .page-content{
+.page-container .page-content{
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.top button a {
+    color: white;
+    text-decoration: none;
 }
 
 .users .page-content .manage-user{
@@ -22,7 +35,7 @@
     box-shadow: 1px 1px 3px gray;
 }
 
-.users .manage-user button{
+button.save-btn{
     background: rgb(59, 59, 59);
     color: white;
     border: none;
@@ -36,4 +49,9 @@
     padding: 40px 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px gray;
+}
+
+#text-editor{
+    border: 1px solid #cdcdcd;
+    min-height: 400px;
 }

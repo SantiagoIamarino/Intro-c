@@ -49,8 +49,16 @@
     <aside>
         <div class="panel-options">
             <ul>
-                <li class='active'><i class="bi bi-people"></i> Usuarios</li>
-                <li><i class="bi bi-pencil-square"></i> Blog</li>
+                <li class='users-option'>
+                    <a href="usuarios.php">
+                        <i class="bi bi-people"></i> Usuarios
+                    </a>
+                </li>
+                <li class='blog-option'>
+                    <a href="blog.php">
+                        <i class="bi bi-pencil-square"></i> Blog
+                    </a>
+                </li>
             </ul>
         </div>
         

@@ -1,11 +1,15 @@
 header nav{
     height: 8vh !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 header img{
     height: 40px;
     width: auto;
 }
- 
+
 header a span {
     padding-left: 10px;
 }
@@ -38,10 +42,16 @@ aside .panel-options ul{
 
 aside .panel-options ul li{
     list-style: none;
+}
+
+aside .panel-options ul li a{
+    display: block;
     font-size: 18px;
     padding: 20px;
     cursor: pointer;
     width: 100%;
+    color: white !important; 
+    text-decoration: none !important;
 }
 
 aside .panel-options ul li.active{
@@ -54,4 +64,5 @@ aside .panel-options ul li i {
 
 .content{
     margin-left:15vw;
+    margin-top: 8vh;
 }
