@@ -1,5 +1,8 @@
 <?php 
     include('./shared/header.php');
+    ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
     $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
 
@@ -18,61 +21,71 @@
 
         if(!isset($post['title']) || empty($_POST['title'])) {
             echo '<script>alert("Debes indicar un título")</script>';
-        } else  if(!isset($post['slug']) || empty($_POST['slug'])) {
+        } else if(!isset($post['slug']) || empty($_POST['slug'])) {
             echo '<script>alert("Debes indicar un slug")</script>';
-        }else  if(!isset($post['metaDescription']) || empty($_POST['metaDescription'])) {
+        }else if(!isset($post['metaDescription']) || empty($_POST['metaDescription'])) {
             echo '<script>alert("Debes indicar un meta description")</script>';
-        }
-
-        if(isset($_POST['postId']) && !empty($_POST['postId'])) {
-            if(isset($_FILES['image']) && !empty($_FILES['image'])) {
-                $image = $upload_dir . basename($_FILES['image']['name']);
-
-                if (!move_uploaded_file($_FILES['image']['tmp_name'], $image)) {
-                    echo '<script>alert("No se ha podido subir la imagen")</script>';
-                }
-            } else {
-                $image = $_POST['imageUrl'];
-            }
-
-            $statement = $db->prepare("UPDATE posts SET title = :title, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
-                    WHERE id = :postId");
-            $statement->execute((array(
-            'title' => $_POST['title'], 
-            'slug' => $_POST['slug'], 
-            'metaDescription' => $_POST['metaDescription'], 
-            'content' => $_POST['content'], 
-            'imageUrl' => $image,
-            'postId' => $_POST['postId']
-            )));
-
-            header('Location: post.php?postId=' . $_POST['postId']);
-
         } else {
-            if(!isset($_FILES['image']) || empty($_FILES['image'])) {
-                echo '<script>alert("Debes indicar una imagen")</script>';
-            }
+            $statement = $db->prepare("SELECT * FROM posts WHERE slug = :slug");
+            $statement->execute(array(
+                'slug' => $_POST['slug']
+            ));
+    
+            $slugExists = $statement->fetch();
 
-            $image = $upload_dir . basename($_FILES['image']['name']);
-
-            if (move_uploaded_file($_FILES['image']['tmp_name'], $image)) {
-                $statement = $db->prepare("INSERT INTO posts(title, slug, metaDescription, content, imageUrl) 
-                                VALUES (:title, :slug, :metaDescription, :content, :imageUrl)");
-                $statement->execute((array(
+            if(isset($slugExists) && !empty($slugExists) && !isset($_POST['postId'])){
+                echo '<script>alert("Ya existe un artículo con ese slug")</script>';
+            } else {
+                if(isset($_POST['postId']) && !empty($_POST['postId'])) {
+                    if(isset($_FILES['image']) && !empty($_FILES['image'])) {
+                        $image = basename($_FILES['image']['name']);
+        
+                        if (!move_uploaded_file($_FILES['image']['tmp_name'], $upload_dir . $image)) {
+                            echo '<script>alert("No se ha podido subir la imagen")</script>';
+                        }
+                    } else {
+                        $image = $_POST['imageUrl'];
+                    }
+        
+                    $statement = $db->prepare("UPDATE posts SET title = :title, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
+                            WHERE id = :postId");
+                    $statement->execute((array(
                     'title' => $_POST['title'], 
                     'slug' => $_POST['slug'], 
                     'metaDescription' => $_POST['metaDescription'], 
                     'content' => $_POST['content'], 
-                    'imageUrl' => $image
-                )));
-
-                echo '<script>alert("Articulo subido correctamente")</script>';
-                header('Location: blog.php');
-            } else {
-                echo '<script>alert("No se ha podido subir la imagen")</script>';
+                    'imageUrl' => $image,
+                    'postId' => $_POST['postId']
+                    )));
+        
+                    header('Location: post.php?postId=' . $_POST['postId']);
+        
+                } else {
+                    if(!isset($_FILES['image']) || empty($_FILES['image'])) {
+                        echo '<script>alert("Debes indicar una imagen")</script>';
+                    }
+        
+                    $image = $upload_dir . basename($_FILES['image']['name']);
+        
+                    if (move_uploaded_file($_FILES['image']['tmp_name'], $image)) {
+                        $statement = $db->prepare("INSERT INTO posts(title, slug, metaDescription, content, imageUrl) 
+                                        VALUES (:title, :slug, :metaDescription, :content, :imageUrl)");
+                        $statement->execute((array(
+                            'title' => $_POST['title'], 
+                            'slug' => $_POST['slug'], 
+                            'metaDescription' => $_POST['metaDescription'], 
+                            'content' => $_POST['content'], 
+                            'imageUrl' => basename($_FILES['image']['name'])
+                        )));
+        
+                        echo '<script>alert("Articulo subido correctamente")</script>';
+                        header('Location: blog.php');
+                    } else {
+                        echo '<script>alert("No se ha podido subir la imagen")</script>';
+                    }
+                }
             }
         }
-
 
     }
 

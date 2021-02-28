@@ -45,9 +45,6 @@
     }
 
     if($_SERVER['REQUEST_METHOD'] == 'GET' && (isset($_GET['userId']))) {
-        ini_set('display_errors', 1);
-        ini_set('display_startup_errors', 1);
-        error_reporting(E_ALL);
         $statement = $db->prepare("DELETE FROM users WHERE id = :id");
         $statement->execute(array(
             'id' => $_GET['userId']

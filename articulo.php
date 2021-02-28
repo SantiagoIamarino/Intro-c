@@ -1,3 +1,17 @@
+<?php 
+
+    require('config.php');
+
+    if(!isset($_GET['postId']) || empty($_GET['postId'])){
+        header('Location: ./index.html');
+    }
+
+    $statement = $db->prepare('SELECT * FROM posts WHERE id = :postId');
+    $statement->execute(array('postId' => $_GET['postId']));
+    $post = $statement->fetch();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +19,12 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tatee Theme Templates">
+    <meta name="description" content="<?php echo $post['metaDescription'] ?>">
     <meta name="author" content="AuCreative">
-    <meta name="keywords" content="Tatee Theme Templates">
+    <meta name="keywords" content="Intro Arquitectura">
 
     <!-- Title Page-->
-    <title>Blog Detail with Sidebar</title>
+    <title><?php echo $post['title'] ?></title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -67,7 +81,7 @@
                                                 <a href="#">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="blog.html">Nuestro blog</a>
+                                                <a href="blog.php">Nuestro blog</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="index.html#contact">contacto</a>
@@ -137,7 +151,7 @@
                                 <a href="#">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a href="blog.html">Nuestro blog</a>
+                                <a href="blog.php">Nuestro blog</a>
                             </li>
                             <li class="menu-item">
                                 <a href="index.html#contact">contacto</a>
@@ -170,39 +184,16 @@
                         <div class="col-md-8 col-lg-9">
                             <article class="blog-detail-1">
                                 <header class="entry-header">
-                                    <h2 class="entry-title">the villa overlooks dramatic mountainous scenery</h2>
-                                    <span class="entry-date">12 - August - 2018</span>
+                                    <h2 class="entry-title"><?php echo $post['title'] ?></h2>
+                                    <span class="entry-date"><?php echo date('d', strtotime($post['date'])) ?> - <?php echo date('m', strtotime($post['date'])) ?> - <?php echo date('Y', strtotime($post['date'])) ?></span>
                                 </header>
                                 <div class="entry-content">
-                                    <img class="wp-post-image" src="images/blog-09.jpg" alt="Blog 1">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                        in repr cotls ehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                    </p>
-                                    <blockquote>
-                                        <p>Architecture should speak of its time and place, but yearn for timelessness.</p>
-                                    </blockquote>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                        in repr cotls ehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                    </p>
-                                    <div class="row gutter-md">
-                                        <div class="col-md-6">
-                                            <img class="wp-image-gallery" src="images/blog-10.jpg" alt="Blog 2">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <img class="wp-image-gallery" src="images/blog-11.jpg" alt="Blog 3">
-                                        </div>
-                                    </div>
-                                    <img class="wp-post-image" src="images/blog-12.jpg" alt="Blog 4">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                        in repr cotls ehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                    </p>
+                                    <img class="wp-post-image" src="<?php echo './uploads/' . $post['imageUrl'] ?>" alt="Blog 1">
+                                    <?php echo $post['content'] ?>
                                 </div>
                                 <footer class="entry-footer">
                                     <div class="entry-share">
-                                        <span class="title-6">share:</span>
+                                        <span class="title-6">Compartir:</span>
                                         <ul class="list-social list-social--light2">
                                             <li class="list-social__item">
                                                 <a class="ic-fb" href="#">
@@ -318,56 +309,6 @@
                                         </li>
                                         <li>
                                             <a href="#">Will Bruder clads a mountain home in Aspen</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="widget widget_instagram">
-                                    <h4 class="widget-title">Instagram</h4>
-                                    <ul class="widget_instagram_list">
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-01.jpg" alt="Insta 1">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-02.jpg" alt="Insta 2">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-03.jpg" alt="Insta 3">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-04.jpg" alt="Insta 4">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-05.jpg" alt="Insta 5">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-06.jpg" alt="Insta 6">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-07.jpg" alt="Insta 7">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-08.jpg" alt="Insta 8">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/insta-09.jpg" alt="Insta 9">
-                                            </a>
                                         </li>
                                     </ul>
                                 </div>

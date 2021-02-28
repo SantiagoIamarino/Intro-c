@@ -6,6 +6,18 @@
 
     $posts = $statement->fetchAll();
 
+    if(isset($_GET['postId']) && !empty($_GET['postId'])) {
+        $statement = $db->prepare("DELETE FROM posts WHERE id = :id");
+        $statement->execute(array(
+            'id' => $_GET['postId']
+        ));
+        
+
+        echo '<script>alert("Artículo eliminado correctamente"); location.href = "blog.php"</script>';
+        $_GET['postId'] = null;
+        getUsers();
+    }
+
 ?>
 
     <div class="blog page-container">

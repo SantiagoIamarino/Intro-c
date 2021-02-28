@@ -1,3 +1,13 @@
+<?php 
+
+    require('config.php');
+
+    $statement = $db->prepare('SELECT * FROM posts');
+    $statement->execute();
+    $posts = $statement->fetchAll();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +15,12 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tatee Theme Templates">
-    <meta name="author" content="AuCreative">
-    <meta name="keywords" content="Tatee Theme Templates">
+    <meta name="description" content="Intro Arquitectura">
+    <meta name="author" content="Santiago Iamarino">
+    <meta name="keywords" content="Intro Arquitectura">
 
     <!-- Title Page-->
-    <title>Blog Grid</title>
+    <title>Nuestro blog | Intro Arquitectura</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -67,7 +77,7 @@
                                                 <a href="#">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="blog.html">Nuestro blog</a>
+                                                <a href="blog.php">Nuestro blog</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="index.html#contact">contacto</a>
@@ -137,7 +147,7 @@
                                 <a href="#">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a href="blog.html">Nuestro blog</a>
+                                <a href="blog.php">Nuestro blog</a>
                             </li>
                             <li class="menu-item">
                                 <a href="index.html#contact">contacto</a>
@@ -168,7 +178,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Nuestro blog</h4>
-                        <h2 class="title-2">Ultimas novedades</h2>
+                        <h2 class="title-2">Últimas novedades</h2>
                     </div>
                 </div>
             </section>
@@ -178,142 +188,28 @@
             <section class="section">
                 <div class="container">
                     <div class="row gutter-xl">
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-01.jpg" alt="the  villa overlooks dramatic mountainous scenery" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">the villa overlooks dramatic mountainous scenery</a>
-                                    </h4>
-                                    <span class="entry-meta">12 - August - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-02.jpg" alt="Will Bruder clads a mountain home in Aspen" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Will Bruder clads a mountain home in Aspen</a>
-                                    </h4>
-                                    <span class="entry-meta">12 - August - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-03.jpg" alt="Eight eye-catching homes made from bamboo" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Eight eye-catching homes made from bamboo</a>
-                                    </h4>
-                                    <span class="entry-meta">17 - August - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-04.jpg" alt="Portuguese home turned into brightly-hued hostel" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Portuguese home turned into brightly-hued hostel</a>
-                                    </h4>
-                                    <span class="entry-meta">06 - January - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-05.jpg" alt="Dezeen Awards 2018 interiors longlist revealed" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Dezeen Awards 2018 interiors longlist revealed</a>
-                                    </h4>
-                                    <span class="entry-meta">28 - May - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-06.jpg" alt="Eight home interiors furnished around statement rug" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Eight home interiors furnished around statement rug</a>
-                                    </h4>
-                                    <span class="entry-meta">11 - April - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-07.jpg" alt="Zooco Estudio creates cave-like wine shop in Spain" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Zooco Estudio creates cave-like wine shop in Spain</a>
-                                    </h4>
-                                    <span class="entry-meta">02 - Febuary - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6">
-                            <article class="blog">
-                                <figure class="entry-image">
-                                    <a href="articulo.html">
-                                        <img src="images/blog-08.jpg" alt="Will Bruder clads a mountain home in Aspen" />
-                                    </a>
-                                </figure>
-                                <div class="entry-summary">
-                                    <h4 class="entry-title">
-                                        <a href="articulo.html">Will Bruder clads a mountain home in Aspen</a>
-                                    </h4>
-                                    <span class="entry-meta">12 - July - 2018</span>
-                                    <p class="entry-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidis idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ercaus itation ullamco laboris nisi ut aliquip . .
-                                        .</p>
-                                </div>
-                            </article>
-                        </div>
+                        <?php foreach($posts as $post): ?>
+                            <div class="col-md-6">
+                                <article class="blog">
+                                    <figure class="entry-image">
+                                        <a href="articulo.php?postId=<?php echo $post['id'] ?>">
+                                            <img src="<?php echo './uploads/' . $post['imageUrl'] ?>" alt="<?php echo $post['title'] ?>" />
+                                        </a>
+                                    </figure>
+                                    <div class="entry-summary">
+                                        <h4 class="entry-title">
+                                            <a href="articulo.php?postId=<?php echo $post['id'] ?>"><?php echo $post['title'] ?></a>
+                                        </h4>
+                                        <span class="entry-meta">
+                                            <?php echo date('d', strtotime($post['date'])) ?> - <?php echo date('m', strtotime($post['date'])) ?> - <?php echo date('Y', strtotime($post['date'])) ?>
+                                        </span>
+                                        <p class="entry-excerpt">
+                                            <?php echo $post['metaDescription'] ?>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </section>
