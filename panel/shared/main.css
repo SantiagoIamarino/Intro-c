@@ -1,0 +1,57 @@
+.page-container{
+    padding: 3vh 3vw;
+}
+
+.page-container .title{
+    margin-top: 30px;
+}
+
+.page-container .page-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.top button a {
+    color: white;
+    text-decoration: none;
+}
+
+.users .page-content .manage-user{
+    width: 30%;
+}
+
+.users .manage-user{
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+button.save-btn{
+    background: rgb(59, 59, 59);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.users .page-content .user-list{
+    width: 65%;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#text-editor{
+    border: 1px solid #cdcdcd;
+    min-height: 400px;
+}

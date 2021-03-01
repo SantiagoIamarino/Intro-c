@@ -1,0 +1,68 @@
+header nav{
+    height: 8vh !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header img{
+    height: 40px;
+    width: auto;
+}
+
+header a span {
+    padding-left: 10px;
+}
+
+header button {
+    background-color: rgb(59, 59, 59) !important;
+    color: white !important;
+    border-color: rgb(59, 59, 59) !important;
+    padding: 10px 20px !important;
+}
+
+aside{
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    min-width: 15vw;
+    background: #212529!important;
+    color: white;
+    height: 100%;
+    border-top: 1px solid #cdcdcdb0;
+}
+
+aside .panel-options{
+    padding: 5vh 0;
+}
+
+aside .panel-options ul{
+    padding: 0;
+}
+
+aside .panel-options ul li{
+    list-style: none;
+}
+
+aside .panel-options ul li a{
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    color: white !important; 
+    text-decoration: none !important;
+}
+
+aside .panel-options ul li.active{
+    background: #454c53;
+}
+
+aside .panel-options ul li i {
+    margin-right: 10px;
+}
+
+.content{
+    margin-left:15vw;
+    margin-top: 8vh;
+}
