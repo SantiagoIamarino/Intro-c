@@ -10,6 +10,32 @@
     $statement->execute(array('postId' => $_GET['postId']));
     $post = $statement->fetch();
 
+    $statement = $db->prepare('SELECT * FROM comments WHERE postId = :postId');
+    $statement->execute(array('postId' => $_GET['postId']));
+    $comments = $statement->fetchAll();
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['comment'])){
+        if(!isset($_POST['name']) || empty($_POST['name'])) {
+            echo '<script>alert("Debes indicar tu nombre")</script>';
+        } else if(!isset($_POST['email']) || empty($_POST['email'])) {
+            echo '<script>alert("Debes indicar tu email")</script>';
+        } else if(!isset($_POST['content']) || empty($_POST['content'])) {
+            echo '<script>alert("El mensaje no puede estar vacio")</script>';
+        } else {
+            // print_r($_POST); die();
+            $statement = $db->prepare("INSERT INTO comments(name, postId, email, content) VALUES (:name, :postId, :email, :content)");
+            $statement->execute(array(
+                'name' => $_POST['name'], 
+                'email' => $_POST['email'],
+                'content' => $_POST['content'],
+                'postId'  => $post['id']
+            ));
+
+            echo '<script>alert("Comentario publicado correctamente")</script>';
+            $_POST = [];
+        }
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -225,62 +251,41 @@
                                 </footer>
                             </article>
                             <div class="comments-area">
-                                <h3 class="comment-title">2 Comentarios</h3>
+                                <h3 class="comment-title"><?php echo count($comments) ?> Comentarios</h3>
                                 <ul class="comment-list">
-                                    <li class="comment">
-                                        <article class="comment-body">
-                                            <header class="comment-meta">
-                                                <div class="comment-author vcard">
-                                                    <img class="avatar" src="images/user-01.jpg" alt="user 1">
-                                                    <b class="fn">Bertha Lawrence</b>
+                                    <?php foreach($comments as $comment): ?>
+                                        <li class="comment">
+                                            <article class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author vcard">
+                                                        <img class="avatar" src="images/user-01.jpg" alt="user 1">
+                                                        <b class="fn"><?php echo $comment['name'] ?></b>
+                                                    </div>
+                                                    <div class="comment-metadata">
+                                                        <a href="#">12 - August - 2018</a>
+                                                    </div>
+                                                </header>
+                                                <div class="comment-content">
+                                                    <p>
+                                                    <?php echo $comment['content'] ?>
                                                 </div>
-                                                <div class="comment-metadata">
-                                                    <a href="#">12 - August - 2018</a>
-                                                </div>
-                                            </header>
-                                            <div class="comment-content">
-                                                <p>
-                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquealt hoan laudas ntium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-                                            </div>
-                                            <div class="reply">
-                                                <a href="#">reply</a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="comment">
-                                        <article class="comment-body">
-                                            <header class="comment-meta">
-                                                <div class="comment-author vcard">
-                                                    <img class="avatar" src="images/user-02.jpg" alt="user 2">
-                                                    <b class="fn">Rudolph Kelley</b>
-                                                </div>
-                                                <div class="comment-metadata">
-                                                    <a href="#">12 - August - 2018</a>
-                                                </div>
-                                            </header>
-                                            <div class="comment-content">
-                                                <p>
-                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquealt hoan laudas ntium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-                                            </div>
-                                            <div class="reply">
-                                                <a href="#">reply</a>
-                                            </div>
-                                        </article>
-                                    </li>
+                                            </article>
+                                        </li>
+                                    <?php endforeach ?>
                                 </ul>
                                 <div class="comment-area-form">
                                     <h3 class="comment-title">Deja un comentario</h3>
                                     <form method="POST" action="#">
                                         <div class="row gutter-md">
                                             <div class="col-md-6">
-                                                <input class="au-input-2 m-b-20" type="text" placeholder="Tu nombre">
+                                                <input name='name' class="au-input-2 m-b-20" type="text" placeholder="Tu nombre">
                                             </div>
                                             <div class="col-md-6">
-                                                <input class="au-input-2 m-b-20" type="email" placeholder="Tu correo">
+                                                <input name='email' class="au-input-2 m-b-20" type="email" placeholder="Tu correo">
                                             </div>
                                         </div>
-                                        <textarea class="au-textarea-2 m-b-20" placeholder="Tu comentario"></textarea>
-                                        <button class="au-btn au-btn--solid" type="submit">Enviar comentario</button>
+                                        <textarea name='content' class="au-textarea-2 m-b-20" placeholder="Tu comentario"></textarea>
+                                        <button class="au-btn au-btn--solid" type="submit" name='comment'>Enviar comentario</button>
                                     </form>
                                 </div>
                             </div>
