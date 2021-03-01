@@ -96,7 +96,7 @@
                                                     <i class="zmdi zmdi-instagram"></i>
                                                 </a>
                                             </li>
-                                            <li class="list-social__item">
+                                            <!-- <li class="list-social__item">
                                                 <a class="ic-twi" href="#">
                                                     <i class="zmdi zmdi-twitter"></i>
                                                 </a>
@@ -105,7 +105,7 @@
                                                 <a class="ic-pinterest" href="#">
                                                     <i class="zmdi zmdi-pinterest"></i>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li class="list-social__item">
                                                 <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                                     <i class="zmdi zmdi-linkedin"></i>
