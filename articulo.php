@@ -101,10 +101,10 @@
                                                 <a href="index.html">Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="index.html#nosotros">Sobre Nosotros</a>
+                                                <a href="about-us.html">Sobre Nosotros</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="#">Proyectos</a>
+                                                <a href="proyectos.html">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="blog.php">Nuestro blog</a>
@@ -171,10 +171,10 @@
                                 <a href="index.html">Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#nosotros">Sobre Nosotros</a>
+                                <a href="about-us.html">Sobre Nosotros</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">Proyectos</a>
+                                <a href="proyectos.html">Proyectos</a>
                             </li>
                             <li class="menu-item">
                                 <a href="blog.php">Nuestro blog</a>
