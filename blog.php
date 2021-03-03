@@ -2,9 +2,22 @@
 
     require('config.php');
 
-    $statement = $db->prepare('SELECT * FROM posts');
+    $perPage = 10;
+    $page = (isset($_GET['page']) && !empty($_GET['page'])) ? $_GET['page'] : 1;
+    $page = (!is_numeric($page) || $page <= 0) ? 1 : $page;
+
+    $start = ($perPage * $page) - $perPage;
+    $end = $perPage * $page;
+
+    $statement = $db->prepare("SELECT * FROM posts LIMIT $start, $end");
     $statement->execute();
     $posts = $statement->fetchAll();
+
+    $statement = $db->prepare("SELECT COUNT(*) as total FROM posts");
+    $statement->execute();
+    $total = $statement->fetch()['total'];
+
+    $totalPages = ceil($total / $perPage);
 
 ?>
 
@@ -214,31 +227,39 @@
                 </div>
             </section>
             <!-- END BLOG-->
-
-            <nav class="navigation blog-navigation">
-                <div class="container">
-                    <div class="nav-links">
-                        <ul class="page-numbers">
-                            <li>
-                                <a class="page-number prev" href="#">
-                                    <span class="ti-arrow-left"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <span class="page-number current">01</span>
-                            </li>
-                            <li>
-                                <a class="page-number" href="#">02</a>
-                            </li>
-                            <li>
-                                <a class="page-number next" href="#">
-                                    <span class="ti-arrow-right"></span>
-                                </a>
-                            </li>
-                        </ul>
+            <?php if($total > $perPage): ?>
+                <nav class="navigation blog-navigation">
+                    <div class="container">
+                        <div class="nav-links">
+                            <ul class="page-numbers">
+                                <?php if(($page - 1) >= 1): ?>
+                                    <li>
+                                        <a class="page-number prev" href="blog.php?page=<?php echo ($page - 1) ?>">
+                                            <span class="ti-arrow-left"></span>
+                                        </a>
+                                    </li>
+                                <?php endif; ?>
+                                <?php for($i = 0; $i < $total; $i++): ?>
+                                    <li class="pagination-item <?php echo (($i + 1) == $page) ? 'active' : '' ?>">
+                                        <a href="blog.php?page=<?php echo ($i+1) ?>">
+                                            <span class="page-number">
+                                                <?php echo ($i > 9) ? ($i + 1) : "0".($i + 1) ?>
+                                            </span>
+                                        </a>
+                                    </li>
+                                <?php endfor; ?>
+                                <?php if(($page + 1) <= $totalPages): ?>
+                                    <li>
+                                        <a class="page-number next" href="blog.php?page=<?php echo ($page + 1) ?>">
+                                            <span class="ti-arrow-right"></span>
+                                        </a>
+                                    </li>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            <?php endif; ?>
         </main>
         <!-- END MAIN-->
 
