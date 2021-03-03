@@ -1,10 +1,8 @@
 <?php 
     include('./shared/header.php');
-    ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
-    $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
+    // $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
+    $upload_dir = '/home/lunadiwn/intro.lunadi.wnpower.host/uploads/';
 
     if(isset($_GET['postId']) && !empty($_GET['postId'])) {
         $statement = $db->prepare("SELECT * FROM posts WHERE id = :postId");
