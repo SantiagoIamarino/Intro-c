@@ -403,7 +403,7 @@
                         <div class="footer-col">
                             <div class="widget widget_text">
                                 <h4 class="widget-title">copyright</h4>
-                                <p>© 2018 TATEE . Designed by Authemes</p>
+                                <p>© 2021 Intro Arquitectura. </p>
                             </div>
                         </div>
                     </div>
