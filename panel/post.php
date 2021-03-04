@@ -1,8 +1,7 @@
 <?php 
     include('./shared/header.php');
 
-    // $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
-    $upload_dir = '/home/lunadiwn/intro.lunadi.wnpower.host/uploads/';
+    global $upload_dir;
 
     if(isset($_GET['postId']) && !empty($_GET['postId'])) {
         $statement = $db->prepare("SELECT * FROM posts WHERE id = :postId");
