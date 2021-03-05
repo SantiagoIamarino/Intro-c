@@ -13758,6 +13758,16 @@ button:focus {
 .projects-slider .tp-bgimg.defaultimg {
     filter: none;
 }
+.home-projects .tp-mask-wrap{
+    transform: rotate(-90deg);
+    top: -5vh;
+    left: -5vw;
+}
+.home-projects .rev-item:first-child .tp-mask-wrap{
+    top: 2vh;
+    left: -8vw;
+}
+
 .media__img img {
     filter: brightness(0.5);
 }
