@@ -2,6 +2,10 @@
     filter: brightness(0);
 }
 
-*{
-    
+.hamburguer{
+    border:none;
+}
+
+.hamburger.hamburger--sm{
+    border: none;
 }
