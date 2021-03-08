@@ -4374,7 +4374,7 @@ button {
     background: #fff;
 }
 .hamburger {
-    border: 1px solid #888;
+    
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
