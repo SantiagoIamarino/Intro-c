@@ -13781,3 +13781,7 @@ button:focus {
 .pagination-item.active span {
     color: #fff !important;
 }
+
+.project-style-1 .entry-title, .project-style-4 .entry-title{
+    font-size: 2rem;
+}
