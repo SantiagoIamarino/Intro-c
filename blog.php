@@ -93,7 +93,7 @@
                                                 <a href="blog.php">Nuestro blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="index.html#contact">contacto</a>
+                                                <a href="contact.html">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -163,7 +163,7 @@
                                 <a href="blog.php">Nuestro blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#contact">contacto</a>
+                                <a href="contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -296,7 +296,7 @@
                                         <a href="index.html#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#contact">Contacto</a>
+                                        <a href="contact.html">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

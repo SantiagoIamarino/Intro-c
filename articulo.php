@@ -91,7 +91,7 @@
                             <div class="header__content">
                                 <div class="logo">
                                     <a href="#">
-                                        <img src="images/icon/logo-black.png" alt="Tatee" />
+                                        <img src="../images/icon/logo-black.png" alt="Tatee" />
                                     </a>
                                 </div>
                                 <div class="header__content-right">
@@ -110,7 +110,7 @@
                                                 <a href="blog.php">Nuestro blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="index.html#contact">contacto</a>
+                                                <a href="contact.html">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -154,7 +154,7 @@
                     <div class="container-fluid">
                         <div class="header-mobile__bar-inner">
                             <a class="logo" href="index.html">
-                                <img src="images/icon/logo-black.png" alt="Tatee" />
+                                <img src="../images/icon/logo-black.png" alt="Tatee" />
                             </a>
                             <button class="hamburger hamburger--slider float-right" type="button">
                                 <span class="hamburger-box">
@@ -180,7 +180,7 @@
                                 <a href="blog.php">Nuestro blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="index.html#contact">contacto</a>
+                                <a href="contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -359,7 +359,7 @@
                                         <a href="index.html#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#contact">Contacto</a>
+                                        <a href="contact.html">Contacto</a>
                                     </li>
                                 </ul>
                             </div>
