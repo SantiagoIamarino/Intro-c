@@ -13796,3 +13796,7 @@ button:focus {
 .project-style-1 .entry-title, .project-style-4 .entry-title{
     font-size: 2rem;
 }
+
+.title--sm p{
+    text-transform: uppercase !important;
+}
