@@ -1000,6 +1000,16 @@ a:hover {
     transform: translate(-50%, -50%);
     z-index: 9;
 }
+@media screen and (max-width: 600px) {
+    .media-about-3 .media__number-wrap{
+        min-width: 56px;
+    }
+    
+    .media-about-3 .media__title a{
+        font-size: 16px;
+    }
+}
+
 .media-about-3 .line,
 .media-about-3 .line--bottom {
     position: absolute;
@@ -4160,6 +4170,12 @@ button {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
+}
+.header__content img {
+    height: 60px !important;
+}
+.header-mobile__bar-inner img{
+    height: 50px !important;
 }
 @media (max-width: 575px) {
     .comment-author .avatar {
@@ -13784,6 +13800,9 @@ button:focus {
 }
 .circles-home .media__img img{
     filter: none;
+}
+.circles-home .title p {
+    color: black;
 }
 .pagination-item.active {
     background: #626262;
