@@ -13822,3 +13822,20 @@ button:focus {
 .title--sm p{
     text-transform: uppercase !important;
 }
+
+.contact-section .container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-section .map-wrapper {
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    .contact-section .no-gutters .extra-info{
+        margin-top: 70px;
+        order: 2;
+    }
+}
