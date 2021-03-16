@@ -4171,7 +4171,8 @@ button {
     display: -moz-box;
     display: -ms-flexbox;
 }
-.header__content img {
+.header__content img,
+.footer-col img {
     height: 60px !important;
 }
 .header-mobile__bar-inner img{
@@ -13782,7 +13783,8 @@ button:focus {
 .tp-bgimg.defaultimg {
     filter: brightness(0.5);
 }
-.projects-slider .tp-bgimg.defaultimg {
+.projects-slider .tp-bgimg.defaultimg,
+.services-section .media__img img {
     filter: none;
 }
 .home-projects .tp-mask-wrap{
@@ -13801,7 +13803,8 @@ button:focus {
 .circles-home .media__img img{
     filter: none;
 }
-.circles-home .title p {
+.circles-home .title p,
+.services-section .title p {
     color: black;
 }
 .pagination-item.active {
