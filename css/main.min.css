@@ -13792,6 +13792,29 @@ button:focus {
     top: -5vh;
     left: -5vw;
 }
+@media screen and (max-width: 992px){
+    .home-projects .rev-item .tp-loop-wrap {
+        height: 20px;
+        width: 20px;
+        right: -20vw;
+        bottom: 8vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home-projects .rev-item .tp-loop-wrap {
+        height: auto;
+        width: auto;
+        right: unset;
+        bottom: unset;
+    }
+    .home-projects .rev-item:first-child .tp-loop-wrap {
+        height: 20px;
+        width: 20px;
+        right: -20vw !important;
+        bottom: 8vh !important;
+    }
+}
 .home-projects .rev-item:first-child .tp-mask-wrap{
     top: 2vh;
     left: -8vw;
