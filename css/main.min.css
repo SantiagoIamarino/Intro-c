@@ -13839,3 +13839,16 @@ button:focus {
         order: 2;
     }
 }
+
+.h2-nos-especializamos{
+    color: black;
+}
+
+.titulos-de-cuadrados{
+    color: black;
+}
+
+.h2-nos-especializamos-nosotros{
+    color: black;
+    font-size: 2rem;
+}
