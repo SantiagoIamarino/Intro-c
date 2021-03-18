@@ -13,7 +13,7 @@
                     <div class="header__content">
                         <div class="logo">
                             <a href="#">
-                                <img src="images/icon/logo-black.png" alt="Tatee" />
+                                <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
                             </a>
                         </div>
                         <div class="header__content-right">
@@ -76,7 +76,7 @@
             <div class="container-fluid">
                 <div class="header-mobile__bar-inner">
                     <a class="logo" href="index.php">
-                        <img src="images/icon/logo-black.png" alt="Tatee" />
+                        <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
                     </a>
                     <div class="right d-flex align-items center">
                         <div class="socials mt-1">
@@ -121,7 +121,7 @@
             <div class="container-fluid">
                 <ul class="menu nav-menu menu-mobile">
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>index.php">Home</a>
+                        <a href="<?php echo $url ?>index.php">Inicio</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>about-us.php">Nosotros</a>

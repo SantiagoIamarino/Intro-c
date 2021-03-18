@@ -43,7 +43,7 @@
 <body class="animsition js-preloader">
     <div class="page-wrapper">
         <!-- HEADER-->
-        <?php require('header.php') ?>
+        <?php require('../header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
