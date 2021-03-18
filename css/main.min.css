@@ -5393,6 +5393,7 @@ button {
     margin-top: 8vh;
     min-height: 300px;
     width: 100%;
+    overflow: hidden;
 }
 .logos-home.logos-home-mobile {
     display: none;
@@ -5465,6 +5466,7 @@ button {
 .slick-testi .slick-item {
     width: 50%;
     padding: 0 25px;
+    position: relative;
 }
 .slick-testi .slick-content {
     margin: 0 -25px;
@@ -5474,6 +5476,19 @@ button {
 }
 .slick-testi-2 {
     padding: 50px 50px 32px;
+}
+.slick-testi .slick-item .brand-logo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+.slick-testi .slick-item .brand-logo img {
+    height: 40px;
 }
 @media (max-width: 1199px) {
     .slick-testi-2 {
@@ -13791,6 +13806,29 @@ button:focus {
     transform: rotate(-90deg);
     top: -5vh;
     left: -5vw;
+}
+@media screen and (max-width: 992px){
+    .home-projects .rev-item .tp-loop-wrap {
+        height: 20px;
+        width: 20px;
+        right: -20vw;
+        bottom: 8vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home-projects .rev-item .tp-loop-wrap {
+        height: auto;
+        width: auto;
+        right: unset;
+        bottom: unset;
+    }
+    .home-projects .rev-item:first-child .tp-loop-wrap {
+        height: 20px;
+        width: 20px;
+        right: -20vw !important;
+        bottom: 8vh !important;
+    }
 }
 .home-projects .rev-item:first-child .tp-mask-wrap{
     top: 2vh;
