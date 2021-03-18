@@ -12,7 +12,7 @@
                 <div class="container-fluid">
                     <div class="header__content">
                         <div class="logo">
-                            <a href="#">
+                            <a href="<?php echo $url ?>">
                                 <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
                             </a>
                         </div>
