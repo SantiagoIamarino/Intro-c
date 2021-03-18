@@ -75,7 +75,7 @@
         <div class="header-mobile__bar">
             <div class="container-fluid">
                 <div class="header-mobile__bar-inner">
-                    <a class="logo" href="index.php">
+                    <a class="logo" href="<?php echo $url ?>">
                         <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
                     </a>
                     <div class="right d-flex align-items center">
