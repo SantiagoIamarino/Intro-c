@@ -13857,9 +13857,6 @@ button:focus {
     font-size: 2rem;
 }
 
-.title--sm p{
-    text-transform: uppercase !important;
-}
 
 .contact-section .container{
     display: flex;
