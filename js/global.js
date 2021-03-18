@@ -919,6 +919,11 @@ function closeMenu() {
     btn.click();
 }
 
+function goToProject(event) {
+    const parent = $(event.target).parent('.media-project');
+    $(parent).find('a').click();
+}
+
 
 
 

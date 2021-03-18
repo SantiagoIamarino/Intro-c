@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -302,7 +302,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Emergencias</title>
+    <title>Andreani</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">EMERGENCIAS</h2>
+                        <h2 class="entry-title">ANDREANI</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergenciasV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreaniV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Emergencias/portadaEmergencias.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Andreani/portadaAndreani.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,17 +182,17 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2019</span>
+                                            <span class="value">2016</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">500m2                                            </span>
+                                            <span class="value">5000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Emergencias</span>
+                                            <span class="value">Andreani</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
@@ -205,11 +205,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Para esta obra se proyectó un espacio de trabajo de impronta industrial en escala de grises con unos toques de color suaves y claros que humanizan el entorno generando un equilibrio agradable. El uso del color cambia en función de las actividades realizadas en los distintos entornos.
-                                    La incorporación de plantas (biofilia) ayudó al equilibrio de colores, además de colaborar con la disminución del estrés y el aumento de la productividad, entre otros beneficios.
+                                    La oficina está ubicada en la planta operativa de Norlog, rodeada de espacios verdes.
                                 </p>
                                 <p>
-                                    La fusión entre el concepto de espacio de trabajo abierto y la losa a la vista como estética industrial, planteó un gran desafío en lo que respecta al confort acústico. Por este motivo se instalaron sobre los puestos de trabajo unos baffles de fieltro que, mediante una distribución estratégica, potenciaron la absorción acústica volumétrica permitiendo alcanzar los estándares óptimos de confort acústico y estético.
+                                    El diseño contó con una estética moderna y elegante con materiales nobles y de excelente calidad. La madera fue la gran protagonista de este proyecto, aportando textura a los espacios con la intención de incorporar la naturaleza del exterior al interior del edificio.
+                                </p>
+                                <p>
+                                    Los detalles fueron la gran premisa de este proyecto. Para tal fin, se fabricaron muebles pensados para cada espacio en particular y se utilizaron artefactos de iluminación colgantes estratégicamente seleccionadas para dar calidez y armonía a una oficina ubicada en el interior de una planta de logística.
+                                    Crear ambientes que evocan el entorno natural, logra apoyar el bienestar emocional y psicológico de los ocupantes potenciando su productividad.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -226,7 +229,17 @@
                                         </a>
                                     </li>
                                     <li class="list-social__item">
-                                        <a class="ic-linkeding" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
+                                        <a class="ic-twi" href="#">
+                                            <i class="zmdi zmdi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-pinterest" href="#">
+                                            <i class="zmdi zmdi-pinterest"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                             <i class="zmdi zmdi-linkedin"></i>
                                         </a>
                                     </li>
@@ -293,7 +306,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

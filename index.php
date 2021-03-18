@@ -92,7 +92,7 @@
                                 <a onclick='closeMenu()' href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contact.php">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -162,7 +162,7 @@
                                 <a onclick='closeMenu()' href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contact.php">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -246,7 +246,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contact.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[105, 105, 105, 105, 105]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -271,7 +271,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contact.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[95, 95, 105, 105, 85]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -296,7 +296,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contact.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -321,7 +321,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                               <!--  <a class="tp-caption tp-resizeme" href="contact.php" target="_self"
+                               <!--  <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -346,7 +346,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <a class="tp-caption tp-resizeme" href="contact.php" target="_self"
+                                <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -1039,7 +1039,7 @@
                                         <a href="index.php#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
-                                        <a href="contact.php">Contacto</a>
+                                        <a href="contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

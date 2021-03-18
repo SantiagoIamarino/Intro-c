@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Mega</title>
+    <title>Posta</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -43,110 +43,7 @@
 <body class="animsition js-preloader">
     <div class="page-wrapper">
         <!-- HEADER-->
-        <header id="header">
-            <div class="header header-1 d-none d-lg-block js-header-1">
-                <div class="header__bar">
-                    <div class="wrap wrap--w1790">
-                        <div class="container-fluid">
-                            <div class="header__content">
-                                <div class="logo">
-                                    <a href="#">
-                                        <img src="../images/icon/logo-black.png" alt="Tatee" />
-                                    </a>
-                                </div>
-                                <div class="header__content-right">
-                                    <nav class="header-nav-menu">
-                                        <ul class="menu nav-menu">
-                                            <li class="menu-item">
-                                                <a href="../index.php">Inicio</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../about-us.php">Nosotros</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../proyectos.php">Proyectos</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../blog.php">Blog</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../contact.php">contacto</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <div class="header-social">
-                                        <ul class="list-social">
-                                            <li class="list-social__item">
-                                                <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
-                                                    <i class="zmdi zmdi-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
-                                                    <i class="zmdi zmdi-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="list-social__item">
-                                                <a class="ic-twi" href="#">
-                                                    <i class="zmdi zmdi-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-pinterest" href="#">
-                                                    <i class="zmdi zmdi-pinterest"></i>
-                                                </a>
-                                            </li> -->
-                                            <li class="list-social__item">
-                                                <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
-                                                    <i class="zmdi zmdi-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-mobile d-block d-lg-none">
-                <div class="header-mobile__bar">
-                    <div class="container-fluid">
-                        <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.php">
-                                <img src="../images/icon/logo-black.png" alt="Tatee" />
-                            </a>
-                            <button class="hamburger hamburger--slider float-right" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <nav class="header-nav-menu-mobile">
-                    <div class="container-fluid">
-                        <ul class="menu nav-menu menu-mobile">
-                            <li class="menu-item">
-                                <a href="../index.php">Inicio</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../about-us.php">Nosotros</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../proyectos.php">Proyectos</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../blog.php">Blog</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../contact.php">contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php require('header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -154,24 +51,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">MEGA</h2>
+                        <h2 class="entry-title">POSTA</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Mega/ImgMega1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Posta/ImgPosta1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Mega/ImgMega2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Posta/ImgPosta2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Mega/ImgMegaV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Posta/ImgPostaV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Mega/portadaMega.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Posta/portadaPosta.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Mega/ImgMega3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Posta/ImgPosta3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +79,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2019</span>
+                                            <span class="value">2018</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">1800m2</span>
+                                            <span class="value">700m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Compañía Mega </span>
+                                            <span class="value">Posta</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio San Martin 344, CABA, Buenos Aires, Argentina</span>
+                                            <span class="value">Complejo al Río, Vicente Lopez, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,10 +102,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento de Mega fue la construcción de una oficina de una presencia tranquila y un ambiente sutilmente elegante. Esta solicitud llevó a Intro Arquitectura a diseñar un espacio de trabajo que combina madera con grandes frentes vidriados.
-                                </p>
-                                <p>
-                                    La incorporación de vidrio con diferentes matices y opacidades permite apreciar las visuales y el ingreso luz natural al centro de la planta donde se encuentra el open space. A su vez, ayuda a reducir las distracciones a la hora de trabajar. Colores neutros predominan la oficina con detalles en madera y colores suaves en sectores de uso común.
+                                    Siguiendo ese requerimiento, se diseñó un bloque central que integra las funciones sociales como las salas de reuniones, meetings y la sala de capacitación que unifica los dos espacios de trabajo:
+                                    <ul class='pl-2'>
+                                        <li>Una oficina con modalidad de call center con puestos temporales e itinerantes diseñada con una estética clásica. </li>
+                                        <li>Un open space con puestos fijos pero flexibles diseñado con una estética industrial, equipamiento especial de hierro y madera, y losa a la vista.</li>
+                                    </ul>
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -292,7 +190,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

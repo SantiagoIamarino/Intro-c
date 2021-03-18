@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Wenance</title>
+    <title>Emergencias</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -58,7 +58,7 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="../index.php">Inicio</a>
+                                                <a href="../index.php">Home</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="../about-us.php">Nosotros</a>
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -128,7 +128,7 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="../index.php">Inicio</a>
+                                <a href="../index.php">Home</a>
                             </li>
                             <li class="menu-item">
                                 <a href="../about-us.php">Nosotros</a>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">WENANCE</h2>
+                        <h2 class="entry-title">EMERGENCIAS</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-3.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergenciasV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/portada-Wenance.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Emergencias/portadaEmergencias.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-vertical.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Emergencias/ImgEmergencias3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2017</span>
+                                            <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">2000m2</span>
+                                            <span class="value">500m2                                            </span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Wenance</span>
+                                            <span class="value">Emergencias</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Av. Libertador 2242, Olivos, Buenos Aires, Argentina</span>
+                                            <span class="value">Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,16 +205,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Nuestro cliente se caracteriza por tener un espíritu inquieto y un ADN innovador, lo que nos incentivó a diseñar cada milímetro de la oficina con características exclusivas e innovadoras.
+                                    Para esta obra se proyectó un espacio de trabajo de impronta industrial en escala de grises con unos toques de color suaves y claros que humanizan el entorno generando un equilibrio agradable. El uso del color cambia en función de las actividades realizadas en los distintos entornos.
+                                    La incorporación de plantas (biofilia) ayudó al equilibrio de colores, además de colaborar con la disminución del estrés y el aumento de la productividad, entre otros beneficios.
                                 </p>
                                 <p>
-                                    El concepto fue de open space con una estética industrial; con losa e instalaciones a la vista, campanas tipo galponeras colgantes, islas de madera con hierro, sillas de colores y piso símil cemento alisado. Se trató de un diseño ecléctico en donde la combinación de estilos, colores y muebles con ese toque industrial consiguió enlazar una armonía de elementos.
-                                </p>
-                                <p>
-                                    Las salas de reuniones fueron repartidas a lo largo de la oficina, cada una con una estética y colores diferentes para su rápido reconocimiento. Los livings para reuniones informales fueron estratégicamente ubicados para darle aire y tener espacios mas privados para hablar por teléfono o tener una meeting. Los “privados” también tuvieron su diseño específico con escritorios únicos, iluminación especial y piso símil madera. 
-                                </p>
-                                <p>
-                                    Materiales como cemento, chapa, hierro, madera, fueron los que primaron en este proyecto para apoyar esa imagen de industria en pleno crecimiento.
+                                    La fusión entre el concepto de espacio de trabajo abierto y la losa a la vista como estética industrial, planteó un gran desafío en lo que respecta al confort acústico. Por este motivo se instalaron sobre los puestos de trabajo unos baffles de fieltro que, mediante una distribución estratégica, potenciaron la absorción acústica volumétrica permitiendo alcanzar los estándares óptimos de confort acústico y estético.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -298,7 +293,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

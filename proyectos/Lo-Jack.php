@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Navent</title>
+    <title>Lo Jack</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -58,7 +58,7 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="../index.php">Inicio</a>
+                                                <a href="../index.php">Home</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="../about-us.php">Nosotros</a>
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -128,7 +128,7 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="../index.php">Inicio</a>
+                                <a href="../index.php">Home</a>
                             </li>
                             <li class="menu-item">
                                 <a href="../about-us.php">Nosotros</a>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">NAVENT</h2>
+                        <h2 class="entry-title">LO JACK</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Lo-Jack/ImgLo-Jack1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Lo-Jack/ImgLo-Jack2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent3.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Lo-Jack/ImgLo-JackV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Navent/portadaNavent.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Lo-Jack/portadaLo-Jack.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent4.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Lo-Jack/ImgLo-Jack3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2014</span>
+                                            <span class="value">2018</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">700m2</span>
+                                            <span class="value">2000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Navent</span>
+                                            <span class="value">Lo Jack</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Rondou 2664, CABA, Buenos Aires, Argentina</span>
+                                            <span class="value">Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,14 +205,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La premisa del joven equipo de TI era crear un ambiente divertido y motivador con espacios de trabajo abiertos, salones y áreas de recreación. Intro Arquitectura respondió con un concepto que yuxtapone trabajo, entretenimiento y relajación en un solo espacio.
+                                    La premisa fue desarrollar un proyecto renovador e inspirador.
+                                    Se proyectó una oficina abierta bañada en luz natural, con paneles bajos para que las personas puedan interactuar y así fomentar el trabajo en equipo. El color blanco fue el predominante y se utilizaron colores pasteles combinados con madera para los sectores de sociabilización.
                                 </p>
                                 <p>
-                                    Las diferentes funciones de trabajo quedaron comunicadas a través de un trillage de madera que permite la conexión visual entre los espacios, enfatizando el concepto de oficina abierta y apoyando la comunicación fluida. 
-                                    Se diseñaron solamente una oficina privada y una pequeña sala de reuniones como espacios cerrados, que cuentan con paredes de vidrio simples que se integran perfectamente con el espacio abierto.
+                                    Alrededor del núcleo de servicios del edificio se adosaron las funciones sociales como salas de reuniones, pool de impresión, meetings y phonebooths, con el objetivo de liberar los ventanales con vistas al exterior para los puestos operativos y privados.
                                 </p>
                                 <p>
-                                    La decoración con paneles de madera OSB ayudó a crear una esencia más natural, pero siempre con un punto más moderno y atrevido por su aspecto reciclado. Este tipo de material que se vincula también con el aprovechamiento y el reciclaje, se utilizó para acentuar una estética más industrial y moderna.
+                                    Con la idea de que todo el equipo pudiera disfrutar de las mejores vistas de la oficina, se generaron espacios de reunión informales y de esparcimiento en las esquinas y centro de la planta.
+                                </p>
+                                <p>
+                                    El objetivo fue crear un espacio de trabajo con el que las personas se sientan identificadas y satisfechas y que incremente la productividad y la retención de talento.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -296,7 +299,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

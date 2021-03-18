@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Etex</title>
+    <title>Kimberly Clark</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">ETEX</h2>
+                        <h2 class="entry-title">KIMBERLY CLARK</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Etex/ImgEtex1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Kimberly-Clark/ImgKimberly3.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Etex/ImgEtex2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Kimberly-Clark/ImgKimberly2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Etex/ImgEtexV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Kimberly-Clark/ImgKimberlyV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Etex/portadaEtex.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Kimberly-Clark/portadaKimberly.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Etex/ImgEtex3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Kimberly-Clark/ImgKimberly1.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2019</span>
+                                            <span class="value">2020</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">900m2</span>
+                                            <span class="value">3400m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Etex Group</span>
+                                            <span class="value">Kimberly Clark</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Complejo Urbana, Vicente Lopez, Buenos Aires, Argentina</span>
+                                            <span class="value">Dr. Nicolás Repetto 3653, Olivos, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,10 +205,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Este proyecto se basó en la idea de utilizar la oficina como showroom de los productos que comercializan. En base a esta premisa, se diseñaron distintas situaciones proyectando juegos de cielorrasos y tabiques con el máximo aprovechamiento de las funciones y características principales de cada producto.
+                                    El diseño de la oficina tuvo como punto de partida el área colaborativa, donde diferentes funciones aparecían en la misma área: espacios de trabajo informal, de relax y de reuniones abiertas y cerradas. Se plasmó como un punto de encuentro e interacción desestructurados para todos los usuarios de la empresa. Todos estos espacios hacen del open space y el resto de las funciones formales el éxito del funcionamiento de las áreas entre sí.
+                                    El desarrollo de la arquitectura interior y la estética tuvieron una impronta muy fuerte y característica que hacen al resultado final de una oficina integrada y llena de vida.
                                 </p>
                                 <p>
-                                    El armado de la oficina resultó estratégico, con el open space rodeado de ventanas para beneficiarse de la luz natural y de las visuales al exterior. Los puestos gerenciales obtuvieron privacidad a través de paneles divisorios bajos, La estética de la oficina fue neutra y sobria con un “touch” de naranja, el color institucional.
+                                    Los ambientes de trabajo saludables fueron diseñados para optimizar la productividad y, por lo tanto, debieron ser suficientemente adaptables para trabajar, concentrarse, colaborar y descansar.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -292,7 +293,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

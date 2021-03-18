@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Despegar</title>
+    <title>Project Detail v4</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">DESPEGAR</h2>
+                        <h2 class="entry-title">Lunisolar homestay</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Despegar/ImgDespegar1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../images/post-05.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Despegar/ImgDespegar2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../images/post-06.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Despegar/ImgDespegarV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../images/post-07.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Despegar/portadaDespegar.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../images/post-08.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Despegar/ImgDespegar3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../images/post-09.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -181,22 +181,22 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
-                                            <span class="value">2018</span>
+                                            <h4 class="key">FECHA:</h4>
+                                            <span class="value">May - 21 - 2018</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">450m2</span>
+                                            <h4 class="key">ESTADO:</h4>
+                                            <span class="value">Completed</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Despegar</span>
+                                            <span class="value">Domingo Norton</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Argentina</span>
+                                            <span class="value">Perth , Australia</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,13 +205,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La empresa necesitaba un espacio de capacitaciones flexible que se pudiera adaptar a todas las necesidades. Con esa premisa, se proyectó un espacio con un tabiques móviles para adaptarlo acorde a las necesidades.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
                                 <p>
-                                    El concepto de flexibilidad no sólo se vio reflejado en la sala de capacitaciones, sino también en un área común de trabajo informal, donde el look se asemeja a un área de estar.
-                                </p>
-                                <p>
-                                    La selección de los materiales y mobiliario se adaptaron para diferentes opciones de usos de los espacios.
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remaperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                    sit
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -289,13 +287,13 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="../about-us.php">Nosotros</a>
+                                        <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="../proyectos.php">Proyectos</a>
+                                        <a href="index.php#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>
@@ -339,7 +337,7 @@
                         <div class="footer-col">
                             <div class="widget widget_text">
                                 <h4 class="widget-title">copyright</h4>
-                                <p>© 2021 Intro Arquitectura. </p>
+                                <p>© 2021 Intro Arquitectura.</p>
                             </div>
                         </div>
                     </div>

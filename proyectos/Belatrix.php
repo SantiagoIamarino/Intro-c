@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Andreani</title>
+    <title>Belatrix</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">ANDREANI</h2>
+                        <h2 class="entry-title">BELATRIX</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreaniV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrixV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Andreani/portadaAndreani.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Belatrix/portadaBelatrix.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Andreani/ImgAndreani3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2016</span>
+                                            <span class="value">2017</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">5000m2</span>
+                                            <span class="value">2000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Andreani</span>
+                                            <span class="value">Belatrix</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Argentina</span>
+                                            <span class="value">Gutiérrez 50, Mendoza, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,14 +205,13 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La oficina está ubicada en la planta operativa de Norlog, rodeada de espacios verdes.
+                                    El proyecto se desarrolló en un edificio del 1900 y la idea principal fue revitalizar un espacio histórico por medio de los detalles de su arquitectura original para lograr un diálogo armonioso con la tecnología de una empresa del rubro tecnológico.
                                 </p>
                                 <p>
-                                    El diseño contó con una estética moderna y elegante con materiales nobles y de excelente calidad. La madera fue la gran protagonista de este proyecto, aportando textura a los espacios con la intención de incorporar la naturaleza del exterior al interior del edificio.
+                                    La espacialidad del lugar y sus sistemas de ventanas le proporcionaron luz natural en casi la totalidad del espacio. Su diseño open space le otorgó la posibilidad de desarrollar una propuesta conceptual en la que los empleados puedan identificarse con las nuevas oficinas modernas. Para lograr este objetivo, las estaciones de trabajo se ubicaron estratégicamente en el centro del diseño, aprovechando los espacios más grandes y las mejores condiciones para la luz natural. Las salas de reuniones están adaptadas al diseño abierto, aunque separadas.
                                 </p>
                                 <p>
-                                    Los detalles fueron la gran premisa de este proyecto. Para tal fin, se fabricaron muebles pensados para cada espacio en particular y se utilizaron artefactos de iluminación colgantes estratégicamente seleccionadas para dar calidez y armonía a una oficina ubicada en el interior de una planta de logística.
-                                    Crear ambientes que evocan el entorno natural, logra apoyar el bienestar emocional y psicológico de los ocupantes potenciando su productividad.
+                                    El encanto del espacio singular al que se dio forma, se logró manteniendo los espacios abiertos, pocos muros y mucha luz en un diseño de oficina contemporánea conviviendo con arquitectura clásica.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -229,17 +228,7 @@
                                         </a>
                                     </li>
                                     <li class="list-social__item">
-                                        <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-pinterest" href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
+                                        <a class="ic-linkeding" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                             <i class="zmdi zmdi-linkedin"></i>
                                         </a>
                                     </li>
@@ -306,7 +295,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

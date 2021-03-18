@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Valuar</title>
+    <title>Mae</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -58,7 +58,7 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="../index.php">Inicio</a>
+                                                <a href="../index.php">Home</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="../about-us.php">Nosotros</a>
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -128,7 +128,7 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="../index.php">Inicio</a>
+                                <a href="../index.php">Home</a>
                             </li>
                             <li class="menu-item">
                                 <a href="../about-us.php">Nosotros</a>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">VALUAR</h2>
+                        <h2 class="entry-title">MAE</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Mae/ImgMae1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Mae/ImgMae2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuarV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Mae/ImgMaeV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/portadaValuar.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Mae/portadaMae.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Mae/ImgMae3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2017</span>
+                                            <span class="value">2020</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">200m2</span>
+                                            <span class="value">1200m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Valuar</span>
+                                            <span class="value">Mercado Abierto Electrónico (MAE)</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Jerónimo Salguero 2745, CABA, Argentina</span>
+                                            <span class="value">Edificio American Express, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,7 +205,16 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento del cliente fue transformar sus oficinas en un ambiente de trabajo motivador y elegante con espacios abiertos, salas privadas y salas de reuniones. La propuesta de Intro Arquitectura fue diseñar un concepto que juega con los límites a través de una malla metálica completamente permeable. Esto brindó una sensación de limite virtual que, pintada de blanco y con la incorporación de  biofilia, dio una delicada privacidad a los puestos gerenciales.
+                                    El gran desafío que tuvimos en este proyecto fue la transformación de las oficinas tradicionales que se distribuían entre dos pisos y contaban con una gran cantidad de privados y espacios cerrados a un nuevo modelo de open space en un único piso.
+                                </p>
+                                <p>
+                                    Ésta nueva modalidad de espacio de trabajo obliga a la integración y comunicación entre los distintos equipos de trabajo apostando a utilizar estructuras organizativas totalmente distintas y renovadas.
+                                </p>
+                                <p>
+                                    El alma del proyecto fue una pieza central que, a través de sus funciones, cumplió con el requerimiento central de MAE: la unión e interacción entre los diferentes sectores. En este núcleo social se encuentran las áreas colaborativas como salas de reunión, livings para reuniones informales, meetings.
+                                </p>
+                                <p>
+                                    La pieza conectora creó un recorrido que generó interés y  brindó calidad espacial. En ella se da toda interacción, las sinergias y colaboraciones entre los trabajadores.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -289,7 +298,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

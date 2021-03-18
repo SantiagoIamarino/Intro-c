@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Phd</title>
+    <title>Daikin</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -58,7 +58,7 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="../index.php">Inicio</a>
+                                                <a href="../index.php">Home</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="../about-us.php">Nosotros</a>
@@ -70,7 +70,7 @@
                                                 <a href="../blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="../contact.php">contacto</a>
+                                                <a href="../contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -128,7 +128,7 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="../index.php">Inicio</a>
+                                <a href="../index.php">Home</a>
                             </li>
                             <li class="menu-item">
                                 <a href="../about-us.php">Nosotros</a>
@@ -140,7 +140,7 @@
                                 <a href="../blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="../contact.php">contacto</a>
+                                <a href="../contacto.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +154,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">PHD</h2>
+                        <h2 class="entry-title">DAIKIN</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Phd/ImgPhd1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Daikin/ImgDaikin1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Phd/ImgPhd2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Daikin/ImgDaikin2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Phd/ImgPhdV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Daikin/ImgDaikinV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Phd/portadaPhd.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Daikin/portadaDaikin.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Phd/ImgPhd3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Daikin/ImgDaikin3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +182,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2017</span>
+                                            <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">900m2</span>
+                                            <span class="value">1000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">PHD</span>
+                                            <span class="value">Daikin</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Juan Diaz de Solis 1330, Vicente Lopez, Buenos Aires, Argentina</span>
+                                            <span class="value">Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,10 +205,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Al ser una empresa basada en la innovación y creatividad, realizamos la construcción de sus oficinas con esas características, con losa a la vista e iluminación colgante formando diagonales para descontracturar la imagen clásica de oficina.
+                                    El requerimiento fue proyectar un espacio de trabajo abierto donde la jerarquía de los puestos no esté dada por espacios cerrados, sino por una diferenciación en el equipamiento, favoreciendo el trabajo en equipo y el desarrollo de una estructura organizativa horizontal.
                                 </p>
                                 <p>
-                                    Se proyectaron espacios lúdicos a lo largo del open space como “pulmones de manzana” para darle aire a los puestos operativos y generar espacios para compartir e intercambiar ideas y conocimiento entre los equipos de trabajo.
+                                    Una escala de grises de tonos claros protagonizó la estética de la oficina, y se incorporaron elementos de madera para adicionar calidez al espacio de trabajo. 
+                                    El comedor se diseñó como un lugar de encuentro recreativo y laboral, con mobiliarios de distintos tamaños para cumplir con cada necesidad; comer, trabajar o simplemente tomarse un break. En este espacio se incorporó color a través de los asientos para marcar una diferencia con el área de trabajo operativo.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -292,7 +293,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

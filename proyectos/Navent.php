@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Medallia</title>
+    <title>Navent</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -43,110 +43,7 @@
 <body class="animsition js-preloader">
     <div class="page-wrapper">
         <!-- HEADER-->
-        <header id="header">
-            <div class="header header-1 d-none d-lg-block js-header-1">
-                <div class="header__bar">
-                    <div class="wrap wrap--w1790">
-                        <div class="container-fluid">
-                            <div class="header__content">
-                                <div class="logo">
-                                    <a href="#">
-                                        <img src="../images/icon/logo-black.png" alt="Tatee" />
-                                    </a>
-                                </div>
-                                <div class="header__content-right">
-                                    <nav class="header-nav-menu">
-                                        <ul class="menu nav-menu">
-                                            <li class="menu-item">
-                                                <a href="../index.php">Home</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../about-us.php">Nosotros</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../proyectos.php">Proyectos</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../blog.php">Blog</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <div class="header-social">
-                                        <ul class="list-social">
-                                            <li class="list-social__item">
-                                                <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
-                                                    <i class="zmdi zmdi-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
-                                                    <i class="zmdi zmdi-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="list-social__item">
-                                                <a class="ic-twi" href="#">
-                                                    <i class="zmdi zmdi-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-pinterest" href="#">
-                                                    <i class="zmdi zmdi-pinterest"></i>
-                                                </a>
-                                            </li> -->
-                                            <li class="list-social__item">
-                                                <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
-                                                    <i class="zmdi zmdi-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-mobile d-block d-lg-none">
-                <div class="header-mobile__bar">
-                    <div class="container-fluid">
-                        <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.php">
-                                <img src="../images/icon/logo-black.png" alt="Tatee" />
-                            </a>
-                            <button class="hamburger hamburger--slider float-right" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <nav class="header-nav-menu-mobile">
-                    <div class="container-fluid">
-                        <ul class="menu nav-menu menu-mobile">
-                            <li class="menu-item">
-                                <a href="../index.php">Home</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../about-us.php">Nosotros</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../proyectos.php">Proyectos</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../blog.php">Blog</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php require('header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -154,24 +51,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">MEDALLIA</h2>
+                        <h2 class="entry-title">NAVENT</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Medallia/ImgMedallia1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Medallia/ImgMedallia2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Medallia/ImgMedalliaV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent3.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Medallia/portadaMedallia.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Navent/portadaNavent.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Medallia/ImgMedallia3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Navent/ImgNavent4.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +79,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2019</span>
+                                            <span class="value">2014</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">2400m2</span>
+                                            <span class="value">700m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Medallia</span>
+                                            <span class="value">Navent</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio Boutique Work 3, CABA, Buenos Aires, Argentina</span>
+                                            <span class="value">Rondou 2664, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,13 +102,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Intro Arquitectura fue la empresa encargada de la construcción del interiorismo de las oficinas de Medallia ubicadas en la calle Arévalo. La intervención se realizó en todo el edificio, abarcando el hall de acceso, los espacios sociales y de esparcimiento y los espacios dedicados al trabajo.
+                                    La premisa del joven equipo de TI era crear un ambiente divertido y motivador con espacios de trabajo abiertos, salones y áreas de recreación. Intro Arquitectura respondió con un concepto que yuxtapone trabajo, entretenimiento y relajación en un solo espacio.
                                 </p>
                                 <p>
-                                    La premisa fue crear una oficina acorde a un usuario joven. Se buscó integrar a los equipos a partir del diseño de open space; se diseñó una estética industrial que motive el trabajo colaborativo, con gran cantidad de salas de reuniones y sin necesidad de considerar oficinas privadas. Los puestos fueron ubicados cerca de las ventanas para que los usuarios puedan gozar de la luz natural, la vista a las copas de los árboles y a la ciudad.
+                                    Las diferentes funciones de trabajo quedaron comunicadas a través de un trillage de madera que permite la conexión visual entre los espacios, enfatizando el concepto de oficina abierta y apoyando la comunicación fluida. 
+                                    Se diseñaron solamente una oficina privada y una pequeña sala de reuniones como espacios cerrados, que cuentan con paredes de vidrio simples que se integran perfectamente con el espacio abierto.
                                 </p>
                                 <p>
-                                    Este proyecto se caracteriza por tener un concepto de interiorismo moderno que aporta, entre otras cosas, conceptos de bienestar y tecnología vanguardista.
+                                    La decoración con paneles de madera OSB ayudó a crear una esencia más natural, pero siempre con un punto más moderno y atrevido por su aspecto reciclado. Este tipo de material que se vincula también con el aprovechamiento y el reciclaje, se utilizó para acentuar una estética más industrial y moderna.
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -295,7 +193,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

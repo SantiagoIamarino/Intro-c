@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Belatrix</title>
+    <title>Regus</title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -43,110 +43,7 @@
 <body class="animsition js-preloader">
     <div class="page-wrapper">
         <!-- HEADER-->
-        <header id="header">
-            <div class="header header-1 d-none d-lg-block js-header-1">
-                <div class="header__bar">
-                    <div class="wrap wrap--w1790">
-                        <div class="container-fluid">
-                            <div class="header__content">
-                                <div class="logo">
-                                    <a href="#">
-                                        <img src="../images/icon/logo-black.png" alt="Tatee" />
-                                    </a>
-                                </div>
-                                <div class="header__content-right">
-                                    <nav class="header-nav-menu">
-                                        <ul class="menu nav-menu">
-                                            <li class="menu-item">
-                                                <a href="../index.php">Home</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../about-us.php">Nosotros</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../proyectos.php">Proyectos</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../blog.php">Blog</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="../contact.php">Contacto</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <div class="header-social">
-                                        <ul class="list-social">
-                                            <li class="list-social__item">
-                                                <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
-                                                    <i class="zmdi zmdi-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
-                                                    <i class="zmdi zmdi-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="list-social__item">
-                                                <a class="ic-twi" href="#">
-                                                    <i class="zmdi zmdi-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-pinterest" href="#">
-                                                    <i class="zmdi zmdi-pinterest"></i>
-                                                </a>
-                                            </li> -->
-                                            <li class="list-social__item">
-                                                <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
-                                                    <i class="zmdi zmdi-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-mobile d-block d-lg-none">
-                <div class="header-mobile__bar">
-                    <div class="container-fluid">
-                        <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.php">
-                                <img src="../images/icon/logo-black.png" alt="Tatee" />
-                            </a>
-                            <button class="hamburger hamburger--slider float-right" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <nav class="header-nav-menu-mobile">
-                    <div class="container-fluid">
-                        <ul class="menu nav-menu menu-mobile">
-                            <li class="menu-item">
-                                <a href="../index.php">Home</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../about-us.php">Nosotros</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../proyectos.php">Proyectos</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../blog.php">Blog</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="../contact.php">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php require('header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -154,24 +51,24 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">BELATRIX</h2>
+                        <h2 class="entry-title">REGUS</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Regus/regus-1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Regus/regus-2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrixV.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Regus/regus-3.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Belatrix/portadaBelatrix.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Regus/portada-regus.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Belatrix/ImgBelatrix3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Regus/regus-vertical.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -182,21 +79,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2017</span>
+                                            <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">2000m2</span>
+                                            <span class="value">1500m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Belatrix</span>
+                                            <span class="value">Regus</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Gutiérrez 50, Mendoza, Argentina</span>
+                                            <span class="value">Edificio Laminar II, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -205,13 +102,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El proyecto se desarrolló en un edificio del 1900 y la idea principal fue revitalizar un espacio histórico por medio de los detalles de su arquitectura original para lograr un diálogo armonioso con la tecnología de una empresa del rubro tecnológico.
+                                    Regus se propuso convertir sus espacios de coworking en oficinas modernas.
+                                    La idea del diseño de estos nuevos espacios fue generar ambientes de trabajo ajustables a cada usuario y que potencien al máximo su productividad, tomando la premisa de que en un coworking es preciso que cada usuario se sienta cómodo.
                                 </p>
                                 <p>
-                                    La espacialidad del lugar y sus sistemas de ventanas le proporcionaron luz natural en casi la totalidad del espacio. Su diseño open space le otorgó la posibilidad de desarrollar una propuesta conceptual en la que los empleados puedan identificarse con las nuevas oficinas modernas. Para lograr este objetivo, las estaciones de trabajo se ubicaron estratégicamente en el centro del diseño, aprovechando los espacios más grandes y las mejores condiciones para la luz natural. Las salas de reuniones están adaptadas al diseño abierto, aunque separadas.
-                                </p>
-                                <p>
-                                    El encanto del espacio singular al que se dio forma, se logró manteniendo los espacios abiertos, pocos muros y mucha luz en un diseño de oficina contemporánea conviviendo con arquitectura clásica.
+                                    Los ambientes de trabajo creados tienen la particularidad de ser lugares confortables, renovados y cálidos. Se utilizaron materiales como la madera y una gama de colores verdes que ayudan a fomentar el pensamiento creativo y el desarrollo de ideas..
                                 </p>
                             </div>
                             <div class="entry-share">
@@ -295,7 +190,7 @@
                                         <a href="../proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="../contact.php">Contacto</a>
+                                        <a href="../contacto.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

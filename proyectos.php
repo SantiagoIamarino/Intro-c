@@ -43,110 +43,7 @@
 <body class="animsition js-preloader">
     <div class="page-wrapper">
         <!-- HEADER-->
-        <header id="header">
-            <div class="header header-1 d-none d-lg-block js-header-1">
-                <div class="header__bar">
-                    <div class="wrap wrap--w1790">
-                        <div class="container-fluid">
-                            <div class="header__content">
-                                <div class="logo">
-                                    <a href="#">
-                                        <img src="images/icon/logo-black.png" alt="Tatee" />
-                                    </a>
-                                </div>
-                                <div class="header__content-right">
-                                    <nav class="header-nav-menu">
-                                        <ul class="menu nav-menu">
-                                            <li class="menu-item">
-                                                <a href="./index.php">Inicio</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="./about-us.php">Nosotros</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="proyectos.php">Proyectos</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="blog.php">Blog</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="contacto.php">Contacto</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <div class="header-social">
-                                        <ul class="list-social">
-                                            <li class="list-social__item">
-                                                <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
-                                                    <i class="zmdi zmdi-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
-                                                    <i class="zmdi zmdi-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="list-social__item">
-                                                <a class="ic-twi" href="#">
-                                                    <i class="zmdi zmdi-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-social__item">
-                                                <a class="ic-pinterest" href="#">
-                                                    <i class="zmdi zmdi-pinterest"></i>
-                                                </a>
-                                            </li> -->
-                                            <li class="list-social__item">
-                                                <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
-                                                    <i class="zmdi zmdi-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-mobile d-block d-lg-none">
-                <div class="header-mobile__bar">
-                    <div class="container-fluid">
-                        <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.php">
-                                <img src="./images/icon/logo-black.png" alt="Tatee" />
-                            </a>
-                            <button class="hamburger hamburger--slider float-right" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <nav class="header-nav-menu-mobile">
-                    <div class="container-fluid">
-                        <ul class="menu nav-menu menu-mobile">
-                            <li class="menu-item">
-                                <a href="./index.php">Inicio</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="./about-us.php">Nosotros</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="proyectos.php">Proyectos</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="blog.php">Blog</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contacto.php">contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php require('header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -193,7 +90,7 @@
                         
                         <!-- Proyecto Kimberly Clark -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Kimberly-Clark/portadaKimberly.jpg" alt="Kimberly Clark" />
                                 </figure>
@@ -211,7 +108,7 @@
 
                         <!-- Proyecto MAE -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Mae/portadaMae.jpg" alt="Mae" />
                                 </figure>
@@ -229,7 +126,7 @@
 
                         <!-- Proyecto Regus -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Regus/portada-regus.jpg" alt="Regus" />
                                 </figure>
@@ -247,7 +144,7 @@
 
                         <!-- Proyecto ETEX -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Etex/portadaEtex.jpg" alt="Etex" />
                                 </figure>
@@ -265,7 +162,7 @@
 
                         <!-- Proyecto MEGA -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Mega/portadaMega.jpg" alt="Mega" />
                                 </figure>
@@ -283,7 +180,7 @@
 
                         <!-- Proyecto Medallia -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Medallia/portadaMedallia.jpg" alt="Medallia" />
                                 </figure>
@@ -301,7 +198,7 @@
 
                         <!-- Proyecto Emergencias -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Emergencias/portadaEmergencias.jpg" alt="Emergencias" />
                                 </figure>
@@ -319,7 +216,7 @@
 
                         <!-- Proyecto ASAPP -->
                         <div class="col-md-6">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Asapp/portadaAsapp.jpg" alt="Asapp" />
                                 </figure>
@@ -337,7 +234,7 @@
 
                         <!-- Proyecto Daikin -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Daikin/portadaDaikin.jpg" alt="Daikin" />
                                 </figure>
@@ -355,7 +252,7 @@
 
                         <!-- Proyecto Posta -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Posta/portadaPosta.jpg" alt="Posta" />
                                 </figure>
@@ -373,7 +270,7 @@
 
                         <!-- Proyecto Lo Jack -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Lo-Jack/portadaLo-Jack.jpg" alt="Lo Jack" />
                                 </figure>
@@ -391,7 +288,7 @@
                         
                         <!-- Proyecto Despegar -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Despegar/portadaDespegar.jpg" alt="Despegar" />
                                 </figure>
@@ -410,7 +307,7 @@
 
                         <!-- Proyecto PHD -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Phd/portadaPhd.jpg" alt="PHD" />
                                 </figure>
@@ -428,7 +325,7 @@
 
                         <!-- Proyecto Wenance -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Wenance/portada-wenance.jpg" alt="Wenance" />
                                 </figure>
@@ -446,7 +343,7 @@
 
                         <!-- Proyecto Belatrix -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Belatrix/portadaBelatrix.jpg" alt="Belatrix" />
                                 </figure>
@@ -464,7 +361,7 @@
 
                         <!-- Proyecto Valuar -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Valuar/portadaValuar.jpg" alt="Valuar" />
                                 </figure>
@@ -482,7 +379,7 @@
 
                         <!-- Proyecto Andreani -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                  <figure class="media__img">
                                      <img src="./imagenes/Andreani/portadaAndreani.jpg" alt="Andreani" />
                                  </figure>
@@ -500,7 +397,7 @@
 
                         <!-- Proyecto Navent -->
                         <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="./imagenes/Navent/portadaNavent.jpg" alt="Navent" />
                                 </figure>
