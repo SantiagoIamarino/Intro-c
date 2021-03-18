@@ -81,19 +81,19 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="index.html">Inicio</a>
+                                                <a href="index.php">Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about-us.html">Nosotros</a>
+                                                <a href="about-us.php">Nosotros</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="proyectos.html">Proyectos</a>
+                                                <a href="proyectos.php">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="contact.html">Contacto</a>
+                                                <a href="contact.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -136,7 +136,7 @@
                 <div class="header-mobile__bar">
                     <div class="container-fluid">
                         <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.html">
+                            <a class="logo" href="index.php">
                                 <img src="images/icon/logo-black.png" alt="Tatee" />
                             </a>
                             <button class="hamburger hamburger--slider float-right" type="button">
@@ -151,19 +151,19 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="index.html">Inicio</a>
+                                <a href="index.php">Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a href="about-us.html">Nosotros</a>
+                                <a href="about-us.php">Nosotros</a>
                             </li>
                             <li class="menu-item">
-                                <a href="proyectos.html">Proyectos</a>
+                                <a href="proyectos.php">Proyectos</a>
                             </li>
                             <li class="menu-item">
                                 <a href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="contact.html">Contacto</a>
+                                <a href="contact.php">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -290,13 +290,13 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.html">Nosotros</a>
+                                        <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#whatWeDo">Servicios</a>
+                                        <a href="index.php#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contacto</a>
+                                        <a href="contact.php">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

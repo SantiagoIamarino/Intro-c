@@ -58,19 +58,19 @@
                                     <nav class="header-nav-menu">
                                         <ul class="menu nav-menu">
                                             <li class="menu-item">
-                                                <a href="./index.html">Inicio</a>
+                                                <a href="./index.php">Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./about-us.html">Nosotros</a>
+                                                <a href="./about-us.php">Nosotros</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="proyectos.html">Proyectos</a>
+                                                <a href="proyectos.php">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="contact.html">Contacto</a>
+                                                <a href="contacto.php">Contacto</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -113,7 +113,7 @@
                 <div class="header-mobile__bar">
                     <div class="container-fluid">
                         <div class="header-mobile__bar-inner">
-                            <a class="logo" href="index.html">
+                            <a class="logo" href="index.php">
                                 <img src="./images/icon/logo-black.png" alt="Tatee" />
                             </a>
                             <button class="hamburger hamburger--slider float-right" type="button">
@@ -128,19 +128,19 @@
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
                             <li class="menu-item">
-                                <a href="./index.html">Inicio</a>
+                                <a href="./index.php">Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a href="./about-us.html">Nosotros</a>
+                                <a href="./about-us.php">Nosotros</a>
                             </li>
                             <li class="menu-item">
-                                <a href="proyectos.html">Proyectos</a>
+                                <a href="proyectos.php">Proyectos</a>
                             </li>
                             <li class="menu-item">
                                 <a href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="contact.html">contacto</a>
+                                <a href="contacto.php">contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -202,7 +202,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Kimberly-Clark.html">Kimberly Clark</a>
+                                        <a href="./proyectos/Kimberly-Clark.php">Kimberly Clark</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -220,7 +220,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Mae.html">Mercado Abierto Electrónico (Mae)</a>
+                                        <a href="./proyectos/Mae.php">Mercado Abierto Electrónico (Mae)</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -238,7 +238,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Regus.html">Regus</a>
+                                        <a href="./proyectos/Regus.php">Regus</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -256,7 +256,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Etex.html">Etex</a>
+                                        <a href="./proyectos/Etex.php">Etex</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -274,7 +274,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Mega.html">Mega</a>
+                                        <a href="./proyectos/Mega.php">Mega</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -292,7 +292,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Medallia.html">Medallia</a>
+                                        <a href="./proyectos/Medallia.php">Medallia</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -310,7 +310,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Emergencias.html">Emergencias</a>
+                                        <a href="./proyectos/Emergencias.php">Emergencias</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -328,7 +328,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Asapp.html">Asapp</a>
+                                        <a href="./proyectos/Asapp.php">Asapp</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -346,7 +346,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Daikin.html">Daikin</a>
+                                        <a href="./proyectos/Daikin.php">Daikin</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -364,7 +364,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Posta.html">Posta</a>
+                                        <a href="./proyectos/Posta.php">Posta</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -382,7 +382,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Lo-Jack.html">Lo Jack</a>
+                                        <a href="./proyectos/Lo-Jack.php">Lo Jack</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -401,7 +401,7 @@
                                 <div class="media__body">
                                     
                                     <h3 class="title">
-                                        <a href="./proyectos/Despegar.html">Despegar</a>
+                                        <a href="./proyectos/Despegar.php">Despegar</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -419,7 +419,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/PHD.html">PHD</a>
+                                        <a href="./proyectos/PHD.php">PHD</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -437,7 +437,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Wenance.html">Wenance</a>
+                                        <a href="./proyectos/Wenance.php">Wenance</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -455,7 +455,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Belatrix.html">Belatrix</a>
+                                        <a href="./proyectos/Belatrix.php">Belatrix</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -473,7 +473,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Valuar.html">Valuar</a>
+                                        <a href="./proyectos/Valuar.php">Valuar</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -491,7 +491,7 @@
                                  <span class="line line--bottom"></span>
                                  <div class="media__body">
                                      <h3 class="title">
-                                         <a href="./proyectos/Andreani.html">Andreani</a>
+                                         <a href="./proyectos/Andreani.php">Andreani</a>
                                      </h3>
                                      <!--<div class="address"></div>-->
                                  </div>
@@ -509,7 +509,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyectos/Navent.html">Navent</a>
+                                        <a href="./proyectos/Navent.php">Navent</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -558,10 +558,10 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.html">Nosotros</a>
+                                        <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#whatWeDo">Servicios</a>
+                                        <a href="index.php#whatWeDo">Servicios</a>
                                     </li>
                                     <li>
                                         <a href="#">Contacto</a>
