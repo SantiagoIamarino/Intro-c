@@ -13838,7 +13838,8 @@ button:focus {
 .media__img img {
     filter: brightness(0.5);
 }
-.circles-home .media__img img{
+.circles-home .media__img img,
+.projects-overview .media__img img {
     filter: none;
 }
 .circles-home .title p,
