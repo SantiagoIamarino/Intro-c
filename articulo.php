@@ -101,13 +101,13 @@
                                                 <a href="index.html">Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about-us.html">Sobre Nosotros</a>
+                                                <a href="about-us.html">Nosotros</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="proyectos.html">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="blog.php">Nuestro blog</a>
+                                                <a href="blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="contact.html">Contacto</a>
@@ -171,13 +171,13 @@
                                 <a href="index.html">Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a href="about-us.html">Sobre Nosotros</a>
+                                <a href="about-us.html">Nosotros</a>
                             </li>
                             <li class="menu-item">
                                 <a href="proyectos.html">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a href="blog.php">Nuestro blog</a>
+                                <a href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
                                 <a href="contact.html">Contacto</a>
@@ -353,7 +353,7 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.html">Sobre nosotros</a>
+                                        <a href="about-us.html">Nosotros</a>
                                     </li>
                                     <li>
                                         <a href="index.html#whatWeDo">Servicios</a>

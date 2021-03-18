@@ -33,7 +33,7 @@
     <meta name="keywords" content="Intro Arquitectura">
 
     <!-- Title Page-->
-    <title>Nuestro blog | Intro Arquitectura</title>
+    <title>Blog | Intro Arquitectura</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -84,13 +84,13 @@
                                                 <a href="index.html">Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about-us.html">Sobre Nosotros</a>
+                                                <a href="about-us.html">Nosotros</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="proyectos.html">Proyectos</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="blog.php">Nuestro blog</a>
+                                                <a href="blog.php">Blog</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="contact.html">Contacto</a>
@@ -154,13 +154,13 @@
                                 <a href="index.html">Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a href="about-us.html">Sobre Nosotros</a>
+                                <a href="about-us.html">Nosotros</a>
                             </li>
                             <li class="menu-item">
                                 <a href="proyectos.html">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a href="blog.php">Nuestro blog</a>
+                                <a href="blog.php">Blog</a>
                             </li>
                             <li class="menu-item">
                                 <a href="contact.html">Contacto</a>
@@ -190,7 +190,7 @@
             <section class="section p-t-100 p-b-65">
                 <div class="container">
                     <div class="page-heading">
-                        <h4 class="title-sub title-sub--c8 m-b-15">Nuestro blog</h4>
+                        <h4 class="title-sub title-sub--c8 m-b-15">Blog</h4>
                         <h2 class="title-2">Últimas novedades</h2>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.html">Sobre nosotros</a>
+                                        <a href="about-us.html">Nosotros</a>
                                     </li>
                                     <li>
                                         <a href="index.html#whatWeDo">Servicios</a>
