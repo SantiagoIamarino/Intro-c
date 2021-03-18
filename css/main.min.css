@@ -4178,6 +4178,9 @@ button {
 .header-mobile__bar-inner img{
     height: 50px !important;
 }
+.header-mobile .list-social__item a {
+    font-size: 18px;
+}
 @media (max-width: 575px) {
     .comment-author .avatar {
         left: -37px;

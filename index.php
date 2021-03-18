@@ -138,11 +138,42 @@
                             <a class="logo" href="index.php">
                                 <img src="images/icon/logo-black.png" alt="INTRO Arquitectura" />
                             </a>
-                            <button class="hamburger hamburger--slider float-right" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
+                            <div class="right d-flex align-items center">
+                                <div class="socials mt-1">
+                                    <ul class="list-social">
+                                        <li class="list-social__item">
+                                            <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
+                                                <i class="zmdi zmdi-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-social__item">
+                                            <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
+                                                <i class="zmdi zmdi-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <!-- <li class="list-social__item">
+                                            <a class="ic-twi" href="#">
+                                                <i class="zmdi zmdi-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-social__item">
+                                            <a class="ic-pinterest" href="#">
+                                                <i class="zmdi zmdi-pinterest"></i>
+                                            </a>
+                                        </li> -->
+                                        <li class="list-social__item">
+                                            <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
+                                                <i class="zmdi zmdi-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="hamburger hamburger--slider float-right" type="button">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>   
+                            </div>
                         </div>
                     </div>
                 </div>
