@@ -13858,10 +13858,48 @@ button:focus {
     font-size: 2rem;
 }
 
-
 .contact-section .container{
     display: flex;
     flex-direction: column;
+}
+
+.belatrix-logo img {
+    transform: scale(2);
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-clients {
+        padding-top: 10vh !important;
+    }
+
+    .about-us-clients .mobile-slider-wrapper{
+        padding: 0;
+        position: relative;
+        height: 70vh;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .row{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0 !important;
+        -webkit-transition: all .8s ease;
+        -o-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .slide-hidden{
+        opacity: 0;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .row .img-client img{
+        max-width: 400px;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .row.slide-two .img-client img{
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -13873,6 +13911,43 @@ button:focus {
     .contact-section .no-gutters .extra-info{
         margin-top: 70px;
         order: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-us-clients .mobile-slider-wrapper{
+        padding: 0;
+        position: relative;
+        height: 70vh;
+    }
+    
+    .about-us-clients .mobile-slider-wrapper .row .img-client img{
+        max-width: 300px;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .row.slide-two .img-client img{
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    .about-us-clients .mobile-slider-wrapper{
+        padding: 0;
+        position: relative;
+        height: 85vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .about-us-clients .mobile-slider-wrapper{
+        padding: 0;
+        position: relative;
+        height: 100vh;
+    }
+
+    .about-us-clients .mobile-slider-wrapper .row .img-client img{
+        max-width: 270px;
     }
 }
 
