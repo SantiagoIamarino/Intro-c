@@ -780,7 +780,7 @@
                                 </div>
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/digital-house.php">
-                                        <img src="images/icon/clientes/digital-House-logo.png" alt="Digital-House-logo.png">
+                                        <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
