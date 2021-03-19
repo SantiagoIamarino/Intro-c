@@ -1,7 +1,7 @@
 <?php
 
-    // $url = 'http://intro.lunadi.wnpower.host/';
-    $url = 'http://localhost/Intro/';
+    $url = 'http://intro.lunadi.wnpower.host/';
+    /* $url = 'http://localhost/Intro/'; */
 
 ?> 
 
