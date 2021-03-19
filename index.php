@@ -661,8 +661,8 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/Digital-house.php">
-                                        <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
+                                    <a class="img-client" href="./proyectos/digital-house.php">
+                                        <img src="images/icon/clientes/digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
@@ -766,8 +766,8 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/Comviva.php">
-                                        <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
+                                    <a class="img-client" href="./proyectos/comviva.php">
+                                        <img src="images/icon/clientes/comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
                             </div>
@@ -779,8 +779,8 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/Digital-house.php">
-                                        <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
+                                    <a class="img-client" href="./proyectos/digital-house.php">
+                                        <img src="images/icon/clientes/digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
@@ -1067,7 +1067,7 @@
                                         <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="index.php#whatWeDo">Servicios</a>
+                                        <a href="proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
                                         <a href="contacto.php">Contacto</a>
