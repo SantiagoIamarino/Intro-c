@@ -156,7 +156,7 @@
                                         <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="index.php#whatWeDo">Servicios</a>
+                                        <a href="proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
                                         <a href="contacto.php">Contacto</a>

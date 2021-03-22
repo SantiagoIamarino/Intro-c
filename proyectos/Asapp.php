@@ -62,13 +62,13 @@
                                 <img class="wp-post-image" src="../imagenes/Asapp/ImgAsapp2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../images/post-07.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Asapp/ImgAsapp3.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
                                 <img class="wp-post-image" src="../imagenes/Asapp/portadaAsapp.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Asapp/ImgAsapp3.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Asapp/ImgAsapp4.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>

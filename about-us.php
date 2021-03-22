@@ -206,7 +206,7 @@
                             <article class="media media-service-1">
                                 <figure class="media__img">
                                     <div class="media__img-inner">
-                                        <img src="images/circulos/CIRCULO-PLANIFICACIÓN.jpg" alt="architecture" />
+                                        <img src="images/circulos/CIRCULO-PLANIFICACION.jpg" alt="architecture" />
                                     </div>
                                     <img class="img-line" src="images/icon/line.png" alt="Line" />
                                 </figure>
@@ -331,7 +331,35 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" alt="Brad Green" />
+                                    <img class="media__img img--rounded" src="images/nosotros/GASTON-JURSCHAN-GERENTE-GENERAL.jpg" alt="Gustavo Jurschan" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">GASTON JURSCHAN</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Gerente Administración</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" alt="MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">MIGUEL GREHAN</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Director Comercial</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" alt="CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -345,13 +373,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/Daniela-Torresin-Administracion.jpg" alt="Sonja Porter" />
+                                    <img class="media__img img--rounded" src="images/nosotros/VIRGINIA-MARTINEZ-PROYECTOS.jpg" alt="VIRGINIA-MARTINEZ-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Daniela Torresin</a>
+                                        <a href="#">VIRGINIA MARTINEZ</a>
                                     </h4>
-                                    <span class="title-sub--sm">Administración</span>
+                                    <span class="title-sub--sm">Proyectos</span>
                                 </div>
                             </article>
                         </div>
@@ -359,42 +387,14 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/PAOLO-MANDUCA-ADMINISTRACION.JPG" alt="Marion Lawson" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Paolo Manduca</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Administración</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" alt="Tyrone Curtis" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Victoria Carrancio</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Project Manager Comercial</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg"
+                                    <img class="media__img img--rounded" src="images/nosotros/COSME-MACIEL-GERENTE-OBRAS.jpg"
                                         alt="Kim Harrington" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Rodrigo Alborja</a>
+                                        <a href="#">COSME MACIEL</a>
                                     </h4>
-                                    <span class="title-sub--sm">Gerente Comercial</span>
+                                    <span class="title-sub--sm">Gerente Obras</span>
                                 </div>
                             </article>
                         </div>
@@ -402,13 +402,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" alt="Jodi Rivera" />
+                                    <img class="media__img img--rounded" src="images/nosotros/CLARA-LOSADA-GERENTE-PROYECTOS.jpg" alt="Clara Losada" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Cecilia Gil</a>
+                                        <a href="#">CLARA LOSADA</a>
                                     </h4>
-                                    <span class="title-sub--sm">Project Manager Comercial</span>
+                                    <span class="title-sub--sm">Gerente Proyectos</span>
                                 </div>
                             </article>
                         </div>
@@ -419,13 +419,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/VIRGINIA-MARTINEZ-PROYECTOS.jpg" alt="Brad Green" />
+                                    <img class="media__img img--rounded" src="images/nosotros/MOIRA-MARTOS-GRILANC-OBRAS.jpg" alt="MOIRA-MARTOS-GRILANC-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Virginia Martinez</a>
+                                        <a href="#">MOIRA MARTOS GRILANC</a>
                                     </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
+                                    <span class="title-sub--sm">Obras</span>
                                 </div>
                             </article>
                         </div>
@@ -433,7 +433,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/VALERIA-BARREIRO-PROYECTOS.jpg" alt="Sonja Porter" />
+                                    <img class="media__img img--rounded" src="images/nosotros/VALERIA-BARREIRO-PROYECTOS.jpg" alt="Valeria Barreiro" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -447,13 +447,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/MAITE-DABADIE-PROYECTOS.JPG" alt="Tyrone Curtis" />
+                                    <img class="media__img img--rounded" src="images/nosotros/LEVON-ASHARDJIAN-OBRAS.jpg" alt="LEVON-ASHARDJIAN-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Maite Debadie</a>
+                                        <a href="#">LEVON ASHARDJIAN</a>
                                     </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
+                                    <span class="title-sub--sm">Obras</span>
                                 </div>
                             </article>
                         </div>
@@ -461,14 +461,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/JIMENA-LISTENGART-PROYECTOS.JPG"
-                                        alt="Kim Harrington" />
+                                    <img class="media__img img--rounded" src="images/nosotros/CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" alt="CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Jimena Listengart</a>
+                                        <a href="#">CECILIA GIL</a>
                                     </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
+                                    <span class="title-sub--sm">Project Manager – Comercial</span>
                                 </div>
                             </article>
                         </div>
@@ -476,13 +475,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/GIULIANA-DONATELLI-PROYECTOS.jpg" alt="Jodi Rivera" />
+                                    <img class="media__img img--rounded" src="images/nosotros/PAZ-VASENA-OBRAS.jpg" alt="PAZ-VASENA-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Giuliana Donatelli</a>
+                                        <a href="#">PAZ VASENA</a>
                                     </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
+                                    <span class="title-sub--sm">Obras</span>
                                 </div>
                             </article>
                         </div>
@@ -490,28 +489,73 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/GASTON-JURSCHAN-GERENTE-GENERAL.jpg" alt="Jodi Rivera" />
+                                    <img class="media__img img--rounded" src="images/nosotros/ALEJANDRA-ARMESTO-OBRAS.jpg" alt="ALEJANDRA-ARMESTO-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Gastón Jurschan</a>
+                                        <a href="#">ALEJANDRA ARMESTO</a>
                                     </h4>
-                                    <span class="title-sub--sm">Gerente General</span>
+                                    <span class="title-sub--sm">Obras</span>
                                 </div>
                             </article>
                         </div>
                     </div>
+
+
                     <!-- Terces bloque de logos -->
+                    
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/EMILIA-SERRA-PROYECTOS.JPG" alt="Brad Green" />
+                                    <img class="media__img img--rounded" src="images/nosotros/Daniela-Torresin-Administracion.jpg" alt="Daniela-Torresin-Administracion.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Emilia Serra</a>
+                                        <a href="#">DANIELA TORRESIN</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Administración</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/GERMAN-ORTIZ-OBRAS.jpg" alt="GERMAN ORTIZ" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">GERMAN ORTIZ</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Obras</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" alt="VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">VICTORIA CARRANCIO</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Project Manager – Comercial</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/CAMILA-CAZES-PROYECTOS.jpg" alt="CAMILA-CAZES-PROYECTOS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">CAMILA CAZES</a>
                                     </h4>
                                     <span class="title-sub--sm">Proyectos</span>
                                 </div>
@@ -521,85 +565,165 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/DANIELA-SERRA-PROYECTOS.jpg" alt="Sonja Porter" />
+                                    <img class="media__img img--rounded" src="images/nosotros/BRUNO-RIGANTI-OBRAS.jpg" alt="BRUNO-RIGANTI-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Daniela Serra</a>
+                                        <a href="#">BRUNO RIGANTI</a>
                                     </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/CLARA-LOSADA-GERENTE-PROYECTOS.jpg" alt="Marion Lawson" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Clara Losada</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Gerente de Proeyctos</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/CAMILA-CAZES-PROYECTOS.jpg" alt="Tyrone Curtis" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Camila Cazes</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/RODRIGO-GONZALEZ-PRESUPUESTOS.jpg"
-                                        alt="Kim Harrington" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Rodrigo Gonazalez</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Presupuestos</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" alt="Jodi Rivera" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Erika Camaño</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Presupuestos</span>
+                                    <span class="title-sub--sm">Obras</span>
                                 </div>
                             </article>
                         </div>
                     </div>
+
+
                     <!-- Cuarto Bloque de nosotros  -->
+                    
+
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/DIANA-GARRIDO-PRESUPUESTOS.jpeg" alt="Brad Green" />
+                                    <img class="media__img img--rounded" src="images/nosotros/DANIELA-SERRA-PROYECTOS.jpg" alt="DANIELA-SERRA-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Diana Garrido</a>
+                                        <a href="#">DANIELA SERRA</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Proyectos</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/FLORENCIA-MORENO-OPERACIONES.jpg" alt="FLORENCIA-MORENO-OPERACIONES.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">FLORENCIA MORENO</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Operaciones</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/LUIS-QUISPE-CABELLO-OPERACIONES.JPG" alt="LUIS-QUISPE-CABELLO-OPERACIONES.JPG" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">LUIS QUISPE CABELLO</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Operaciones</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/MAITE-DABADIE-PROYECTOS.jpg" alt="MAITE-DABADIE-PROYECTOS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">MAITE DABADIE</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Proyectos</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" alt="FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">JUAN FACUNDO FERRARO</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Obras</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/EMILIA-SERRA-PROYECTOS.jpg" alt="EMILIA-SERRA-PROYECTOS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">EMILIA SERRA</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Proyectos</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+
+                    <!-- Comienza quinto bloque -->
+                    
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" alt="JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">JUAN PABLO SANTILLI</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Gerente Operaciones</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" alt="ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">ERIKA CAAMAÑO</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Gerente Presupuestos</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/PAOLO-MANDUCA-ADMINISTRACION.jpg" alt="PAOLO-MANDUCA-ADMINISTRACION.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">PAOLO MANDUCA</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Administración</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" alt="RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">RODRIGO GONZALEZ</a>
                                     </h4>
                                     <span class="title-sub--sm">Presupuestos</span>
                                 </div>
@@ -609,13 +733,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/PAZ-VASENA-OBRAS.jpg" alt="Sonja Porter" />
+                                    <img class="media__img img--rounded" src="images/nosotros/GIULIANA-DONATELLI-PROYECTOS.jpg" alt="GIULIANA-DONATELLI-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Paz Vasena</a>
+                                        <a href="#">GIULIANA DONATELLI</a>
                                     </h4>
-                                    <span class="title-sub--sm">Obras</span>
+                                    <span class="title-sub--sm">Proyectos</span>
                                 </div>
                             </article>
                         </div>
@@ -623,160 +747,29 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/PAOLA-PIONETTI-OBRAS.jpg" alt="Marion Lawson" />
+                                    <img class="media__img img--rounded" src="images/nosotros/JIMENA-LISTENGART-PROYECTOS.jpg" alt="JIMENA-LISTENGART-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Paola Pionetti</a>
+                                        <a href="#">JIMENA LISTENGART</a>
                                     </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/MOIRA-MARTOS-GRILANC-OBRAS.jpg" alt="Tyrone Curtis" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Moira Martos Grilanc</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/MARIANO-URQUIZA-OBRAS.jpeg"
-                                        alt="Kim Harrington" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Mariano Urquiza</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/LEVON-ASHARDJIAN-OBRAS.jpg" alt="Jodi Rivera" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Levon Ashardjian</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
+                                    <span class="title-sub--sm">Proyectos</span>
                                 </div>
                             </article>
                         </div>
                     </div>
-                    <!-- Comienza quinto bloque -->
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/JUAN-IGNACIO-PARADA-OBRAS.jpg" alt="Brad Green" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Juan Ignacio Parada</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/GERMAN-ORTIZ-OBRAS.jpg" alt="Sonja Porter" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">German Ortiz</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" alt="Marion Lawson" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Facundo Ferraro Porcel De Peralta</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/COSME-MACIEL-GERENTE-OBRAS.jpg" alt="Tyrone Curtis" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Cosme Maciel</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Gerente Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/BRUNO-RIGANTI-OBRAS.jpg"
-                                        alt="Kim Harrington" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Bruno Riganti</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/ALEJANDRA-ARMESTO-OBRAS.jpg" alt="Jodi Rivera" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Alejandra Armesto</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <!--  -->
                     <!-- Comienza sexto bloque -->
+
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/LUIS-QUISPE-CABELLO-OPERACIONES.JPG" alt="Brad Green" />
+                                    <img class="media__img img--rounded" src="images/nosotros/LUCAS-PAREDES-OPERACIONES.jpg" alt="LUCAS-PAREDES-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Luis Quispe Cabello</a>
+                                        <a href="#">LUCAS PAREDES</a>
                                     </h4>
                                     <span class="title-sub--sm">Operaciones</span>
                                 </div>
@@ -786,11 +779,39 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/LUCAS-PAREDES-OPERACIONES.jpg" alt="Sonja Porter" />
+                                    <img class="media__img img--rounded" src="images/nosotros/MARIANO-URQUIZA-OBRAS.jpeg" alt="MARIANO-URQUIZA-OBRAS.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Lucas Paredes</a>
+                                        <a href="#">MARIANO URQUIZA</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Obras</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/juan-ignacio-parada-obras.jpg" alt="juan-ignacio-parada-obras.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">JUAN IGNACIO PARADA</a>
+                                    </h4>
+                                    <span class="title-sub--sm">Obras</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <article class="media-team">
+                                <figure class="media__img-wrap">
+                                    <span class="overlay"></span>
+                                    <img class="media__img img--rounded" src="images/nosotros/EDGAR-GONZALEZ-OPERACIONES.jpg" alt="EDGAR-GONZALEZ-OPERACIONES.jpg" />
+                                </figure>
+                                <div class="media__body">
+                                    <h4 class="title--sm">
+                                        <a href="#">EDGAR GONZALEZ</a>
                                     </h4>
                                     <span class="title-sub--sm">Operaciones</span>
                                 </div>
@@ -800,13 +821,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" alt="Marion Lawson" />
+                                    <img class="media__img img--rounded" src="images/nosotros/DIANA-GARRIDO-PRESUPUESTOS.jpeg" alt="DIANA-GARRIDO-PRESUPUESTOS.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Juan Pablo Santilli</a>
+                                        <a href="#">DIANA GARRIDO</a>
                                     </h4>
-                                    <span class="title-sub--sm">Gerente de Operaciones</span>
+                                    <span class="title-sub--sm">Presupuestos</span>
                                 </div>
                             </article>
                         </div>
@@ -814,13 +835,13 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/FLORENCIA-MORENO-OPERACIONES.jpg" alt="Tyrone Curtis" />
+                                    <img class="media__img img--rounded" src="images/nosotros/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" alt="RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Florencia Moreno</a>
+                                        <a href="#">RODRIGO ALBORJA</a>
                                     </h4>
-                                    <span class="title-sub--sm">Operaciones</span>
+                                    <span class="title-sub--sm">Gerente Comercial</span>
                                 </div>
                             </article>
                         </div>
@@ -828,33 +849,18 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/EDGAR-GONZALEZ-OPERACIONES.jpg"
-                                        alt="Kim Harrington" />
+                                    <img class="media__img img--rounded" src="images/nosotros/JUAN-MANUEL-MARQUEZ.jpg" alt="JUAN-MANUEL-MARQUEZ.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
-                                        <a href="#">Edgar Gonzalez</a>
+                                        <a href="#">Juan Manuel Marquez</a>
                                     </h4>
-                                    <span class="title-sub--sm">Operaciones</span>
+                                    <span class="title-sub--sm">Obra</span>
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" alt="Jodi Rivera" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">Miguel Grehan</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Desarrollo de Negocios</span>
-                                </div>
-                            </article>
-                        </div>
-                        
                     </div>
+
                     <!--  -->
                 </div>
             </section>
@@ -892,7 +898,7 @@
                                         <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="index.php#whatWeDo">Servicios</a>
+                                        <a href="proyectos.php">Proyectos</a>
                                     </li>
                                     <li>
                                         <a href="contacto.php">Contacto</a>
