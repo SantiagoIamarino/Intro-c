@@ -206,7 +206,7 @@
                             <article class="media media-service-1">
                                 <figure class="media__img">
                                     <div class="media__img-inner">
-                                        <img src="images/circulos/CIRCULO-PLANIFICACIÓN.jpg" alt="architecture" />
+                                        <img src="images/circulos/CIRCULO-PLANIFICACION.jpg" alt="architecture" />
                                     </div>
                                     <img class="img-line" src="images/icon/line.png" alt="Line" />
                                 </figure>
@@ -556,20 +556,6 @@
                                 <div class="media__body">
                                     <h4 class="title--sm">
                                         <a href="#">CAMILA CAZES</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Proyectos</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/MILAGRO-DI-MARTINO-PROYECTOS.jpg" alt="MILAGRO-DI-MARTINO-PROYECTOS.jpg" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">MILAGRO DI MARTINO</a>
                                     </h4>
                                     <span class="title-sub--sm">Proyectos</span>
                                 </div>

@@ -878,7 +878,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Maria Teresa Suarez</a> -->
-                                                    <p>M.T S</p>
+                                                    <p>M.T. S.</p>
                                                 </h4>
                                                 <span class="job">Monsanto Argentina</span>
                                             </div>
@@ -893,7 +893,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Jeanette Martinez Quiroga</a> -->
-                                                    <p>J.M Q</p>
+                                                    <p>J.M. Q.</p>
                                                 </h4>
                                                 <span class="job">AstraZeneca</span>
                                             </div>
@@ -908,7 +908,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Daniel Rodriguez</a> -->
-                                                    <p>D R</p>
+                                                    <p>D. R.</p>
                                                 </h4>
                                                 <span class="job">Genneia SA</span>
                                             </div>
@@ -923,7 +923,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Gustavo Goldman</a> -->
-                                                    <p>G D</p>
+                                                    <p>G. D.</p>
                                                 </h4>
                                                 <span class="job">Navent</span>
                                             </div>
@@ -938,7 +938,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Florencia Nardini</a> -->
-                                                    <p>F N</p>
+                                                    <p>F. N.</p>
                                                 </h4>
                                                 <span class="job">CBRE</span>
                                             </div>
@@ -953,7 +953,7 @@
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Gilberto Monteiro</a> -->
-                                                    <p>G A</p>
+                                                    <p>G. A.</p>
                                                 </h4>
                                                 <span class="job">Kimberly Clark</span>
                                             </div>
