@@ -733,12 +733,14 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Lo-Jack.php">
-                                        <img src="images/icon/clientes/lo-jack-logo.png" alt="lo-jack-logo.png">
+                                        <img style='transform: scale(1.1)'
+                                            src="images/icon/clientes/lo-jack-logo.png" alt="lo-jack-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Regus.php">
-                                        <img src="images/icon/clientes/regus.png" alt="regus">
+                                        <img style='transform: scale(1.8)'
+                                            src="images/icon/clientes/regus.png" alt="regus">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
