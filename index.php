@@ -636,37 +636,37 @@
                         <div class="row m-b-10 logos-home">
                             <div class="screen-inner row active">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/andreani.php">
+                                    <a class="img-client" href="./proyectos/Andreani.php">
                                         <img src="images/icon/clientes/andreani-logo.png" alt="andreani-logo">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/asapp.php">
+                                    <a class="img-client" href="./proyectos/Asapp.php">
                                         <img src="images/icon/clientes/asapp-logo.png" alt="asapp-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client belatrix-logo" href="./proyectos/belatrix.php">
+                                    <a class="img-client belatrix-logo" href="./proyectos/Belatrix.php">
                                         <img src="images/icon/clientes/belatrix-logo.png" alt="belatrix-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/Comviva.php">
+                                    <a class="img-client">
                                         <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/despegar.php">
+                                    <a class="img-client" href="./proyectos/Despegar.php">
                                         <img src="images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/digital-house.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/emergencias.php">
+                                    <a class="img-client" href="./proyectos/Emergencias.php">
                                         <img src="images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
                                     </a>
                                 </div>
@@ -674,17 +674,17 @@
                             
                             <div class="screen-inner row">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/etex.php">
+                                    <a class="img-client" href="./proyectos/Etex.php">
                                         <img src="images/icon/clientes/etex-logo.png" alt="etex-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/kimberly-clark.php">
+                                    <a class="img-client" href="./proyectos/Kimberly-Clark.php">
                                         <img src="images/icon/clientes/kimberly-clark-logo-1.png" alt="kimberly-clark-logo-1.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/prudential.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -699,7 +699,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/MAE.php">
+                                    <a class="img-client" href="./proyectos/Mae.php">
                                         <img src="images/icon/clientes/MAE-logo.png" alt="MAE-logo.png">
                                     </a>
                                 </div>
@@ -712,17 +712,17 @@
 
                             <div class="screen-inner row">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/navent.php">
+                                    <a class="img-client" href="./proyectos/Navent.php">
                                         <img src="images/icon/clientes/navent-logo.png" alt="navent-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/pedidos-ya.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/pedidos-ya-logo.png" alt="pedidos-ya-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/PHD.php">
+                                    <a class="img-client" href="./proyectos/Phd.php">
                                         <img src="images/icon/clientes/PHD-LOGO-NUEVO.png" alt="PHD-LOGO-NUEVO">
                                     </a>
                                 </div>
@@ -732,12 +732,12 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/lo-jack.php">
+                                    <a class="img-client" href="./proyectos/Lo-Jack.php">
                                         <img src="images/icon/clientes/lo-jack-logo.png" alt="lo-jack-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="./proyectos/regus.php">
+                                    <a class="img-client" href="./proyectos/Regus.php">
                                         <img src="images/icon/clientes/regus.png" alt="regus">
                                     </a>
                                 </div>
@@ -751,22 +751,22 @@
                         <div class="row m-b-10 logos-home logos-home-mobile">
                             <div class="screen-inner row active">
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/andreani.php">
+                                    <a class="img-client" href="./proyectos/Andreani.php">
                                         <img src="images/icon/clientes/andreani-logo.png" alt="andreani-logo">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/asapp.php">
+                                    <a class="img-client" href="./proyectos/Asapp.php">
                                         <img src="images/icon/clientes/asapp-logo.png" alt="asapp-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client belatrix-logo" href="./proyectos/belatrix.php">
+                                    <a class="img-client belatrix-logo" href="./proyectos/Belatrix.php">
                                         <img src="images/icon/clientes/belatrix-logo.png" alt="belatrix-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/comviva.php">
+                                    <a class="img-client" href="./proyectos/Comviva.php">
                                         <img src="images/icon/clientes/comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
@@ -774,22 +774,22 @@
 
                             <div class="screen-inner row">
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/despegar.php">
+                                    <a class="img-client" href="./proyectos/Despegar.php">
                                         <img src="images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/digital-house.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/emergencias.php">
+                                    <a class="img-client" href="./proyectos/Emergencias.php">
                                         <img src="images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/etex.php">
+                                    <a class="img-client" href="./proyectos/Etex.php">
                                         <img src="images/icon/clientes/etex-logo.png" alt="etex-logo.png">
                                     </a>
                                 </div>
@@ -797,12 +797,12 @@
 
                             <div class="screen-inner row">
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/kimberly-clark.php">
+                                    <a class="img-client" href="./proyectos/Kimberly-Clark.php">
                                         <img src="images/icon/clientes/kimberly-clark-logo-1.png" alt="kimberly-clark-logo-1.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/prudential.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -820,7 +820,7 @@
 
                             <div class="screen-inner row">
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/MAE.php">
+                                    <a class="img-client" href="./proyectos/Mae.php">
                                         <img src="images/icon/clientes/MAE-logo.png" alt="MAE-logo.png">
                                     </a>
                                 </div>
@@ -830,12 +830,12 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/navent.php">
+                                    <a class="img-client" href="./proyectos/Navent.php">
                                         <img src="images/icon/clientes/navent-logo.png" alt="navent-logo.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/pedidos-ya.php">
+                                    <a class="img-client" >
                                         <img src="images/icon/clientes/pedidos-ya-logo.png" alt="pedidos-ya-logo.png">
                                     </a>
                                 </div>
@@ -843,17 +843,17 @@
 
                             <div class="screen-inner row">
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/PHD.php">
+                                    <a class="img-client" href="./proyectos/Phd.php">
                                         <img src="images/icon/clientes/PHD-LOGO-NUEVO.png" alt="PHD-LOGO-NUEVO">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/regus.php">
+                                    <a class="img-client" href="./proyectos/Regus.php">
                                         <img src="images/icon/clientes/regus.png" alt="regus">
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="./proyectos/lo-jack.php">
+                                    <a class="img-client" href="./proyectos/Lo-Jack.php">
                                         <img src="images/icon/clientes/lo-jack-logo.png" alt="lo-jack-logo.png">
                                     </a>
                                 </div>
