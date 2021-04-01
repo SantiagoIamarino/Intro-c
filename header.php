@@ -1,6 +1,6 @@
 <?php
 
-    $url = 'http://intro.lunadi.wnpower.host/';
+    $url = 'http://www.introarquitectura.com.ar/';
     /* $url = 'http://localhost/Intro/'; */
 
 ?> 

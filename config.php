@@ -1,9 +1,9 @@
 <?php
     
     /* ESTAS VAN A PRODUCCIÓN */
-    $dsn = 'mysql:dbname=lunadiwn_intro;host=localhost';
-    $user = 'lunadiwn_intro';
-    $password = 'P4fhBnf;oXXH';
+    $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
+    $user = 'introarquitectur_main';
+    $password = 'Pv!-,ZBkW[WS';
 
     /* ESTAS SON PARA DEV  */
     // $dsn = 'mysql:dbname=intro;host=localhost';
@@ -11,7 +11,7 @@
     // $password = 'root';
 
     // $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
-    $upload_dir = '/home/lunadiwn/intro.lunadi.wnpower.host/uploads/';
+    $upload_dir = '/home/introarquitectur/public_html/uploads';
 
     try {
         $db = new PDO($dsn, $user, $password);
