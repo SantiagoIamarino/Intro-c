@@ -13,32 +13,32 @@
     <title>Nosotros</title>
 
     <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/themify-font/themify-icons.css" rel="stylesheet" media="all">
+    <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/themify-font/themify-icons.css" rel="stylesheet" media="all">
     <!-- Base fonts of theme-->
-    <link href="css/roboto-font.min.css" rel="stylesheet" media="all">
+    <link href="../css/roboto-font.min.css" rel="stylesheet" media="all">
     <!-- Font special for pages-->
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../vendor/select2/select2.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="../css/main.min.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
-    <link rel="shortcut icon" href="images/icon/favicon.jpg">
-    <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-<!-- Google Tag Manager -->
+    <link rel="shortcut icon" href="../images/icon/favicon.jpg">
+    <link rel="apple-touch-icon" href="../apple-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -49,13 +49,13 @@
 
 <body class="animsition js-preloader">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
+    <noscript><iframe src="../https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="page-wrapper">
         <!-- HEADER-->
-        <?php require('header.php') ?>
+        <?php require('../header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -88,7 +88,7 @@
             <section class="section">
                 <div class="wrap wrap--w1790">
                     <div class="container-fluid">
-                        <img src="./images/nosotros/nosotros-foto-grupal-intro.jpg" alt="Intro Arquitectura">
+                        <img src=".././images/nosotros/nosotros-foto-grupal-intro.jpg" alt="Intro Arquitectura">
                     </div>
                 </div>
             </section>
@@ -162,7 +162,7 @@
                         <div class="col-md-6 col-lg-4">
                             <article class="media media-service">
                                 <figure class="media__img">
-                                    <img src="images/circulos/CIRCULO-PLANIFICACIÓN.jpg" alt="architecture" />
+                                    <img src="../images/circulos/CIRCULO-PLANIFICACIÓN.jpg" alt="architecture" />
                                 </figure>
                                 <div class="media__title">
                                     <h3 class="title">
@@ -176,7 +176,7 @@
                         <div class="col-md-6 col-lg-4">
                             <article class="media media-service">
                                 <figure class="media__img">
-                                    <img src="images/circulos/CIRCULO-DISEÑO.jpg" alt="Interior" />
+                                    <img src="../images/circulos/CIRCULO-DISEÑO.jpg" alt="Interior" />
                                 </figure>
                                 <div class="media__title">
                                     <h3 class="title">
@@ -190,7 +190,7 @@
                         <div class="col-md-6 col-lg-4">
                             <article class="media media-service">
                                 <figure class="media__img">
-                                    <img src="images/circulos/CIRCULO-CONSTRUCCION.jpg" alt="planning" />
+                                    <img src="../images/circulos/CIRCULO-CONSTRUCCION.jpg" alt="planning" />
                                 </figure>
                                 <div class="media__title">
                                     <h3 class="title">
@@ -218,9 +218,9 @@
                             <article class="media media-service-1">
                                 <figure class="media__img">
                                     <div class="media__img-inner">
-                                        <img src="images/circulos/CIRCULO-PLANIFICACION.jpg" alt="architecture" />
+                                        <img src="../images/circulos/CIRCULO-PLANIFICACION.jpg" alt="architecture" />
                                     </div>
-                                    <img class="img-line" src="images/icon/line.png" alt="Line" />
+                                    <img class="img-line" src="../images/icon/line.png" alt="Line" />
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
@@ -235,9 +235,9 @@
                             <article class="media media-service-1">
                                 <figure class="media__img">
                                     <div class="media__img-inner">
-                                        <img src="images/circulos/CIRCULO-DISENO.jpg" alt="Interior" />
+                                        <img src="../images/circulos/CIRCULO-DISENO.jpg" alt="Interior" />
                                     </div>
-                                    <img class="img-rotate-1 img-line" src="images/icon/line.png" alt="Line" />
+                                    <img class="img-rotate-1 img-line" src="../images/icon/line.png" alt="Line" />
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
@@ -252,9 +252,9 @@
                             <article class="media media-service-1">
                                 <figure class="media__img">
                                     <div class="media__img-inner">
-                                        <img src="images/circulos/CIRCULO-CONSTRUCCION.jpg" alt="planning" />
+                                        <img src="../images/circulos/CIRCULO-CONSTRUCCION.jpg" alt="planning" />
                                     </div>
-                                    <img class="img-rotate-2 img-line" src="images/icon/line.png" alt="Line" />
+                                    <img class="img-rotate-2 img-line" src="../images/icon/line.png" alt="Line" />
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
@@ -284,44 +284,44 @@
                             <div class="row slide-hidden">
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/andreani-logo.png" alt="andreani-logo">
+                                        <img src="../images/icon/clientes/andreani-logo.png" alt="andreani-logo">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/asapp-logo.png" alt="asapp-logo.png">
+                                        <img src="../images/icon/clientes/asapp-logo.png" alt="asapp-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3 belatrix-logo">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/belatrix-logo.png" alt="belatrix-logo.png">
+                                        <img src="../images/icon/clientes/belatrix-logo.png" alt="belatrix-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
+                                        <img src="../images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
                             </div>
                             <div class="row slide-two">
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/Daikin-logo.png" alt="Daikin-logo.png">
+                                        <img src="../images/icon/clientes/Daikin-logo.png" alt="Daikin-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
+                                        <img src="../images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
+                                        <img src="../images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <a class="img-client m-b-60" >
-                                        <img src="images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
+                                        <img src="../images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
                                     </a>
                                 </div>
                             </div>
@@ -343,7 +343,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/GASTON-JURSCHAN-GERENTE-GENERAL.jpg" alt="Gustavo Jurschan" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/GASTON-JURSCHAN-GERENTE-GENERAL.jpg" alt="Gustavo Jurschan" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -357,7 +357,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" alt="MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" alt="MIGUEL-GREHAN-DIRECTOR-COMERCIAL.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -371,7 +371,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" alt="CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" alt="CONSTANZA-HUERGO-GERENTE-ADMINISTRACION.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -385,7 +385,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/VIRGINIA-MARTINEZ-PROYECTOS.jpg" alt="VIRGINIA-MARTINEZ-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/VIRGINIA-MARTINEZ-PROYECTOS.jpg" alt="VIRGINIA-MARTINEZ-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -399,7 +399,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/COSME-MACIEL-GERENTE-OBRAS.jpg"
+                                    <img class="media__img img--rounded" src="../images/nosotros/COSME-MACIEL-GERENTE-OBRAS.jpg"
                                         alt="Kim Harrington" />
                                 </figure>
                                 <div class="media__body">
@@ -414,7 +414,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/CLARA-LOSADA-GERENTE-PROYECTOS.jpg" alt="Clara Losada" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/CLARA-LOSADA-GERENTE-PROYECTOS.jpg" alt="Clara Losada" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -431,7 +431,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/MOIRA-MARTOS-GRILANC-OBRAS.jpg" alt="MOIRA-MARTOS-GRILANC-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/MOIRA-MARTOS-GRILANC-OBRAS.jpg" alt="MOIRA-MARTOS-GRILANC-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -445,7 +445,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/VALERIA-BARREIRO-PROYECTOS.jpg" alt="Valeria Barreiro" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/VALERIA-BARREIRO-PROYECTOS.jpg" alt="Valeria Barreiro" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -459,7 +459,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/LEVON-ASHARDJIAN-OBRAS.jpg" alt="LEVON-ASHARDJIAN-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/LEVON-ASHARDJIAN-OBRAS.jpg" alt="LEVON-ASHARDJIAN-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -473,7 +473,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" alt="CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" alt="CECILIA-GIL-PROJECT-MANAGER-COMERCIAL.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -487,7 +487,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/PAZ-VASENA-OBRAS.jpg" alt="PAZ-VASENA-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/PAZ-VASENA-OBRAS.jpg" alt="PAZ-VASENA-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -501,7 +501,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/ALEJANDRA-ARMESTO-OBRAS.jpg" alt="ALEJANDRA-ARMESTO-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/ALEJANDRA-ARMESTO-OBRAS.jpg" alt="ALEJANDRA-ARMESTO-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -521,7 +521,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/Daniela-Torresin-Administracion.jpg" alt="Daniela-Torresin-Administracion.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/Daniela-Torresin-Administracion.jpg" alt="Daniela-Torresin-Administracion.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -535,7 +535,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/GERMAN-ORTIZ-OBRAS.jpg" alt="GERMAN ORTIZ" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/GERMAN-ORTIZ-OBRAS.jpg" alt="GERMAN ORTIZ" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -549,7 +549,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" alt="VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" alt="VICTORIA-CARRANCIO-PROJECT-MANAGER-COMERCIAL.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -563,7 +563,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/CAMILA-CAZES-PROYECTOS.jpg" alt="CAMILA-CAZES-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/CAMILA-CAZES-PROYECTOS.jpg" alt="CAMILA-CAZES-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -577,7 +577,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/BRUNO-RIGANTI-OBRAS.jpg" alt="BRUNO-RIGANTI-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/BRUNO-RIGANTI-OBRAS.jpg" alt="BRUNO-RIGANTI-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -591,7 +591,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/DANIELA-SERRA-PROYECTOS.jpg" alt="DANIELA-SERRA-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/DANIELA-SERRA-PROYECTOS.jpg" alt="DANIELA-SERRA-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -612,7 +612,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/FLORENCIA-MORENO-OPERACIONES.jpg" alt="FLORENCIA-MORENO-OPERACIONES.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/FLORENCIA-MORENO-OPERACIONES.jpg" alt="FLORENCIA-MORENO-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -626,7 +626,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/LUIS-QUISPE-CABELLO-OPERACIONES.jpg" alt="LUIS-QUISPE-CABELLO-OPERACIONES.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/LUIS-QUISPE-CABELLO-OPERACIONES.jpg" alt="LUIS-QUISPE-CABELLO-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -640,7 +640,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/MAITE-DABADIE-PROYECTOS.jpg" alt="MAITE-DABADIE-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/MAITE-DABADIE-PROYECTOS.jpg" alt="MAITE-DABADIE-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -654,7 +654,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" alt="FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" alt="FACUNDO-FERRARO-PORCEL-DE-PERALTA-OBRAS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -668,7 +668,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/EMILIA-SERRA-PROYECTOS.jpg" alt="EMILIA-SERRA-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/EMILIA-SERRA-PROYECTOS.jpg" alt="EMILIA-SERRA-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -682,7 +682,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" alt="JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" alt="JUAN-PABLO-SANTILLI-GERENTE-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -703,7 +703,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/ERIKA-CAAMANO-GERENTE-PRESUPUESTOS.jpg" alt="ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/ERIKA-CAAMANO-GERENTE-PRESUPUESTOS.jpg" alt="ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -717,7 +717,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/PAOLO-MANDUCA-ADMINISTRACION.jpg" alt="PAOLO-MANDUCA-ADMINISTRACION.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/PAOLO-MANDUCA-ADMINISTRACION.jpg" alt="PAOLO-MANDUCA-ADMINISTRACION.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -731,7 +731,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" alt="RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" alt="RODRIGO-GONZALEZ-PRESUPUESTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -745,7 +745,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/GIULIANA-DONATELLI-PROYECTOS.jpg" alt="GIULIANA-DONATELLI-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/GIULIANA-DONATELLI-PROYECTOS.jpg" alt="GIULIANA-DONATELLI-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -759,7 +759,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/JIMENA-LISTENGART-PROYECTOS.jpg" alt="JIMENA-LISTENGART-PROYECTOS.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/JIMENA-LISTENGART-PROYECTOS.jpg" alt="JIMENA-LISTENGART-PROYECTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -773,7 +773,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/LUCAS-PAREDES-OPERACIONES.jpg" alt="LUCAS-PAREDES-OPERACIONES.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/LUCAS-PAREDES-OPERACIONES.jpg" alt="LUCAS-PAREDES-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -791,7 +791,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/MARIANO-URQUIZA-OBRAS.jpeg" alt="MARIANO-URQUIZA-OBRAS.jpeg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/MARIANO-URQUIZA-OBRAS.jpeg" alt="MARIANO-URQUIZA-OBRAS.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -805,7 +805,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" alt="RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" alt="RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -819,7 +819,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/JUAN-MANUEL-MARQUEZ.jpg" alt="JUAN-MANUEL-MARQUEZ.jpg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/JUAN-MANUEL-MARQUEZ.jpg" alt="JUAN-MANUEL-MARQUEZ.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -847,7 +847,7 @@
                         <div class="footer-col">
                             <div class="widget m-b-25">
                                 <a href="#">
-                                    <img src="images/icon/logo-white.png" alt="Tatee" />
+                                    <img src="../images/icon/logo-white.png" alt="Tatee" />
                                 </a>
                             </div>
                             <div class="widget widget-address">
@@ -868,10 +868,10 @@
                                         <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="proyectos.php">Proyectos</a>
+                                        <a href="proyectos/">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="contacto.php">Contacto</a>
+                                        <a href="contacto/">Contacto</a>
                                     </li>
                                 </ul>
                             </div>
@@ -926,25 +926,25 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="../vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS-->
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/slick/slick.min.js"></script>
-    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
-    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/matchHeight/jquery.matchHeight-min.js"></script>
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/sweetalert/sweetalert.min.js"></script>
-    <script src="vendor/noUiSlider/nouislider.min.js"></script>
+    <script src="../vendor/animsition/animsition.min.js"></script>
+    <script src="../vendor/slick/slick.min.js"></script>
+    <script src="../vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="../vendor/wow/wow.min.js"></script>
+    <script src="../vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="../vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="../vendor/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="../vendor/matchHeight/jquery.matchHeight-min.js"></script>
+    <script src="../vendor/select2/select2.min.js"></script>
+    <script src="../vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="../vendor/noUiSlider/nouislider.min.js"></script>
 
     <!-- Main JS-->
-    <script src="js/global.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/custom.js"></script>
 
 </body>
 

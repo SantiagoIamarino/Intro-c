@@ -1,9 +1,9 @@
 <?php 
 
-    require('config.php');
+    require('../config.php');
 
     if(!isset($_GET['postId']) || empty($_GET['postId'])){
-        header('Location: ./index.php');
+        header('Location: ../');
     }
 
     $statement = $db->prepare('SELECT * FROM posts WHERE id = :postId');
@@ -53,31 +53,31 @@
     <title><?php echo $post['title'] ?></title>
 
     <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/themify-font/themify-icons.css" rel="stylesheet" media="all">
+    <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/themify-font/themify-icons.css" rel="stylesheet" media="all">
     <!-- Base fonts of theme-->
-    <link href="css/roboto-font.min.css" rel="stylesheet" media="all">
+    <link href="../css/roboto-font.min.css" rel="stylesheet" media="all">
     <!-- Font special for pages-->
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../vendor/select2/select2.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="../css/main.min.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
-    <link rel="shortcut icon" href="images/icon/favicon.jpg">
-    <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="shortcut icon" href="../images/icon/favicon.jpg">
+    <link rel="apple-touch-icon" href="../apple-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
 <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -95,7 +95,7 @@
 
     <div class="page-wrapper">
         <!-- HEADER-->
-        <?php require('header.php') ?>
+        <?php require('../header.php') ?>
         <!-- END HEADER-->
 
         <!-- MAIN-->
@@ -123,7 +123,7 @@
                                     <span class="entry-date"><?php echo date('d', strtotime($post['date'])) ?> - <?php echo date('m', strtotime($post['date'])) ?> - <?php echo date('Y', strtotime($post['date'])) ?></span>
                                 </header>
                                 <div class="entry-content">
-                                    <img class="wp-post-image" src="<?php echo './uploads/' . $post['imageUrl'] ?>" alt="Blog 1">
+                                    <img class="wp-post-image" src="<?php echo '../uploads/' . $post['imageUrl'] ?>" alt="<?php echo $post['slug'] ?>">
                                     <?php echo $post['content'] ?>
                                 </div>
                                 <footer class="entry-footer">
@@ -167,7 +167,7 @@
                                             <article class="comment-body">
                                                 <header class="comment-meta">
                                                     <div class="comment-author vcard">
-                                                        <img class="avatar" src="images/user-01.jpg" alt="user 1">
+                                                        <img class="avatar" src="../images/user-01.jpg" alt="user 1">
                                                         <b class="fn"><?php echo $comment['name'] ?></b>
                                                     </div>
                                                     <div class="comment-metadata">
@@ -244,7 +244,7 @@
                         <div class="footer-col">
                             <div class="widget m-b-25">
                                 <a href="#">
-                                    <img src="images/icon/logo-white.png" alt="Tatee" />
+                                    <img src="../images/icon/logo-white.png" alt="Tatee" />
                                 </a>
                             </div>
                             <div class="widget widget-address">
@@ -262,13 +262,13 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.php">Nosotros</a>
+                                        <a href="../about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="proyectos.php">Proyectos</a>
+                                        <a href="../proyectos/">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="contacto.php">Contacto</a>
+                                        <a href="../contacto/">Contacto</a>
                                     </li>
                                 </ul>
                             </div>
@@ -323,24 +323,24 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="../vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS-->
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/slick/slick.min.js"></script>
-    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
-    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/matchHeight/jquery.matchHeight-min.js"></script>
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/sweetalert/sweetalert.min.js"></script>
-    <script src="vendor/noUiSlider/nouislider.min.js"></script>
+    <script src="../vendor/animsition/animsition.min.js"></script>
+    <script src="../vendor/slick/slick.min.js"></script>
+    <script src="../vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="../vendor/wow/wow.min.js"></script>
+    <script src="../vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="../vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="../vendor/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="../vendor/matchHeight/jquery.matchHeight-min.js"></script>
+    <script src="../vendor/select2/select2.min.js"></script>
+    <script src="../vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="../vendor/noUiSlider/nouislider.min.js"></script>
 
     <!-- Main JS-->
-    <script src="js/global.js"></script>
+    <script src="../js/global.js"></script>
 
 </body>
 

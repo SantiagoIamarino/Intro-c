@@ -98,13 +98,13 @@
                                 <a onclick='closeMenu()' href="about-us.php">Nosotros</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="proyectos.php">Proyectos</a>
+                                <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="blog.php">Blog</a>
+                                <a onclick='closeMenu()' href="blog/">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contacto.php">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -199,13 +199,13 @@
                                 <a onclick='closeMenu()' href="about-us.php">Nosotros</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="proyectos.php">Proyectos</a>
+                                <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="blog.php">Blog</a>
+                                <a onclick='closeMenu()' href="blog/">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contacto.php">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -228,8 +228,8 @@
                     </a>
                 </li>
                 <li class="list-social__item">
-                    <a href="https://www.linkedin.com/company/intro-arquitectura-srl-" target='_blank'>twitter
-                        <i class="fab fa-twitter icon"></i>
+                    <a href="https://www.linkedin.com/company/intro-arquitectura-srl-" target='_blank'>LinkedIn
+                        <i class="fab fa-linkedin icon"></i>
                     </a>
                 </li>
                 <!-- <li class="list-social__item">
@@ -289,7 +289,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[105, 105, 105, 105, 105]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -314,7 +314,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[95, 95, 105, 105, 85]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -339,7 +339,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <!-- <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
+                                <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -364,7 +364,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                               <!--  <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
+                               <!--  <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -389,7 +389,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
                                     construcción y transformación de espacios de trabajo.</h2>
-                                <a class="tp-caption tp-resizeme" href="contacto.php" target="_self"
+                                <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
                                     data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
@@ -529,7 +529,7 @@
                             </div>
                         </div>
                         <div class="text-center p-t-80">
-                            <a class="au-btn au-btn--light" href="proyectos.php">Ver más proyectos</a>
+                            <a class="au-btn au-btn--light" href="proyectos/">Ver más proyectos</a>
                         </div>
                     </div>
                 </div>
@@ -1081,10 +1081,10 @@
                                         <a href="about-us.php">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="proyectos.php">Proyectos</a>
+                                        <a href="proyectos/">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="contacto.php">Contacto</a>
+                                        <a href="contacto/">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

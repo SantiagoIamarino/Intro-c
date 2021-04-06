@@ -20,19 +20,19 @@
                             <nav class="header-nav-menu">
                                 <ul class="menu nav-menu">
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>index.php">Inicio</a>
+                                        <a href="<?php echo $url ?>">Inicio</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>about-us.php">Nosotros</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>proyectos.php">Proyectos</a>
+                                        <a href="<?php echo $url ?>proyectos/">Proyectos</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>blog.php">Blog</a>
+                                        <a href="<?php echo $url ?>blog/">Blog</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>contacto.php">Contacto</a>
+                                        <a href="<?php echo $url ?>contacto/">Contacto</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -121,19 +121,19 @@
             <div class="container-fluid">
                 <ul class="menu nav-menu menu-mobile">
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>index.php">Inicio</a>
+                        <a href="<?php echo $url ?>">Inicio</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>about-us.php">Nosotros</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>proyectos.php">Proyectos</a>
+                        <a href="<?php echo $url ?>proyectos/">Proyectos</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>blog.php">Blog</a>
+                        <a href="<?php echo $url ?>blog/">Blog</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>contacto.php">Contacto</a>
+                        <a href="<?php echo $url ?>contacto/">Contacto</a>
                     </li>
                 </ul>
             </div>
