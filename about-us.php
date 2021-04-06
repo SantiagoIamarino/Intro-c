@@ -587,13 +587,6 @@
                                 </div>
                             </article>
                         </div>
-                    </div>
-
-
-                    <!-- Cuarto Bloque de nosotros  -->
-                    
-
-                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
@@ -608,6 +601,13 @@
                                 </div>
                             </article>
                         </div>
+                    </div>
+
+
+                    <!-- Cuarto Bloque de nosotros  -->
+                    
+
+                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
@@ -626,7 +626,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/LUIS-QUISPE-CABELLO-OPERACIONES.JPG" alt="LUIS-QUISPE-CABELLO-OPERACIONES.JPG" />
+                                    <img class="media__img img--rounded" src="images/nosotros/LUIS-QUISPE-CABELLO-OPERACIONES.jpg" alt="LUIS-QUISPE-CABELLO-OPERACIONES.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -678,13 +678,6 @@
                                 </div>
                             </article>
                         </div>
-                    </div>
-
-
-                    <!-- Comienza quinto bloque -->
-                    
-
-                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
@@ -699,11 +692,18 @@
                                 </div>
                             </article>
                         </div>
+                    </div>
+
+
+                    <!-- Comienza quinto bloque -->
+                    
+
+                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" alt="ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" />
+                                    <img class="media__img img--rounded" src="images/nosotros/ERIKA-CAAMANO-GERENTE-PRESUPUESTOS.jpg" alt="ERIKA-CAAMAÑO-GERENTE-PRESUPUESTOS.jpg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
@@ -769,10 +769,6 @@
                                 </div>
                             </article>
                         </div>
-                    </div>
-                    <!-- Comienza sexto bloque -->
-
-                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
@@ -787,6 +783,10 @@
                                 </div>
                             </article>
                         </div>
+                    </div>
+                    <!-- Comienza sexto bloque -->
+
+                    <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
                                 <figure class="media__img-wrap">
@@ -798,48 +798,6 @@
                                         <a href="#">MARIANO URQUIZA</a>
                                     </h4>
                                     <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/juan-ignacio-parada-obras.jpg" alt="juan-ignacio-parada-obras.jpg" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">JUAN IGNACIO PARADA</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/EDGAR-GONZALEZ-OPERACIONES.jpg" alt="EDGAR-GONZALEZ-OPERACIONES.jpg" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">EDGAR GONZALEZ</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Operaciones</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="images/nosotros/DIANA-GARRIDO-PRESUPUESTOS.jpeg" alt="DIANA-GARRIDO-PRESUPUESTOS.jpeg" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">DIANA GARRIDO</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Presupuestos</span>
                                 </div>
                             </article>
                         </div>
