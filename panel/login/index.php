@@ -78,7 +78,7 @@ error_reporting(E_ALL);
     })(window,document,'script','dataLayer','GTM-5M43SWV');</script>
     <!-- End Google Tag Manager -->
 </head>
-<body class="animsition js-preloader">
+<body class="js-preloader">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
