@@ -335,7 +335,7 @@
             <section class="p-t-120 p-b-30">
                 <div class="container">
                     <div class="section-title m-b-70">
-                        <h5 class="title-sub">awesome people</h5>
+                        
                         <h2 class="title-1">CONOCE A NUESTRO EQUIPO</h2>
                     </div>
                     <div class="row">

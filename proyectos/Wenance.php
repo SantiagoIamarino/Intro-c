@@ -68,19 +68,19 @@
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-3.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-3.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/portada-Wenance.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Wenance/portada-wenance.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-vertical.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-vertical.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
