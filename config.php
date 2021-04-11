@@ -1,17 +1,19 @@
 <?php
     
     /* ESTAS VAN A PRODUCCIÓN */
-    $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
+    /* $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
     $user = 'introarquitectur_main';
-    $password = 'Pv!-,ZBkW[WS';
+    $password = 'Pv!-,ZBkW[WS'; */
 
     /* ESTAS SON PARA DEV  */
     $dsn = 'mysql:dbname=intro;host=localhost';
     $user = 'root';
     $password = 'root';
 
-    // $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
-    $upload_dir = '/home/introarquitectur/public_html/uploads';
+    //Producción
+    $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
+    //dev
+    /* $upload_dir = '/home/introarquitectur/public_html/uploads'; */
 
     try {
         $db = new PDO($dsn, $user, $password);

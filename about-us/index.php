@@ -34,10 +34,23 @@
     <link href="../css/main.min.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
-    <link rel="shortcut icon" href="../images/icon/favicon.jpg">
-    <link rel="apple-touch-icon" href="../apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon/favicon-16x16.png">
+    <link rel="manifest" href="../images/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -349,7 +362,7 @@
                                     <h4 class="title--sm">
                                         <a href="#">GASTON JURSCHAN</a>
                                     </h4>
-                                    <span class="title-sub--sm">Gerente Administración</span>
+                                    <span class="title-sub--sm">Gerente General</span>
                                 </div>
                             </article>
                         </div>
@@ -791,21 +804,7 @@
                             <article class="media-team">
                                 <figure class="media__img-wrap">
                                     <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="../images/nosotros/MARIANO-URQUIZA-OBRAS.jpeg" alt="MARIANO-URQUIZA-OBRAS.jpeg" />
-                                </figure>
-                                <div class="media__body">
-                                    <h4 class="title--sm">
-                                        <a href="#">MARIANO URQUIZA</a>
-                                    </h4>
-                                    <span class="title-sub--sm">Obras</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <article class="media-team">
-                                <figure class="media__img-wrap">
-                                    <span class="overlay"></span>
-                                    <img class="media__img img--rounded" src="../images/nosotros/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" alt="RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" />
+                                    <img class="media__img img--rounded" src="../images/nosotros/RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpg" alt="RODRIGO-ALBORJA-GERENTE-COMERCIAL.jpeg" />
                                 </figure>
                                 <div class="media__body">
                                     <h4 class="title--sm">
