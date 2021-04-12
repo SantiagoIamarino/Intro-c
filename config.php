@@ -6,12 +6,12 @@
     $password = 'Pv!-,ZBkW[WS';
 
     /* ESTAS SON PARA DEV  */
-    /* $dsn = 'mysql:dbname=intro;host=localhost';
-    $user = 'root';
-    $password = 'root'; */
+    //  $dsn = 'mysql:dbname=intro;host=localhost';
+    // $user = 'root';
+    // $password = 'root'; 
 
     //dev
-    $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
+    // $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
     //prod
     $upload_dir = '/home/introarquitectur/public_html/uploads';
 

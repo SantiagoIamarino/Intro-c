@@ -68,7 +68,7 @@
     <!-- End Google Tag Manager -->
 </head>
 
-<body class="animsition js-preloader">
+<body class=" js-preloader">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -797,7 +797,7 @@
                                 </div>
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/Comviva.php">
-                                        <img src="images/icon/clientes/comviva-logo.png" alt="Comviva-logo.png">
+                                        <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
                             </div>
@@ -1044,7 +1044,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <form class="form-contact js-contact-form" method="POST" action="#">
+                                <form class="form-contact js-contact-form" method="POST" 
+                                    action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
                                     <div class="form-row no-gutters">
                                         <div class="col-md-6">
                                             <input class="au-input" type="text" name="name" placeholder="Nombre" required="required">
@@ -1054,7 +1055,9 @@
                                         <div class="col-md-6 p-r-0">
                                             <textarea class="au-textarea" name="message" placeholder="Mensaje*" required="required"></textarea>
                                             <div class="text-right">
-                                                <button class="au-btn au-btn--solid" type="submit">Enviar mensaje</button>
+                                                <button name='contact' class="au-btn au-btn--solid" type="submit">
+                                                Enviar mensaje
+                                                </button>
                                             </div>
                                         </div>
                                     </div>

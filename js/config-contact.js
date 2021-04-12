@@ -1,4 +1,11 @@
 
+function handleLoading() {
+    if($('.page-wrapper').hasClass('animsition-loading')) {
+        $('.page-wrapper').removeClass('animsition-loading');
+    } else {
+        $('.page-wrapper').addClass('animsition-loading');
+    }
+}
 
 (function ($) {
     // USE STRICT
@@ -11,28 +18,23 @@
         contactFormWrapper.each(function () {
            var that = $(this);
             that.on('submit', function (e) {
-                var url = "includes/contact-form.php";
+                var url = "http://localhost/Intro/contact-form.php";
+                const data = $(this).serialize() + '&contact=yes';
+                handleLoading();
+
                 
                 $.ajax({
                     type: "POST",
                     url: url,
-                    data: $(this).serialize(),
+                    data,
                     success: function (data)
                     {
-                        var result = JSON.parse(data);
-
-                        var message = result.message;
-                        var type = result.type;
-                        if (type === 1) {
-                            swal ( "Success" ,  message ,  "success" );
-                            // that.reset();
-                        } else if (type === 0) {
-                            swal ( "Success" ,  message ,  "error" );
-                        }
+                        handleLoading();
+                        swal ( "Correcto" ,  "Se ha enviado el correo correctamente!" ,  "success" );
                     },
                     statusCode: {
                         404: function() {
-                            swal ( "Oops" ,  "File Not Found!" ,  "error" );
+                            swal ( "Oops" ,  "Ha ocurrido un error al enviar el mensaje" ,  "error" );
                         }
                     },
                     error: function (jqXHR, textStatus, errorThrown ) {
