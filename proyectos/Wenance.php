@@ -34,10 +34,23 @@
     <link href="../css/main.min.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
-    <link rel="shortcut icon" href="../images/icon/favicon.jpg">
-    <link rel="apple-touch-icon" href="../apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon/favicon-16x16.png">
+    <link rel="manifest" href="../images/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,19 +81,19 @@
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-1.jpg" alt="Post 1">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-2.jpg" alt="Post 2">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-3.jpg" alt="Post 3">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-3.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/portada-Wenance.jpg" alt="Post 4">
+                                <img class="wp-post-image" src="../imagenes/Wenance/portada-wenance.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/WENANCE/Wenance-vertical.jpg" alt="Post 5">
+                                <img class="wp-post-image" src="../imagenes/Wenance/wenance-vertical.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -127,7 +140,7 @@
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Compartir :</span>
+                                <span class="key">Redes Sociales :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

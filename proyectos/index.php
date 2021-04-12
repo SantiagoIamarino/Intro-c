@@ -34,10 +34,23 @@
     <link href="../css/main.min.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
-    <link rel="shortcut icon" href="../images/icon/favicon.jpg">
-    <link rel="apple-touch-icon" href="../apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon/favicon-16x16.png">
+    <link rel="manifest" href="../images/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -328,7 +341,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./PHD.php">PHD</a>
+                                        <a href="./Phd.php">PHD</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -494,16 +507,6 @@
                                             <i class="zmdi zmdi-instagram"></i>
                                         </a>
                                     </li>
-                                    <!-- <li class="list-social__item">
-                                        <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-pinterest" href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                        </a>
-                                    </li> -->
                                     <li class="list-social__item">
                                         <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                             <i class="zmdi zmdi-linkedin"></i>
