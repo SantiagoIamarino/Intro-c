@@ -95,7 +95,7 @@
                                 <a href="#" >Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="about-us.php">Nosotros</a>
+                                <a onclick='closeMenu()' href="about-us/">Nosotros</a>
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
@@ -196,7 +196,7 @@
                                 <a href="#" >Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="about-us.php">Nosotros</a>
+                                <a onclick='closeMenu()' href="about-us/">Nosotros</a>
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
@@ -1078,7 +1078,7 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="about-us.php">Nosotros</a>
+                                        <a href="about-us/">Nosotros</a>
                                     </li>
                                     <li>
                                         <a href="proyectos/">Proyectos</a>

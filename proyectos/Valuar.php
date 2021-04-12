@@ -192,7 +192,7 @@
                                 <h4 class="widget-title">Link</h4>
                                 <ul>
                                     <li>
-                                        <a href="../about-us.php">Nosotros</a>
+                                        <a href="../about-us/">Nosotros</a>
                                     </li>
                                     <li>
                                         <a href="../proyectos/">Proyectos</a>

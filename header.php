@@ -23,7 +23,7 @@
                                         <a href="<?php echo $url ?>">Inicio</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>about-us.php">Nosotros</a>
+                                        <a href="<?php echo $url ?>about-us/">Nosotros</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>proyectos/">Proyectos</a>
@@ -124,7 +124,7 @@
                         <a href="<?php echo $url ?>">Inicio</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>about-us.php">Nosotros</a>
+                        <a href="<?php echo $url ?>about-us/">Nosotros</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>proyectos/">Proyectos</a>
