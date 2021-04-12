@@ -679,7 +679,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client">
+                                    <a class="img-client" href="#">
                                         <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
@@ -689,7 +689,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" >
+                                    <a class="img-client" href="#" >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
@@ -712,7 +712,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" >
+                                    <a class="img-client" href="#" >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -808,7 +808,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" >
+                                    <a class="img-client" href="#" >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
@@ -831,7 +831,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" >
+                                    <a class="img-client" href="#" >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -864,7 +864,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" >
+                                    <a class="img-client" href="#" >
                                         <img src="images/icon/clientes/pedidos-ya-logo.png" alt="pedidos-ya-logo.png">
                                     </a>
                                 </div>
