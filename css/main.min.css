@@ -5436,7 +5436,13 @@ button {
         margin-left: 0 !important;
     }
     .logos-home .img-client img {
-        max-height: 50px;
+        max-height: 70px;
+    }
+    .logos-home .higher-row .img-client img {
+        max-height: 90px !important;
+    }
+    .logos-home .higher-row .img-client {
+        margin-bottom: 20px !important;
     }
 }
 .slick-wrap {
@@ -13798,6 +13804,15 @@ button:focus {
     width: auto;
     max-height: 100px;
 }
+.first-row {
+    margin-top: -20px;
+}
+.first-row .img-client {
+    margin-bottom: 50px;
+}
+.first-row .img-client img{
+    max-height: 120px;
+}
 .tp-bgimg.defaultimg {
     filter: brightness(0.5);
 }
@@ -13864,10 +13879,6 @@ button:focus {
 .contact-section .container{
     display: flex;
     flex-direction: column;
-}
-
-.belatrix-logo img {
-    transform: scale(2);
 }
 
 @media screen and (max-width: 768px) {

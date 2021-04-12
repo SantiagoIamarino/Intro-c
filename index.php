@@ -662,7 +662,7 @@
                 <div class="section-content">
                     <div class="container">
                         <div class="row m-b-10 logos-home">
-                            <div class="screen-inner row active">
+                            <div class="screen-inner row active first-row">
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Andreani.php">
                                         <img src="images/icon/clientes/andreani-logo.png" alt="andreani-logo">
@@ -767,8 +767,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Regus.php">
-                                        <img style='transform: scale(1.8)'
-                                            src="images/icon/clientes/regus.png" alt="regus">
+                                        <img src="images/icon/clientes/regus.png" alt="regus">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
@@ -779,7 +778,7 @@
                             </div>
                         </div>
                         <div class="row m-b-10 logos-home logos-home-mobile">
-                            <div class="screen-inner row active">
+                            <div class="screen-inner row active higher-row">
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/Andreani.php">
                                         <img src="images/icon/clientes/andreani-logo.png" alt="andreani-logo">
@@ -802,7 +801,7 @@
                                 </div>
                             </div>
 
-                            <div class="screen-inner row">
+                            <div class="screen-inner row higher-row">
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/Despegar.php">
                                         <img src="images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
@@ -825,7 +824,7 @@
                                 </div>
                             </div>
 
-                            <div class="screen-inner row">
+                            <div class="screen-inner row higher-row">
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/Kimberly-Clark.php">
                                         <img src="images/icon/clientes/kimberly-clark-logo-1.png" alt="kimberly-clark-logo-1.png">
@@ -848,7 +847,7 @@
                                 </div>
                             </div>
 
-                            <div class="screen-inner row">
+                            <div class="screen-inner row higher-row">
                                 <div class="screen-item">
                                     <a class="img-client" href="./proyectos/Mae.php">
                                         <img src="images/icon/clientes/MAE-logo.png" alt="MAE-logo.png">

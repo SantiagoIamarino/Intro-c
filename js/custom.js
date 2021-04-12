@@ -13,7 +13,6 @@ let maxScreens = 2;
 function logosSlider() {
     setInterval(() => {
         if((actualLogosScreen + 1) > maxScreens) {
-            return;
             actualLogosScreen = 0;
             goingTo = 'back';
         } else if(goingTo == 'next') {
