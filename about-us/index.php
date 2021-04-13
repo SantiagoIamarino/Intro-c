@@ -90,7 +90,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Intro Arquitectura</h4>
-                        <h2 class="title-1">El equipo de Intro Arquitectura está conformado colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.</h2>
+                       <!--  <h2 class="title-1">El equipo de Intro Arquitectura está conformado colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.</h2> -->
                     </div>
                 </div>
             </section>
@@ -150,7 +150,7 @@
                             <p class="text--s18-40 m-b-15">
                                 <strong class="text--c2">El equipo</strong>
 
-                                 de Intro Arquitectura está conformado por más de 40 profesionales de amplia trayectoria en la industria de la arquitectura corporativa.
+                                 de Intro Arquitectura está conformado por colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.
                             </p>
                             <p class="text--s18-40">
                                 <strong class="text--c2">Desarrollamos</strong>
