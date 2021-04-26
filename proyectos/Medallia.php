@@ -60,6 +60,24 @@
     <!-- End Google Tag Manager -->
 </head>
 
+<style>
+    .medallia-video{
+        padding: 15px;
+        padding-bottom: 5vh;
+    }
+
+    .medallia-video iframe {
+        width: 100%; 
+        min-height: 600px;
+    }
+
+    @media screen and (max-width: 600px ){
+        .medallia-video iframe {
+            min-height: 400px;
+        }
+    }
+</style>
+
 <body class="animsition js-preloader">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
@@ -96,6 +114,9 @@
                                 <img class="wp-post-image" src="../imagenes/Medallia/ImgMedallia3.jpg" alt="Post 5">
                             </div>
                         </div>
+                    </div>
+                    <div class="row m-t-20 medallia-video">
+                        <iframe src="https://www.youtube.com/embed/aw7bc18V8Gk" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="row m-t-20">
                         <div class="col-lg-5">

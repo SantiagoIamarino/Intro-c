@@ -2,9 +2,10 @@
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
-    require 'vendor/PHPMailer/src/Exception.php';
-    require 'vendor/PHPMailer/src/PHPMailer.php';
-    require 'vendor/PHPMailer/src/SMTP.php';
+    require __DIR__ . '/vendor/phpmailer/src/Exception.php';
+    require __DIR__ . '/vendor/phpmailer/src/PHPMailer.php';
+    require __DIR__ . '/vendor/phpmailer/src/SMTP.php';
+
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' &&  isset($_POST['contact'])){
         $mail = new PHPMailer();
@@ -13,17 +14,17 @@
 
         $mail->SMTPDebug  = 1;  
         $mail->SMTPAuth   = TRUE;
-        $mail->SMTPSecure = "tls";
-        $mail->Port       = 587;
+        $mail->SMTPSecure = "ssl";
+        $mail->Port       = 465;
         $mail->Host       = "smtp.gmail.com";
-        $mail->Username   = "ifdesing.contacto@gmail.com";
-        $mail->Password   = "Huracan125";
+        $mail->Username   = "web@introarquitectura.com.ar";
+        $mail->Password   = "Pagina2021$$";
 
         $mail->IsHTML(true);
-        $mail->AddAddress("introarquitectur@introarquitectura.com.ar", "Intro Arquitectura");
+        $mail->AddAddress("info@introarquitectura.com.ar", "Intro Arquitectura");
         $mail->SetFrom($_POST['email'], $_POST['name']);
         $mail->AddReplyTo($_POST['email'], $_POST['name']);
-        $mail->AddCC("introarquitectur@introarquitectura.com.ar", "Intro Arquitectura");
+        $mail->AddCC("web@introarquitectura.com.ar", "Intro Arquitectura");
         $mail->Subject = "Nuevo contacto recibido de introarquitectura.com.ar";
         $content = "<p style='padding-bottom: 9px'><span style='font-weight: bold'>Nombre: </span>".$_POST['name']."</p>";
         $content .= "<p style='padding-bottom: 9px'><span style='font-weight: bold'>Email: </span>".$_POST['email']."</p>";
@@ -33,8 +34,8 @@
         $mail->MsgHTML($content); 
         
         if(!$mail->Send()) {
-            echo "Error while sending Email.";
-            var_dump($mail);
+            echo "Error al enviar el mensaje";
+            // var_dump($mail);
         } else {
             echo "Email sent successfully";
         }

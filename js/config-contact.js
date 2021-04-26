@@ -18,7 +18,7 @@ function handleLoading() {
         contactFormWrapper.each(function () {
            var that = $(this);
             that.on('submit', function (e) {
-                var url = "http://localhost/Intro/contact-form.php";
+                var url = "https://www.introarquitectura.com.ar/contact-form.php";
                 const data = $(this).serialize() + '&contact=yes';
                 handleLoading();
 
