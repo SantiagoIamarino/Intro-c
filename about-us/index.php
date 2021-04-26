@@ -90,8 +90,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Intro Arquitectura</h4>
-                        <!-- h2 class="title-2">Nos caracterizamos por la atención personalizada y la supervisión constante
-                            en el gerenciamiento y ejecución integral de las obras.</h2> -->
+                       <!--  <h2 class="title-1">El equipo de Intro Arquitectura está conformado colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.</h2> -->
                     </div>
                 </div>
             </section>
@@ -151,7 +150,7 @@
                             <p class="text--s18-40 m-b-15">
                                 <strong class="text--c2">El equipo</strong>
 
-                                 de Intro Arquitectura está conformado por más de 40 profesionales de amplia trayectoria en la industria de la arquitectura corporativa.
+                                 de Intro Arquitectura está conformado por colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.
                             </p>
                             <p class="text--s18-40">
                                 <strong class="text--c2">Desarrollamos</strong>
@@ -345,7 +344,7 @@
             <!-- END CLIENT-->
 
             <!-- TEAM-->
-            <section class="p-t-120 p-b-30">
+            <!-- <section class="p-t-120 p-b-30">
                 <div class="container">
                     <div class="section-title m-b-70">
                         
@@ -438,7 +437,7 @@
                             </article>
                         </div>
                     </div>
-                    <!-- Segundo seis bloques -->
+                 
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
@@ -527,8 +526,6 @@
                     </div>
 
 
-                    <!-- Terces bloque de logos -->
-                    
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <article class="media-team">
@@ -617,7 +614,7 @@
                     </div>
 
 
-                    <!-- Cuarto Bloque de nosotros  -->
+                  
                     
 
                     <div class="row">
@@ -708,7 +705,7 @@
                     </div>
 
 
-                    <!-- Comienza quinto bloque -->
+                   
                     
 
                     <div class="row">
@@ -797,7 +794,7 @@
                             </article>
                         </div>
                     </div>
-                    <!-- Comienza sexto bloque -->
+                    
 
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
@@ -830,9 +827,9 @@
                         </div>
                     </div>
 
-                    <!--  -->
+                   
                 </div>
-            </section>
+            </section> -->
             <!-- END TEAM-->
         </main>
         <!-- END MAIN-->
