@@ -33,31 +33,33 @@
             if(isset($slugExists) && !empty($slugExists) && !isset($_POST['postId'])){
                 echo '<script>alert("Ya existe un artículo con ese slug")</script>';
             } else {
-                if(isset($_POST['postId']) && !empty($_POST['postId'])) {
-                    if(isset($_FILES['image']) && !empty($_FILES['image'])) {
+                if(isset($_POST['postId']) && !empty($_POST['postId'])) { //Editing
+                    if(isset($_FILES['image']) && !empty($_FILES['image']['name'])) {
                         $image = basename($_FILES['image']['name']);
-        
+
                         if (!move_uploaded_file($_FILES['image']['tmp_name'], $upload_dir . $image)) {
                             echo '<script>alert("No se ha podido subir la imagen")</script>';
                         }
                     } else {
                         $image = $_POST['imageUrl'];
                     }
+                    
         
                     $statement = $db->prepare("UPDATE posts SET title = :title, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
                             WHERE id = :postId");
-                    $statement->execute((array(
-                    'title' => $_POST['title'], 
-                    'slug' => $_POST['slug'], 
-                    'metaDescription' => $_POST['metaDescription'], 
-                    'content' => $_POST['content'], 
-                    'imageUrl' => $image,
-                    'postId' => $_POST['postId']
-                    )));
+
+                    $statement->execute(array(
+                        'title' => $_POST['title'], 
+                        'slug' => $_POST['slug'], 
+                        'metaDescription' => $_POST['metaDescription'], 
+                        'content' => $_POST['content'], 
+                        'imageUrl' => $image,
+                        'postId' => $_POST['postId']
+                    ));
         
                     header('Location: post.php?postId=' . $_POST['postId']);
         
-                } else {
+                } else { // New post
                     if(!isset($_FILES['image']) || empty($_FILES['image'])) {
                         echo '<script>alert("Debes indicar una imagen")</script>';
                     }
@@ -120,6 +122,10 @@
                 <div class="mb-3">
                     <label for="image" class="form-label w-100">Imagen vista previa</label>
                     <input type="file" name='image'>
+                    
+                    <?php if(isset($post['imageUrl']) && !empty($post['imageUrl'])): ?>
+                        <input type="hidden" name='imageUrl' value="<?php echo $post['imageUrl']; ?>">
+                    <?php endif; ?>
                 </div>
 
                 <?php 
