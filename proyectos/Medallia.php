@@ -60,23 +60,6 @@
     <!-- End Google Tag Manager -->
 </head>
 
-<style>
-    .medallia-video{
-        padding: 15px;
-        padding-bottom: 5vh;
-    }
-
-    .medallia-video iframe {
-        width: 100%; 
-        min-height: 600px;
-    }
-
-    @media screen and (max-width: 600px ){
-        .medallia-video iframe {
-            min-height: 400px;
-        }
-    }
-</style>
 
 <body class="animsition js-preloader">
     <!-- Google Tag Manager (noscript) -->

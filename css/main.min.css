@@ -5187,6 +5187,24 @@ button {
     display: block;
     margin-bottom: 40px;
 }
+
+.medallia-video{
+    padding: 15px;
+    padding-bottom: 5vh;
+    width: 100%;
+}
+
+.medallia-video iframe {
+    width: 100%; 
+    min-height: 600px;
+}
+
+@media screen and (max-width: 600px ){
+    .medallia-video iframe {
+        min-height: 400px;
+    }
+}
+
 .project-style-1,
 .project-style-4 {
     padding-top: 85px;
