@@ -51,7 +51,48 @@ function aboutUsLogosSlider() {
     
 }
 
+function homeSliderEffect() {
+    const slides = document.getElementsByClassName("defaultimg");
+
+    for (let i = 0; i < slides.length; i++) {
+        const slide = slides[i];
+        slide.animate([
+            // keyframes
+            { transform: 'scale(1.0)' },
+            { transform: 'scale(1.15)' }
+          ], {
+            // timing options
+            duration: 6100,
+            iterations: 1
+        });
+    }
+
+    setTimeout(() => {
+        for (let i = 0; i < slides.length; i++) {
+            const slide = slides[i];
+            slide.animate([
+                // keyframes
+                { transform: 'scale(1.15)' },
+                { transform: 'scale(1.0)' }
+              ], {
+                // timing options
+                duration: 6000,
+                iterations: 1
+            });
+        }
+        
+    }, 6000)
+}
+
 $(document).ready(() => {
+    if(('.home-page').length > 0) {
+        homeSliderEffect();
+        setInterval(() => {
+            homeSliderEffect();
+        }, 12000);
+        
+    }
+
     if($('.logos-home').length > 0) {
         $('.media-project').on('click', (e) => {
             const target = e.target;

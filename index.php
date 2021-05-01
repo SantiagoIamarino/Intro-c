@@ -75,7 +75,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- MAIN-->
-    <main id="main">
+    <main id="main home-page">
         <!-- HEADER PAGE PILLING-->
         <header id="header">
             <div class="header header-2 header-page-pilling d-none d-lg-block">
@@ -913,8 +913,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/monsanto-logo.png" alt="Monsanto Argentina" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                     </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -928,8 +927,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/astrazeneca.png" alt="AstraZeneca" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -943,8 +941,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/genneia-logo.jpg" alt="Genneia SA" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -958,8 +955,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/navent-logo.png" alt="Navent" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -973,8 +969,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/cbre-logo.png" alt="CBRE" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -988,8 +983,7 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/kimberly-clark-logo-1.png" alt="Kimberly Clark" />
-                                            </figure>
- -->                                        </div>
+                                            </figure>-->                                        </div>
                                     </div>
                                 </div>
                             </div>
