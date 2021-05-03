@@ -553,6 +553,35 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
+            <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonios">
+                <!-- PAGE LINE-->
+                <div class="page-line light">
+                    <div class="container">
+                        <div class="page-line__inner">
+                            <div class="page-col"></div>
+                            <div class="page-col"></div>
+                            <div class="page-col"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PAGE LINE-->
+                <div class="section-content">
+                    <div class="container">
+                        <div class="row m-b-10">
+                            <div class="col-12 title m-b-20">
+                                <h2 style='padding-bottom: 10px'>Proyecto Medallia</h2>
+                                <hr>
+                            </div>
+                            <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
+                                <iframe src="https://www.youtube.com/embed/aw7bc18V8Gk" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END SECTION-->
+
+            <!-- SECTION-->
             <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Por que elegirnos">
                 <!-- PAGE LINE-->
                 <div class="page-line">
