@@ -112,6 +112,24 @@
             <section class="section p-b-120">
                 <div class="container">
                     <div class="row gutter-xl projects-overview">
+
+                        <!-- Proyecto Comviva -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Comviva/portadaComviva.jpg" alt="Comviva" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Comviva.php">Comviva</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
                         
                         <!-- Proyecto Kimberly Clark -->
                         <div class="col-md-6">
@@ -161,6 +179,24 @@
                                 <div class="media__body">
                                     <h3 class="title">
                                         <a href="./Regus.php">Regus</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Proyecto Pedidos ya -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Pedidos-ya/portadaPedidos-ya.jpg" alt="Pedidos ya" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Pedidos-ya.php">Pedidos ya</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>

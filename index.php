@@ -730,7 +730,8 @@
 
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="#">
-                                        <img src="images/icon/clientes/huawei-logo.png" alt="huawei-logo.png">
+                                        <img style='transform: scale(0.8)'
+                                            src="images/icon/clientes/huawei-logo.png" alt="huawei-logo.png">
                                     </a>
                                 </div>
                             </div>
