@@ -14,6 +14,10 @@
     $statement->execute(array('postId' => $_GET['postId']));
     $comments = $statement->fetchAll();
 
+    $statement = $db->prepare("SELECT * FROM posts ORDER BY RAND() LIMIT 5");
+    $statement->execute();
+    $random_posts = $statement->fetchAll();
+
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['comment'])){
         if(!isset($_POST['name']) || empty($_POST['name'])) {
             echo '<script>alert("Debes indicar tu nombre")</script>';
@@ -213,31 +217,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-3">
+                        <div class="col-md-4 col-lg-3" 
+                            style='border-left: 1px solid #cdcdcd; padding-top: 20px'>
                             <aside class="widget-area widget-sidebar">
-                                <div class="widget widget_search">
+                                <!-- <div class="widget widget_search">
                                     <form class="search-form" method="GET" action="#">
                                         <input class="search-field" type="text" placeholder="Search here...">
                                         <button class="search-submit" type="submit">
                                             <span class="ti-search"></span>
                                         </button>
                                     </form>
-                                </div>
+                                </div> -->
                                 <div class="widget widget_recent_entries">
                                     <h4 class="widget-title">Post populares</h4>
                                     <ul>
-                                        <li>
-                                            <a href="#">Eight eye-catching homes made from bamboo</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Nine home interiors furnished around statement rug</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Zooco Estudio creates cave-like wine shop in Spain</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Will Bruder clads a mountain home in Aspen</a>
-                                        </li>
+                                        <?php foreach($random_posts as $post): ?>
+                                            <li>
+                                                <a href="#"><?php echo $post['title'] ?></a>
+                                            </li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </aside>

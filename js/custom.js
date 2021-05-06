@@ -9,9 +9,10 @@ function seeAllProjects(e) {
 
 let actualLogosScreen = 0;
 let goingTo = 'next';
-let maxScreens = 2;
+let maxScreens = 3;
 function logosSlider() {
     setInterval(() => {
+        console.log(actualLogosScreen);
         if((actualLogosScreen + 1) > maxScreens) {
             actualLogosScreen = 0;
             goingTo = 'back';
@@ -27,7 +28,7 @@ function logosSlider() {
 
         let containerClass = ".logos-home";
 
-        if(maxScreens > 2) {
+        if(maxScreens > 3) {
             containerClass = ".logos-home.logos-home-mobile";
         }
         

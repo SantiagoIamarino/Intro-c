@@ -727,6 +727,12 @@
                                         <img src="images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
                                     </a>
                                 </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/huawei-logo.png" alt="huawei-logo.png">
+                                    </a>
+                                </div>
                             </div>
                             
                             <div class="screen-inner row">
@@ -763,6 +769,11 @@
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Medallia.php">
                                         <img src="images/icon/clientes/Medallia-Logo.png" alt="Medallia-Logo.png">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/bayer-logo.png" alt="bayer-logo.png">
                                     </a>
                                 </div>
                             </div>
@@ -802,6 +813,60 @@
                                 <div class="col-lg-3 col-md-6">
                                     <a class="img-client" href="./proyectos/Daikin.php">
                                         <img src="images/icon/clientes/Daikin-logo.png" alt="Daikin-logo.png">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="screen-inner row">
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img style='transform: scale(0.5)'
+                                            src="images/icon/clientes/epson-logo.png" alt="epson-logo.png">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img style='transform: scale(0.5)'
+                                            src="images/icon/clientes/mercado-libre-logo.png" alt="mercado-libre-logo">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/pirelli-logo.png" alt="pirelli-logo.png">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img style='transform: scale(0.75)'
+                                            src="images/icon/clientes/edenor-logo.png" alt="edenor-logo">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img style='transform: scale(0.8)'
+                                            src="images/icon/clientes/carrier.png" alt="carrier.png">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/credit-suisse-logo.png" alt="credit-suisse-logo">
+                                    </a>
+                                </div>
+
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/ICBC-logo.png" alt="ICBC-logo">
+                                    </a>
+                                </div>
+                                
+                                <div class="screen-item">
+                                    <a class="img-client" href="#">
+                                        <img src="images/icon/clientes/genneia-logo.jpg" alt="genneia-logo">
                                     </a>
                                 </div>
                             </div>

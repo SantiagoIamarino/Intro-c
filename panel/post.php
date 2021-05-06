@@ -130,7 +130,7 @@
 
                 <?php 
                     if(isset($post['content']) && !empty($post['content'])){
-                        echo "<script>setTimeout(() => editor.setData('" . $post['content'] ."'), 500)</script>";
+                        echo "<script>setTimeout(() => editor.root.innerHTML = '" . $post['content'] . "', 500)</script>";
                     }
 
                 ?>

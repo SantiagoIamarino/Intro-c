@@ -5431,6 +5431,9 @@ button {
     left: 0;
     transition: 0.8s all ease;
 }
+.logos-home .screen-item{
+    width: 25%
+}
 .logos-home.logos-home-mobile .screen-inner .screen-item {
     width: 47%;
 }

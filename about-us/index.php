@@ -942,6 +942,12 @@
     <script src="../js/global.js"></script>
     <script src="../js/custom.js"></script>
 
+    <script>
+        $('.about-us-clients a').click((event) => {
+            event.stopImmediatePropagation();
+        })
+    </script>
+
 </body>
 
 </html>
