@@ -11,9 +11,9 @@
     $password = 'root'; 
 
     //dev
-    $upload_dir = 'C:/MAMP/htdocs/Intro/uploads/';
+    $upload_dir = 'C:/MAMPhtdocs/Intro/uploads/';
     //prod
-    // $upload_dir = '/home/introarquitectur/public_html/uploads/';
+    // $upload_dir = '/home/rquitectur/public_html/uploads/';
 
     try {
         $db = new PDO($dsn, $user, $password);

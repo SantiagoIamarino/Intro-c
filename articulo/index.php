@@ -233,7 +233,9 @@
                                     <ul>
                                         <?php foreach($random_posts as $post): ?>
                                             <li>
-                                                <a href="#"><?php echo $post['title'] ?></a>
+                                                <a href="./?postId=<?php echo $post['id']?>">
+                                                    <?php echo $post['title'] ?>
+                                                </a>
                                             </li>
                                         <?php endforeach; ?>
                                     </ul>
@@ -263,7 +265,7 @@
                                 <ul>
                                     <li>Dirección : Av. del Libertador 88 - piso 2<br>Vicente Lopez, Buenos Aires, Argentina.</li>
                                     <li>Teléfono : (+54 11) 5199-1401</li>
-                                    <li>Email : info@introarquitectura.com.ar</li>
+                                    <li>Envíanos tu CV a : info@introarquitectura.com.ar</li>
                                 </ul>
                             </div>
                         </div>

@@ -708,7 +708,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="./proyectos/Comviva.php">
                                         <img src="images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
                                     </a>
                                 </div>
@@ -718,7 +718,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="#" >
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)' >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
@@ -729,7 +729,7 @@
                                 </div>
 
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img style='transform: scale(0.8)'
                                             src="images/icon/clientes/huawei-logo.png" alt="huawei-logo.png">
                                     </a>
@@ -748,7 +748,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="#" >
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)' >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -773,7 +773,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/bayer-logo.png" alt="bayer-logo.png">
                                     </a>
                                 </div>
@@ -820,53 +820,53 @@
 
                             <div class="screen-inner row">
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img style='transform: scale(0.5)'
                                             src="images/icon/clientes/epson-logo.png" alt="epson-logo.png">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img style='transform: scale(0.5)'
                                             src="images/icon/clientes/mercado-libre-logo.png" alt="mercado-libre-logo">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/pirelli-logo.png" alt="pirelli-logo.png">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img style='transform: scale(0.75)'
                                             src="images/icon/clientes/edenor-logo.png" alt="edenor-logo">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img style='transform: scale(0.8)'
                                             src="images/icon/clientes/carrier.png" alt="carrier.png">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/credit-suisse-logo.png" alt="credit-suisse-logo">
                                     </a>
                                 </div>
 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/ICBC-logo.png" alt="ICBC-logo">
                                     </a>
                                 </div>
                                 
                                 <div class="screen-item">
-                                    <a class="img-client" href="#">
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/genneia-logo.jpg" alt="genneia-logo">
                                     </a>
                                 </div>
@@ -903,7 +903,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="#" >
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)' >
                                         <img src="images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
                                     </a>
                                 </div>
@@ -926,7 +926,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="#" >
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)' >
                                         <img src="images/icon/clientes/prudential-logo.png" alt="prudential-logo">
                                     </a>
                                 </div>
@@ -959,7 +959,7 @@
                                     </a>
                                 </div>
                                 <div class="screen-item">
-                                    <a class="img-client" href="#" >
+                                    <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)' >
                                         <img src="images/icon/clientes/pedidos-ya-logo.png" alt="pedidos-ya-logo.png">
                                     </a>
                                 </div>
@@ -1022,7 +1022,8 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/astrazeneca.png" alt="AstraZeneca" />
-                                            </figure>-->                                        </div>
+                                            </figure>-->                                        
+                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -1036,7 +1037,8 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/genneia-logo.jpg" alt="Genneia SA" />
-                                            </figure>-->                                        </div>
+                                            </figure>-->                                        
+                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -1050,7 +1052,8 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/navent-logo.png" alt="Navent" />
-                                            </figure>-->                                        </div>
+                                            </figure>-->                                        
+                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -1064,7 +1067,8 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/cbre-logo.png" alt="CBRE" />
-                                            </figure>-->                                        </div>
+                                            </figure>-->                                        
+                                        </div>
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
@@ -1078,7 +1082,8 @@
                                             </div>
                                             <!-- <figure class="brand-logo">
                                                 <img src="images/icon/clientes/kimberly-clark-logo-1.png" alt="Kimberly Clark" />
-                                            </figure>-->                                        </div>
+                                            </figure>-->                                        
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1157,7 +1162,7 @@
                                 <ul>
                                     <li>Dirección : Av. del Libertador 88 - piso 2<br>Vicente Lopez, Buenos Aires, Argentina.<br><br></li>
                                     <li>Teléfono : (+54 11) 5199-1401</li>
-                                    <li>Email : info@introarquitectura.com.ar                                 </li>
+                                    <li>Envíanos tu CV a : info@introarquitectura.com.ar                                 </li>
                                 </ul>
                             </div>
                         </div>
@@ -1260,6 +1265,12 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+        function noRedirect(e) {
+            e.preventDefault();
+        }
+    </script>
 
 </body>
 

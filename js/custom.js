@@ -12,7 +12,6 @@ let goingTo = 'next';
 let maxScreens = 3;
 function logosSlider() {
     setInterval(() => {
-        console.log(actualLogosScreen);
         if((actualLogosScreen + 1) > maxScreens) {
             actualLogosScreen = 0;
             goingTo = 'back';
@@ -153,7 +152,6 @@ $(document).ready(() => {
         const scrollTop = countersDiv[0].offsetTop - 700;
 
         if(window.scrollY >= scrollTop) {
-            console.log(window.scrollY, scrollTop);
             initCounters();
             document.removeEventListener('scroll', checkScroll);
         }
