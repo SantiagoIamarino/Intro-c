@@ -107,7 +107,7 @@
             <!-- END PAGE IMAGE-->
 
             <!-- Nosotros-->
-            <section class="section p-t-80">
+            <section class="section p-t-80 counters-section">
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-lg-6">
@@ -115,7 +115,7 @@
                                 <div class="col-md-6">
                                     <div class="media-statistic-2">
                                         <div class="media__body">
-                                            <span class="media__number js-counterup">15</span>
+                                            <span class="media__number js-counterup-custom">15</span>
                                             <h5 class="media__title title-sub">Años de experiencia</h5>
                                         </div>
                                     </div>
@@ -123,7 +123,7 @@
                                 <div class="col-md-6">
                                     <div class="media-statistic-2">
                                         <div class="media__body">
-                                            <span class="media__number js-counterup">250</span>
+                                            <span class="media__number js-counterup-custom">250</span>
                                             <h5 class="media__title title-sub">Clientes contentos</h5>
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@
                                 <div class="col-md-6">
                                     <div class="media-statistic-2">
                                         <div class="media__body">
-                                            <span class="media__number js-counterup">300</span>
+                                            <span class="media__number js-counterup-custom">300</span>
                                             <h5 class="media__title title-sub">Proyectos realizados</h5>
                                         </div>
                                     </div>
@@ -139,7 +139,7 @@
                                 <!-- <div class="col-md-6">
                                     <div class="media-statistic-2">
                                         <div class="media__body">
-                                            <span class="media__number js-counterup">16</span>
+                                            <span class="media__number js-counterup-custom">16</span>
                                             <h5 class="media__title title-sub">Certificaciones y Reconocimientos</h5>
                                         </div>
                                     </div>
@@ -930,7 +930,6 @@
     <script src="../vendor/slick/slick.min.js"></script>
     <script src="../vendor/waypoints/jquery.waypoints.min.js"></script>
     <script src="../vendor/wow/wow.min.js"></script>
-    <script src="../vendor/jquery.counterup/jquery.counterup.min.js"></script>
     <script src="../vendor/isotope/isotope.pkgd.min.js"></script>
     <script src="../vendor/isotope/imagesloaded.pkgd.min.js"></script>
     <script src="../vendor/matchHeight/jquery.matchHeight-min.js"></script>
