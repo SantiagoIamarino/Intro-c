@@ -123,8 +123,8 @@
                                 <div class="col-md-6">
                                     <div class="media-statistic-2">
                                         <div class="media__body">
-                                            <span class="media__number js-counterup-custom">250</span>
-                                            <h5 class="media__title title-sub">Clientes contentos</h5>
+                                            <span class="media__number js-counterup-custom">500.000</span>
+                                            <h5 class="media__title title-sub">Metros construídos</h5>
                                         </div>
                                     </div>
                                 </div>

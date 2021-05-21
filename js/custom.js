@@ -84,35 +84,6 @@ function homeSliderEffect() {
     }, 6000)
 }
 
-function counterAnimation(counter, total) {
-    let count = 0;
-    const initialInterval = 2500;
-    const interval = initialInterval / total;
-  
-    const intervalFunction =
-        setInterval(() => {
-            count = count + 2;
-            counter.innerText = count;
-        
-            if(count >= total) {
-                counter.innerText = total;
-                clearInterval(intervalFunction);
-            }
-    
-        }, interval);
-}
-
-function initCounters() {
-    const counters = document.getElementsByClassName('js-counterup-custom');
-
-    for(let i = 0; i < counters.length; i++) {
-        const counter = counters[i];
-        const total = parseInt(counter.innerText);
-        counterAnimation(counter, total);
-    }
-  
-  }
-
 $(document).ready(() => {
     if(('.home-page').length > 0) {
         homeSliderEffect();
@@ -145,20 +116,6 @@ $(document).ready(() => {
 
     if($('.about-us-clients').length > 0){
         aboutUsLogosSlider();
-    }
-
-    function checkScroll() {
-        const countersDiv = $('.counters-section');
-        const scrollTop = countersDiv[0].offsetTop - 700;
-
-        if(window.scrollY >= scrollTop) {
-            initCounters();
-            document.removeEventListener('scroll', checkScroll);
-        }
-    }
-
-    if($('.js-counterup-custom').length > 0) {
-        document.addEventListener('scroll', checkScroll);
     }
     
 })

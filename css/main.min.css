@@ -13998,3 +13998,28 @@ button:focus {
     color: black;
     font-size: 2rem;
 }
+
+.whatsapp-btn a {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none!important;
+}
+
+@media screen and (max-width: 768px) {
+    .whatsapp-btn a {
+        bottom: 20px;
+        right: 20px;
+    }
+}

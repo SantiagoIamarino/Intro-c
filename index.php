@@ -865,11 +865,11 @@
                                     </a>
                                 </div>
                                 
-                                <div class="screen-item">
+                                <!-- <div class="screen-item">
                                     <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
                                         <img src="images/icon/clientes/genneia-logo.jpg" alt="genneia-logo">
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="row m-b-10 logos-home logos-home-mobile">
@@ -1147,6 +1147,11 @@
         </div>
         <!-- END PAGE PILLING-->
         <!-- END FOOTER-->
+        <div class="whatsapp-btn">
+            <a href="https://api.whatsapp.com/send?phone=541166823584" target="_blank" class="wpp">
+                <i class="fab fa-whatsapp wpp-icon text-white" aria-hidden="true"></i>
+            </a>
+        </div>
     </main>
 
     <!-- Jquery JS-->
