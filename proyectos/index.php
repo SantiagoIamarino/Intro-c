@@ -167,18 +167,90 @@
                             </article>
                         </div>
 
-                        <!-- Proyecto Regus -->
+                        <!-- Proyecto Medallia -->
                         <div class="col-md-6">
                             <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
-                                    <img src="../imagenes/Regus/portada-regus.jpg" alt="Regus" />
+                                    <img src="../imagenes/Medallia/portadaMedallia.jpg" alt="Medallia" />
                                 </figure>
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./Regus.php">Regus</a>
+                                        <a href="./Medallia.php">Medallia</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Proyecto ASAPP -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Asapp/portadaAsapp.jpg" alt="Asapp" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Asapp.php">Asapp</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Proyecto Emergencias -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Emergencias/portadaEmergencias.jpg" alt="Emergencias" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Emergencias.php">Emergencias</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Proyecto Daikin -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Daikin/portadaDaikin.jpg" alt="Daikin" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Daikin.php">Daikin</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Proyecto Wenance -->
+                        <div class="col-md-6">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Wenance/portada-wenance.jpg" alt="Wenance" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Wenance.php">Wenance</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -221,8 +293,26 @@
                             </article>
                         </div>
 
+                        <!-- Proyecto Regus -->
+                        <div class="col-md-6 project-hidden">
+                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                <figure class="media__img">
+                                    <img src="../imagenes/Regus/portada-regus.jpg" alt="Regus" />
+                                </figure>
+                                <div class="bg-overlay"></div>
+                                <span class="line"></span>
+                                <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <a href="./Regus.php">Regus</a>
+                                    </h3>
+                                    <!--<div class="address"></div>-->
+                                </div>
+                            </article>
+                        </div>
+
                         <!-- Proyecto MEGA -->
-                        <div class="col-md-6">
+                        <div class="col-md-6 project-hidden">
                             <article class="media media-project m-b-50" onclick='goToProject(event)'>
                                 <figure class="media__img">
                                     <img src="../imagenes/Mega/portadaMega.jpg" alt="Mega" />
@@ -233,78 +323,6 @@
                                 <div class="media__body">
                                     <h3 class="title">
                                         <a href="./Mega.php">Mega</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Proyecto Medallia -->
-                        <div class="col-md-6">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Medallia/portadaMedallia.jpg" alt="Medallia" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Medallia.php">Medallia</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Proyecto Emergencias -->
-                        <div class="col-md-6">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Emergencias/portadaEmergencias.jpg" alt="Emergencias" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Emergencias.php">Emergencias</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Proyecto ASAPP -->
-                        <div class="col-md-6">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Asapp/portadaAsapp.jpg" alt="Asapp" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Asapp.php">Asapp</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Proyecto Daikin -->
-                        <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Daikin/portadaDaikin.jpg" alt="Daikin" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Daikin.php">Daikin</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
@@ -378,24 +396,6 @@
                                 <div class="media__body">
                                     <h3 class="title">
                                         <a href="./Phd.php">PHD</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Proyecto Wenance -->
-                        <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Wenance/portada-wenance.jpg" alt="Wenance" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Wenance.php">Wenance</a>
                                     </h3>
                                     <!--<div class="address"></div>-->
                                 </div>
