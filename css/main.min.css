@@ -4057,6 +4057,7 @@ button {
     font-weight: 700;
     padding: 50px 40px;
     margin-bottom: 30px;
+    font-style: italic;
 }
 .blog-detail-1 .entry-content blockquote p {
     position: relative;
@@ -4064,7 +4065,7 @@ button {
 }
 .blog-detail-1 .entry-content blockquote:before {
     font-family: themify;
-    content: "\e67f";
+    content: "";
     font-size: 87px;
     line-height: 1;
     color: #fff;

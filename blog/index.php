@@ -9,7 +9,7 @@
     $start = ($perPage * $page) - $perPage;
     $end = $perPage * $page;
 
-    $statement = $db->prepare("SELECT * FROM posts LIMIT $start, $end");
+    $statement = $db->prepare("SELECT * FROM posts ORDER BY id DESC LIMIT $start, $end ");
     $statement->execute();
     $posts = $statement->fetchAll();
 

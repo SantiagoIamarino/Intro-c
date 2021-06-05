@@ -185,11 +185,11 @@
                                             <article class="comment-body">
                                                 <header class="comment-meta">
                                                     <div class="comment-author vcard">
-                                                        <img class="avatar" src="../images/user-01.jpg" alt="user 1">
+                                                        <img class="avatar" src="../images/user-01.png" alt="user 1">
                                                         <b class="fn"><?php echo $comment['name'] ?></b>
                                                     </div>
                                                     <div class="comment-metadata">
-                                                        <a href="#">12 - August - 2018</a>
+                                                        <a href="#"><?php echo date('d-m-Y', strtotime($comment['created_date'])) ?></a>
                                                     </div>
                                                 </header>
                                                 <div class="comment-content">
