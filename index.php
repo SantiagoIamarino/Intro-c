@@ -604,6 +604,18 @@
                                             </h4>
                                         </div>
                                     </div>
+                                     <div class="media-about-3">
+                                        <div class="media__number-wrap">
+                                            <span class="media__number">05</span>
+                                            <span class="line"></span>
+                                            <span class="line line--bottom"></span>
+                                        </div>
+                                        <div class="media__body">
+                                            <h4 class="media__title title--sm titulos-de-cuadrados">
+                                                <p>Cumplimiento de los plazos acordados</p>
+                                            </h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
