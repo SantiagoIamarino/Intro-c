@@ -73,17 +73,6 @@
 
         <!-- MAIN-->
         <main id="main">
-            <!-- PAGE LINE-->
-            <div class="page-line">
-                <div class="container">
-                    <div class="page-line__inner">
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- END PAGE LINE-->
 
             <!-- PAGE HEADING-->
             <section class="section p-t-100 p-b-65">
@@ -113,6 +102,7 @@
                         <div class="col-lg-6">
                             <div class="row no-gutters">
                                 <div class="col-md-6">
+
                                     <div class="media-statistic-2">
                                         <div class="media__body">
                                             <span class="media__number js-counterup-custom">15</span>

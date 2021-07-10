@@ -154,7 +154,7 @@
                 </div>
                 <div class="menu-sidebar__footer">
                     <div class="copyright">
-                        <p>© 2021 INTRO Arquitectura . Designed by GauchoDigital</p>
+                        <p>© 2021 INTRO Arquitectura</p>
                     </div>
                 </div>
             </aside>
@@ -259,7 +259,7 @@
                     </a>
                 </li> -->
             </ul>
-            <div class="copyright">© 2021 GauchoDigital</div>
+           
             <h3 class="page-info__title">Nosotros</h3>
         </div>
         <!-- END PAGE INFO-->
@@ -268,17 +268,7 @@
         <div class="page-pagepiling-wrap js-pagepilling">
             <!-- SLIDER-->
             <section class="section-pp pp-table pp-easing" data-background="dark" data-title="Nosotros">
-                <!-- PAGE LINE-->
-                <div class="page-line">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+                
                 <div class="mouse-wheel-wrap">
                     <a class="mouse-wheel js-mouse-wheel" href="#">
                         <span class="mouse-wheel__inner"></span>
@@ -421,17 +411,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Que hacemos">
-                <!-- PAGE LINE-->
-                <div class="page-line">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+                
                 <div class="section-content">
                     <div class="container">
                         <div class="row no-gutters circles-home">
@@ -494,17 +474,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing bg-pattern-1 section-pp--pad projects-slider" data-background="dark" data-title="Últimos trabajos">
-                <!-- PAGE LINE-->
-                <div class="page-line light">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>                
-                <!-- END PAGE LINE-->
+                
                 <div class="section-content">
                     <div class="container">
                         <div class="rev_slider_wrapper home-projects">
@@ -554,17 +524,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonios">
-                <!-- PAGE LINE-->
-                <div class="page-line light">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+                
                 <div class="section-content">
                     <div class="container">
                         <div class="row m-b-10">
@@ -583,17 +543,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Por que elegirnos">
-                <!-- PAGE LINE-->
-                <div class="page-line">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+               
                 <div class="section-content">
                     <div class="container">
                         <div class="row no-gutters">
@@ -677,17 +627,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonios">
-                <!-- PAGE LINE-->
-                <div class="page-line light">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+              
                 <div class="section-content">
                     <div class="container">
                         <div class="row m-b-10 logos-home">
@@ -1099,17 +1039,7 @@
 
             <!-- SECTION-->
             <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Contactanos">
-                <!-- PAGE LINE-->
-                <div class="page-line">
-                    <div class="container">
-                        <div class="page-line__inner">
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                            <div class="page-col"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PAGE LINE-->
+                
                 <div class="section-content">
                     <div class="container">
                         <div class="map-wrapper js-google-map m-b-60" data-makericon="images/icon/marker.png" data-makers="[[&quot;TATEE&quot;, &quot;Now that you visited our website,&lt;br&gt; how about checking out our office too?&quot;, -34.5339297, -58.4682629]]">

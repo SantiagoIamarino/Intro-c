@@ -96,17 +96,7 @@
 
         <!-- MAIN-->
         <main id="main">
-            <!-- PAGE LINE-->
-            <div class="page-line">
-                <div class="container">
-                    <div class="page-line__inner">
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- END PAGE LINE-->
+           
 
             <!-- PAGE HEADING-->
             <section class="section p-t-100 p-b-65">

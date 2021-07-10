@@ -1,7 +1,7 @@
 <?php
 
-    $url = 'http://www.introarquitectura.com.ar/';
-    /* $url = 'http://localhost/Intro/'; */
+   /* $url = 'http://www.introarquitectura.com.ar/'; */
+     $url = 'http://localhost/Intro/'; 
 
 ?> 
 
