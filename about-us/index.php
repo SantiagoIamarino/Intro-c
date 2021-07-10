@@ -205,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section> 
             <!-- END SERVICE-->
 
             <!-- Services -->
@@ -270,6 +270,122 @@
                     </div>
                 </div>
             </div>
+
+
+                <h3> Proyectos Llave en Mano: </h3>
+                <p>
+                    Nos ocupamos de su proyecto de principio a fin, centralizando todos los procesos y
+                    requerimientos, brindando la garantía de contar con un proyecto más dinámico, 100%
+                    personalizado, con un interlocutor directo, mediante el mecanismo Desing & Build:
+                    ✔ ️ Análisis de necesidades.
+                    ✔️ Definir el presupuesto en conjunto con el cliente, optimizando los recursos de
+                    modo que sugerir al cliente dónde es más conveniente poner el foco de su inversión
+                    ✔ ️ Desarrollar el proyecto ejecutivo.
+                    ✔ ️ Construcción y Dirección de Obra.
+                    ✔️ Asignación de un Project Manager de Intro para que realice un acompañamiento
+                    al cliente a lo largo de todo el proceso
+                    ✔ ️ Logística de Mudanza.
+                </p>
+
+                <h3> Cumplimiento de los plazos acordados: </h3>
+                <p>
+                    Sabemos que este es un factor determinante, ya que en muchos casos está en juego
+                    el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
+                    ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
+                    estricto de los plazos acordados en el contrato firmado entre las partes antes de
+                    comenzar cada obra.
+
+                    Equipo de profesionales especializados:
+                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
+                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
+                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
+                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
+                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
+                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
+                    una experiencia y calidad de trabajo que supere las expectativas.
+
+                </p>
+
+                    <h3> Equipo de profesionales especializados: </h3>
+
+                    <p>
+                    
+                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
+                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
+                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
+                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
+                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
+                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
+                    una experiencia y calidad de trabajo que supere las expectativas.
+
+                 </p>
+
+                 <h3> Espacios de trabajo versátiles: </h3>
+
+                 <p>
+                    Proponemos e implementamos soluciones integrales y versátiles que diseñamos
+                    especialmente para cada cliente, y trabajamos con sumo detalle para transformar el
+                    espacio en un ambiente óptimo para el desarrollo del capital humano.
+                    Nuestro trabajo se caracteriza por la supervisión constante en el gerenciamiento y
+                    ejecución integral de las obras, trabajando siempre con profesionalismo, seriedad y
+                    compromiso, con el objetivo de superar las expectativas. 
+
+                </p>
+
+                <h3> Diseños basados en estándares WELL: </h3>
+
+                <p>
+                    La Certificación WELL es un sistema de puntuación dinámico para edificios y
+                    comunidades que permite identificar, medir y monitorear las características de los
+                    espacios construidos que impactan en la salud y el bienestar de los ocupantes. Brinda
+                    la oportunidad de diseñar y construir con un enfoque centrado en el ser humano,
+                    ocupándose primordialmente en su salud. Desarrollar un buen lugar de trabajo está
+                    siendo parte de las actividades prioritarias de las empresas. El término bienestar
+                    puede referirse a muchos aspectos diferentes de una persona; puede involucrar
+                    bienestar emocional, bienestar físico y un sentimiento general de compromiso y
+                    felicidad que proviene de trabajar en un determinado rol profesional.
+                    En Intro Arquitectura el diseño, la construcción y la transformación de los ambientes de
+                    trabajo son concebidos desde una visión que incluye la dinámica de la empresa, el
+                    análisis de los individuos y su relación con el entorno. Trabajamos y realizamos
+                    nuestros proyectos guiándonos siempre por el concepto de bienestar WELL y
+                    apostando por los espacios de trabajo que brindan comodidad y máximo rendimiento a
+                    cada colaborador.
+
+                </p>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!-- End services -->
 
             <!-- CLIENT-->

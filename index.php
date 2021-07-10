@@ -562,7 +562,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <p>Proyectos llave en mano.</p>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">Proyectos llave en mano.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -574,8 +574,8 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <p>Equipo de profesionales especializados.</p>
-                                            </h4>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">Equipo de profesionales especializados.</a>
+                                            </h4
                                         </div>
                                     </div>
                                 </div>
@@ -588,7 +588,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <p>Espacios de trabajo versátiles.</p>
+                                                 <a href="https://www.introarquitectura.com.ar/about-us/">Espacios de trabajo versátiles.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -600,7 +600,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <p>Diseño basado en estándares Well.</p>
+                                                 <a href="https://www.introarquitectura.com.ar/about-us/">Diseño basado en estándares Well.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -612,7 +612,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <p>Cumplimiento de los plazos acordados</p>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">Cumplimiento de los plazos acordados</a>
                                             </h4>
                                         </div>
                                     </div>
