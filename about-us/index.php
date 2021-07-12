@@ -287,25 +287,7 @@
                     ✔ ️ Logística de Mudanza.
                 </p>
 
-                <h3> Cumplimiento de los plazos acordados: </h3>
-                <p>
-                    Sabemos que este es un factor determinante, ya que en muchos casos está en juego
-                    el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
-                    ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
-                    estricto de los plazos acordados en el contrato firmado entre las partes antes de
-                    comenzar cada obra.
-
-                    Equipo de profesionales especializados:
-                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
-                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
-                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
-                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
-                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
-                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
-                    una experiencia y calidad de trabajo que supere las expectativas.
-
-                </p>
-
+                
                     <h3> Equipo de profesionales especializados: </h3>
 
                     <p>
@@ -319,6 +301,7 @@
                     una experiencia y calidad de trabajo que supere las expectativas.
 
                  </p>
+
 
                  <h3> Espacios de trabajo versátiles: </h3>
 
@@ -353,38 +336,24 @@
 
                 </p>
 
+                <h3> Cumplimiento de los plazos acordados: </h3>
+                <p>
+                    Sabemos que este es un factor determinante, ya que en muchos casos está en juego
+                    el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
+                    ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
+                    estricto de los plazos acordados en el contrato firmado entre las partes antes de
+                    comenzar cada obra.
 
+                    Equipo de profesionales especializados:
+                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
+                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
+                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
+                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
+                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
+                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
+                    una experiencia y calidad de trabajo que supere las expectativas.
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                </p>
 
             <!-- End services -->
 
