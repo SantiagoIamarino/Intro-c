@@ -205,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-            </section> 
+            </section> -->
             <!-- END SERVICE-->
 
             <!-- Services -->
