@@ -551,7 +551,7 @@
                                 <h4 class="title-sub m-b-15">¿Por qué trabajar con nosotros?</h4>
                                 <h2 class="title-0 m-b-40 h2-nos-especializamos">Nos especializamos en el diseño de oficinas corporativas.</h2>
                                 <p class="m-b-65">
-											Nuestros proyectos son concebidos desde la dinámica de la empresa, el análisis de los individuos y su relación con el entorno.
+                                    Nuestros proyectos son concebidos desde la dinámica de la empresa, el análisis de los individuos y su relación con el entorno.
                                 </p>
                                 <div class="row no-gutters section-numbers">
                                     <div class="media-about-3">
@@ -575,7 +575,7 @@
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
                                                 <a href="https://www.introarquitectura.com.ar/about-us/">Equipo de profesionales especializados.</a>
-                                            </h4
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -604,7 +604,7 @@
                                             </h4>
                                         </div>
                                     </div>
-                                     <div class="media-about-3">
+                                    <div class="media-about-3">
                                         <div class="media__number-wrap">
                                             <span class="media__number">05</span>
                                             <span class="line"></span>
