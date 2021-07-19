@@ -8,7 +8,7 @@
     /* ESTAS SON PARA DEV  */
      $dsn = 'mysql:dbname=intro;host=localhost';
     $user = 'root';
-    $password = 'root'; 
+    $password = ''; 
 
     //dev
     $upload_dir = 'C:/xampp/htdocs/Intro/uploads/';
