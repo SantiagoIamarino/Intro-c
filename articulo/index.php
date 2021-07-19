@@ -10,35 +10,9 @@
     $statement->execute(array('postId' => $_GET['postId']));
     $post = $statement->fetch();
 
-    $statement = $db->prepare('SELECT * FROM comments WHERE postId = :postId');
-    $statement->execute(array('postId' => $_GET['postId']));
-    $comments = $statement->fetchAll();
-
     $statement = $db->prepare("SELECT * FROM posts ORDER BY RAND() LIMIT 5");
     $statement->execute();
     $random_posts = $statement->fetchAll();
-
-    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['comment'])){
-        if(!isset($_POST['name']) || empty($_POST['name'])) {
-            echo '<script>alert("Debes indicar tu nombre")</script>';
-        } else if(!isset($_POST['email']) || empty($_POST['email'])) {
-            echo '<script>alert("Debes indicar tu email")</script>';
-        } else if(!isset($_POST['content']) || empty($_POST['content'])) {
-            echo '<script>alert("El mensaje no puede estar vacio")</script>';
-        } else {
-            // print_r($_POST); die();
-            $statement = $db->prepare("INSERT INTO comments(name, postId, email, content) VALUES (:name, :postId, :email, :content)");
-            $statement->execute(array(
-                'name' => $_POST['name'], 
-                'email' => $_POST['email'],
-                'content' => $_POST['content'],
-                'postId'  => $post['id']
-            ));
-
-            echo '<script>alert("Comentario publicado correctamente")</script>';
-            $_POST = [];
-        }
-    }
 
 ?>
 
@@ -118,18 +92,6 @@
 
         <!-- MAIN-->
         <main id="main">
-            <!-- PAGE LINE-->
-            <div class="page-line">
-                <div class="container">
-                    <div class="page-line__inner">
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- END PAGE LINE-->
-
             <!-- BLOG DETAIL-->
             <section class="p-t-100 p-b-80">
                 <div class="container">
@@ -177,45 +139,6 @@
                                     </div>
                                 </footer>
                             </article>
-                            <div class="comments-area">
-                                <h3 class="comment-title"><?php echo count($comments) ?> Comentarios</h3>
-                                <ul class="comment-list">
-                                    <?php foreach($comments as $comment): ?>
-                                        <li class="comment">
-                                            <article class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author vcard">
-                                                        <img class="avatar" src="../images/user-01.png" alt="user 1">
-                                                        <b class="fn"><?php echo $comment['name'] ?></b>
-                                                    </div>
-                                                    <div class="comment-metadata">
-                                                        <a href="#"><?php echo date('d-m-Y', strtotime($comment['created_date'])) ?></a>
-                                                    </div>
-                                                </header>
-                                                <div class="comment-content">
-                                                    <p>
-                                                    <?php echo $comment['content'] ?>
-                                                </div>
-                                            </article>
-                                        </li>
-                                    <?php endforeach ?>
-                                </ul>
-                                <div class="comment-area-form">
-                                    <h3 class="comment-title">Deja un comentario</h3>
-                                    <form method="POST" action="#">
-                                        <div class="row gutter-md">
-                                            <div class="col-md-6">
-                                                <input name='name' class="au-input-2 m-b-20" type="text" placeholder="Tu nombre">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input name='email' class="au-input-2 m-b-20" type="email" placeholder="Tu correo">
-                                            </div>
-                                        </div>
-                                        <textarea name='content' class="au-textarea-2 m-b-20" placeholder="Tu comentario"></textarea>
-                                        <button class="au-btn au-btn--solid" type="submit" name='comment'>Enviar comentario</button>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
                         <div class="col-md-4 col-lg-3" 
                             style='border-left: 1px solid #cdcdcd; padding-top: 20px'>
