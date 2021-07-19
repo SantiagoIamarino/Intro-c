@@ -271,152 +271,177 @@
                 </div>
             </div>
 
-
-                <h3> Proyectos Llave en Mano: </h3>
-                <p>
-                    Nos ocupamos de su proyecto de principio a fin, centralizando todos los procesos y
-                    requerimientos, brindando la garantía de contar con un proyecto más dinámico, 100%
-                    personalizado, con un interlocutor directo, mediante el mecanismo Desing & Build:
-                    ✔ ️ Análisis de necesidades.
-                    ✔️ Definir el presupuesto en conjunto con el cliente, optimizando los recursos de
-                    modo que sugerir al cliente dónde es más conveniente poner el foco de su inversión
-                    ✔ ️ Desarrollar el proyecto ejecutivo.
-                    ✔ ️ Construcción y Dirección de Obra.
-                    ✔️ Asignación de un Project Manager de Intro para que realice un acompañamiento
-                    al cliente a lo largo de todo el proceso
-                    ✔ ️ Logística de Mudanza.
-                </p>
-
-                
-                    <h3> Equipo de profesionales especializados: </h3>
-
-                    <p>
-                    
-                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
-                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
-                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
-                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
-                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
-                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
-                    una experiencia y calidad de trabajo que supere las expectativas.
-
-                 </p>
-
-
-                 <h3> Espacios de trabajo versátiles: </h3>
-
-                 <p>
-                    Proponemos e implementamos soluciones integrales y versátiles que diseñamos
-                    especialmente para cada cliente, y trabajamos con sumo detalle para transformar el
-                    espacio en un ambiente óptimo para el desarrollo del capital humano.
-                    Nuestro trabajo se caracteriza por la supervisión constante en el gerenciamiento y
-                    ejecución integral de las obras, trabajando siempre con profesionalismo, seriedad y
-                    compromiso, con el objetivo de superar las expectativas. 
-
-                </p>
-
-                <h3> Diseños basados en estándares WELL: </h3>
-
-                <p>
-                    La Certificación WELL es un sistema de puntuación dinámico para edificios y
-                    comunidades que permite identificar, medir y monitorear las características de los
-                    espacios construidos que impactan en la salud y el bienestar de los ocupantes. Brinda
-                    la oportunidad de diseñar y construir con un enfoque centrado en el ser humano,
-                    ocupándose primordialmente en su salud. Desarrollar un buen lugar de trabajo está
-                    siendo parte de las actividades prioritarias de las empresas. El término bienestar
-                    puede referirse a muchos aspectos diferentes de una persona; puede involucrar
-                    bienestar emocional, bienestar físico y un sentimiento general de compromiso y
-                    felicidad que proviene de trabajar en un determinado rol profesional.
-                    En Intro Arquitectura el diseño, la construcción y la transformación de los ambientes de
-                    trabajo son concebidos desde una visión que incluye la dinámica de la empresa, el
-                    análisis de los individuos y su relación con el entorno. Trabajamos y realizamos
-                    nuestros proyectos guiándonos siempre por el concepto de bienestar WELL y
-                    apostando por los espacios de trabajo que brindan comodidad y máximo rendimiento a
-                    cada colaborador.
-
-                </p>
-
-                <h3> Cumplimiento de los plazos acordados: </h3>
-                <p>
-                    Sabemos que este es un factor determinante, ya que en muchos casos está en juego
-                    el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
-                    ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
-                    estricto de los plazos acordados en el contrato firmado entre las partes antes de
-                    comenzar cada obra.
-
-                    Equipo de profesionales especializados:
-                    Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
-                    que asignamos un equipo de profesionales dedicados, con el conocimiento y la
-                    experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
-                    para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
-                    profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
-                    tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
-                    una experiencia y calidad de trabajo que supere las expectativas.
-
-                </p>
-
-            <!-- End services -->
-
-            <!-- CLIENT-->
-            <section class="section bg-pattern-01 p-t-100 p-b-25 about-us-clients">
+            <section style='background: #f8f8f8' class='last-text p-b-100 p-t-100'>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-xl-3">
-                            <div class="section-title section-title--light text-left p-t-15">
-                                <!-- <h5 class="title-sub">awesome partner</h5> -->
-                                <h2 class="title-1">Nuestros clientes</h2>
+                    <div class="section-title m-b-100">
+                        <h5 class="title-sub">nosotros</h5>
+                        <h2 class="title-1">Como lo hacemos</h2>
+                    </div>
+
+                    <div class="media-about m-b-30" style='font-size: 16px'>
+                        <div class="row align-items-center m-b-100">
+                            <div class="col-lg-7">
+                                <div class="media__body">
+                                    <h2 class="title-1" style='font-size: 28px'>Proyectos Llave en Mano</h2>
+                                    <p>Nos ocupamos de su proyecto de principio a fin, centralizando todos los procesos y requerimientos, brindando la garantía de contar con un proyecto más dinámico, 100% personalizado, con un interlocutor directo, mediante el mecanismo Desing & Build: </p>
+                                    <ul>
+                                        <li>✔ ️ Análisis de necesidades. </li>
+                                        <li>✔ Definir el presupuesto en conjunto con el cliente, optimizando los recursos de modo que sugerir al cliente dónde es más conveniente poner el foco de su inversión.</li>
+                                        <li>✔ ️ Desarrollar el proyecto ejecutivo. </li>
+                                        <li>✔ ️ Construcción y Dirección de Obra. </li>
+                                        <li>✔  Asignación de un Project Manager de Intro para que realice un acompañamiento al cliente a lo largo de todo el proceso.</li>
+                                        <li>✔ ️ Logística de Mudanza.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="media__img js-line">
+                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <span class="line active"></span>
+                                    <span class="line line-bottom active"></span>
+                                    <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
+                                        <span class="number">28</span>
+                                        <span class="desc">years of experience</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-12 col-xl-9 mobile-slider-wrapper">
-                            <div class="row slide-hidden">
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/andreani-logo.png" alt="andreani-logo">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/asapp-logo.png" alt="asapp-logo.png">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-lg-3 belatrix-logo">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/belatrix-logo.png" alt="belatrix-logo.png">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/Comviva-logo.png" alt="Comviva-logo.png">
-                                    </a>
+
+                        <div class="row align-items-center m-b-120">
+                            <div class="col-lg-5">
+                                <div class="media__img js-line">
+                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <span class="line active"></span>
+                                    <span class="line line-bottom active"></span>
+                                    <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
+                                        <span class="number">28</span>
+                                        <span class="desc">years of experience</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row slide-two">
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/Daikin-logo.png" alt="Daikin-logo.png">
-                                    </a>
+                            <div class="col-lg-7">
+                                <div class="media__body">
+                                    <h2 class="title-1" style='font-size: 28px'>Equipo de profesionales especializados</h2>
+                                    <p>
+                                        Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
+                                        que asignamos un equipo de profesionales dedicados, con el conocimiento y la
+                                        experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
+                                        para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
+                                        profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
+                                        tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
+                                        una experiencia y calidad de trabajo que supere las expectativas. 
+                                    </p>
                                 </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/despegar-logo.png" alt="despegar-logo.png">
-                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center m-b-120">
+                            <div class="col-lg-7">
+                                <div class="media__body">
+                                    <h2 class="title-1" style='font-size: 28px'>Espacios de trabajo versátiles</h2>
+                                    <p>
+                                     Proponemos e implementamos soluciones integrales y versátiles que diseñamos especialmente para cada cliente, y trabajamos con sumo detalle para transformar el espacio en un ambiente óptimo para el desarrollo del capital humano. Nuestro trabajo se caracteriza por la supervisión constante en el gerenciamiento y ejecución integral de las obras, trabajando siempre con profesionalismo, seriedad y compromiso, con el objetivo de superar las expectativas.
+                                    </p>
                                 </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/Digital-House-logo.png" alt="Digital-House-logo.png">
-                                    </a>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="media__img js-line">
+                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <span class="line active"></span>
+                                    <span class="line line-bottom active"></span>
+                                    <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
+                                        <span class="number">28</span>
+                                        <span class="desc">years of experience</span>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <a class="img-client m-b-60" >
-                                        <img src="../images/icon/clientes/emergencias-logo.png" alt="emergencias-logo.png">
-                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center m-b-120">
+                            <div class="col-lg-5">
+                                <div class="media__img js-line">
+                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <span class="line active"></span>
+                                    <span class="line line-bottom active"></span>
+                                    <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
+                                        <span class="number">28</span>
+                                        <span class="desc">years of experience</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="media__body">
+                                    <h2 class="title-1" style='font-size: 28px'>Diseños basados en estándares WELL</h2>
+                                    <p>
+                                        La Certificación WELL es un sistema de puntuación dinámico para edificios y
+                                        comunidades que permite identificar, medir y monitorear las características de los
+                                        espacios construidos que impactan en la salud y el bienestar de los ocupantes. Brinda
+                                        la oportunidad de diseñar y construir con un enfoque centrado en el ser humano,
+                                        ocupándose primordialmente en su salud. 
+                                    </p>
+                                    <p class='m-t-20'>
+                                        Desarrollar un buen lugar de trabajo está
+                                        siendo parte de las actividades prioritarias de las empresas. El término bienestar
+                                        puede referirse a muchos aspectos diferentes de una persona; puede involucrar
+                                        bienestar emocional, bienestar físico y un sentimiento general de compromiso y
+                                        felicidad que proviene de trabajar en un determinado rol profesional.
+                                    </p>
+
+                                    <p class="m-t-20">
+                                        En Intro Arquitectura el diseño, la construcción y la transformación de los ambientes de
+                                        trabajo son concebidos desde una visión que incluye la dinámica de la empresa, el
+                                        análisis de los individuos y su relación con el entorno. Trabajamos y realizamos
+                                        nuestros proyectos guiándonos siempre por el concepto de bienestar WELL y
+                                        apostando por los espacios de trabajo que brindan comodidad y máximo rendimiento a
+                                        cada colaborador.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center m-b-120">
+                            <div class="col-lg-7">
+                                <div class="media__body">
+                                    <h2 class="title-1" style='font-size: 28px'>Cumplimiento de los plazos acordados</h2>
+                                    <p>
+                                        Sabemos que este es un factor determinante, ya que en muchos casos está en juego
+                                        el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
+                                        ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
+                                        estricto de los plazos acordados en el contrato firmado entre las partes antes de
+                                        comenzar cada obra.
+                                    </p>
+                                    <p>
+
+                                        Equipo de profesionales especializados:
+                                        Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
+                                        que asignamos un equipo de profesionales dedicados, con el conocimiento y la
+                                        experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
+                                        para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
+                                        profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
+                                        tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
+                                        una experiencia y calidad de trabajo que supere las expectativas.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="media__img js-line">
+                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <span class="line active"></span>
+                                    <span class="line line-bottom active"></span>
+                                    <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
+                                        <span class="number">28</span>
+                                        <span class="desc">years of experience</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- END CLIENT-->
+                
+
+            <!-- End services -->
 
             <!-- TEAM-->
             <!-- <section class="p-t-120 p-b-30">
