@@ -560,7 +560,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="dark" data-title="Testimonios">
+            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Testimonios">
                 
                 <div class="section-content">
                     <div class="container">

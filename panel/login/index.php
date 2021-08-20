@@ -94,7 +94,7 @@ error_reporting(E_ALL);
 						Bienvenido
 					</span>
 					<span class="login100-form-avatar">
-						<img src="../../images/icon/favicon.jpg" alt="AVATAR">
+						<img src="../../images/icon/logo-black.png" alt="AVATAR">
 					</span>
 
 					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Ingresa tu correo">
