@@ -33,6 +33,10 @@
     <!-- Main CSS-->
     <link href="../css/main.min.css" rel="stylesheet" media="all">
 
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
     <!--Favicons-->
     <link rel="apple-touch-icon" sizes="57x57" href="../images/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../images/icon/apple-icon-60x60.png">
@@ -65,6 +69,12 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M43SWV";
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <style>
+        .media__img img {
+            min-height: 350px;
+        }
+    </style>
 
     <div class="page-wrapper">
         <!-- HEADER-->
@@ -499,7 +509,8 @@
     <script src="../vendor/matchHeight/jquery.matchHeight-min.js"></script>
     <script src="../vendor/select2/select2.min.js"></script>
     <script src="../vendor/sweetalert/sweetalert.min.js"></script>
-    <script src="../vendor/noUiSlider/nouislider.min.js"></script>
+    <script src="../vendor/noUiSlider/nouislider.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Main JS-->
     <script src="../js/global.js"></script>

@@ -17,7 +17,7 @@ if(location.href.indexOf('post') >= 0) {
         modules: {
           toolbar: [
             ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
-            ['blockquote'],
+            ['blockquote', 'link'],
             
             [{ 'header': 1 }, { 'header': 2 }],               // custom button values
             ['image', 'video'] ,               

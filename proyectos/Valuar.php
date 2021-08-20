@@ -33,6 +33,10 @@
     <!-- Main CSS-->
     <link href="../css/main.min.css" rel="stylesheet" media="all">
 
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
     <!--Favicons-->
     <link rel="apple-touch-icon" sizes="57x57" href="../images/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../images/icon/apple-icon-60x60.png">
@@ -81,19 +85,19 @@
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar1.jpg" alt="Post 1">
+                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Valuar/ImgValuar1.jpg" alt="Post 1">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar2.jpg" alt="Post 2">
+                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Valuar/ImgValuar2.jpg" alt="Post 2">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuarV.jpg" alt="Post 3">
+                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Valuar/ImgValuarV.jpg" alt="Post 3">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/portadaValuar.jpg" alt="Post 4">
+                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Valuar/portadaValuar.jpg" alt="Post 4">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" src="../imagenes/Valuar/ImgValuar3.jpg" alt="Post 5">
+                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Valuar/ImgValuar3.jpg" alt="Post 5">
                             </div>
                         </div>
                     </div>
@@ -141,6 +145,17 @@
                                     <li class="list-social__item">
                                         <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
                                             <i class="zmdi zmdi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-pinterest" target="_blank" href="https://www.pinterest.es/introarquitectura/">
+                                            <i class="zmdi zmdi-pinterest-box"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-tiktok" target="_blank" href="https://www.tiktok.com/@intro_arquitectura">
+                                            <img src="<?php echo $url ?>/images/icon/tik-tok.png" 
+                                                style='height: 13px !important; margin-top: -3px'>
                                         </a>
                                     </li>
                                     <li class="list-social__item">
@@ -198,7 +213,8 @@
     <script src="../vendor/matchHeight/jquery.matchHeight-min.js"></script>
     <script src="../vendor/select2/select2.min.js"></script>
     <script src="../vendor/sweetalert/sweetalert.min.js"></script>
-    <script src="../vendor/noUiSlider/nouislider.min.js"></script>
+    <script src="../vendor/noUiSlider/nouislider.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Main JS-->
     <script src="../js/global.js"></script>

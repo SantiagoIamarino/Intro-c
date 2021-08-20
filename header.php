@@ -48,6 +48,17 @@
                                             <i class="zmdi zmdi-instagram"></i>
                                         </a>
                                     </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-pinterest" target="_blank" href="https://www.pinterest.es/introarquitectura/">
+                                            <i class="zmdi zmdi-pinterest-box"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-tiktok" target="_blank" href="https://www.tiktok.com/@intro_arquitectura">
+                                            <img src="<?php echo $url ?>/images/icon/tik-tok.png" 
+                                                style='height: 13px !important; margin-top: -3px'>
+                                        </a>
+                                    </li>
                                     <!-- <li class="list-social__item">
                                         <a class="ic-twi" href="#">
                                             <i class="zmdi zmdi-twitter"></i>

@@ -52,7 +52,7 @@ function aboutUsLogosSlider() {
 }
 
 function homeSliderEffect() {
-    const slides = document.getElementsByClassName("defaultimg");
+    const slides = $('.home-projects-slider .tp-bgimg');
 
     for (let i = 0; i < slides.length; i++) {
         const slide = slides[i];

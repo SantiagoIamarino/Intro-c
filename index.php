@@ -135,6 +135,17 @@
                                 <i class="zmdi zmdi-instagram"></i>
                             </a>
                         </li>
+                        <li class="list-social__item">
+                            <a class="ic-pinterest" target="_blank" href="https://www.pinterest.es/introarquitectura/">
+                                <i class="zmdi zmdi-pinterest-box"></i>
+                            </a>
+                        </li>
+                        <li class="list-social__item">
+                            <a class="ic-tiktok" target="_blank" href="https://www.tiktok.com/@intro_arquitectura">
+                                <img src="./images/icon/tik-tok.png" 
+                                    style='height: 16px !important; margin-top: -3px'>
+                            </a>
+                        </li>
                         <!-- <li class="list-social__item">
                             <a class="ic-twi" href="#">
                                 <i class="zmdi zmdi-twitter"></i>
@@ -179,16 +190,17 @@
                                                 <i class="zmdi zmdi-instagram"></i>
                                             </a>
                                         </li>
-                                        <!-- <li class="list-social__item">
-                                            <a class="ic-twi" href="#">
-                                                <i class="zmdi zmdi-twitter"></i>
+                                        <li class="list-social__item">
+                                            <a class="ic-pinterest" target="_blank" href="https://www.pinterest.es/introarquitectura/">
+                                                <i class="zmdi zmdi-pinterest-box"></i>
                                             </a>
                                         </li>
                                         <li class="list-social__item">
-                                            <a class="ic-pinterest" href="#">
-                                                <i class="zmdi zmdi-pinterest"></i>
+                                            <a class="ic-tiktok" target="_blank" href="https://www.tiktok.com/@intro_arquitectura">
+                                                <img src="./images/icon/tik-tok.png" 
+                                                    style='height: 13px !important; margin-top: -3px'>
                                             </a>
-                                        </li> -->
+                                        </li>
                                         <li class="list-social__item">
                                             <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                                 <i class="zmdi zmdi-linkedin"></i>
@@ -244,6 +256,17 @@
                     </a>
                 </li>
                 <li class="list-social__item">
+                    <a href="https://www.pinterest.es/introarquitectura/" target='_blank'>pinterest
+                        <i class="fab fa-pinterest icon"></i>
+                    </a>
+                </li>
+                <li class="list-social__item">
+                    <a href="https://www.tiktok.com/@intro_arquitectura" target='_blank'>tiktok
+                        <img src="./images/icon/tik-tok.png" class='icon'
+                            style='height: 35px !important; margin-top: -3px;opacity: .05'>
+                    </a>
+                </li>
+                <li class="list-social__item">
                     <a href="https://www.linkedin.com/company/intro-arquitectura-srl-" target='_blank'>LinkedIn
                         <i class="fab fa-linkedin icon"></i>
                     </a>
@@ -267,7 +290,7 @@
         <!-- PAGE PILLING-->
         <div class="page-pagepiling-wrap js-pagepilling">
             <!-- SLIDER-->
-            <section class="section-pp pp-table pp-easing" data-background="dark" data-title="Nosotros">
+            <section class="section-pp pp-table pp-easing home-projects-slider" data-background="dark" data-title="Nosotros">
                 
                 <div class="mouse-wheel-wrap">
                     <a class="mouse-wheel js-mouse-wheel" href="#">
@@ -480,6 +503,7 @@
                         <div class="rev_slider_wrapper home-projects">
                             <div class="rev_slider fullwidthabanner js-rev" data-version="5.4.4" style="display:none" data-rev-height="650" data-rev-layout="auto" data-rev-bullets="false" data-rev-arrows="true" data-rev-stylearrow="au-rev-arrow-3" data-rev-parallaxon="true">
                                 <ul class="list-rev-item--ov">
+
                                     <li class="rev-item rev-item-1 rev-item--ov" data-transition="crossfade">
                                         <img class="rev-slidebg" src="./images/kimberly-portada-home.jpg" alt="Master Slider 01" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" />
                                         <h4 class="tp-caption tp-resizeme rev-text-4 rs-parallaxlevel-1" data-frames="[{&quot;delay&quot;:300,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
@@ -490,7 +514,8 @@
                                         data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]" data-whitespace="normal" data-color="#fff" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]" data-textalign="[left, left, left, left, left]">KIMBERLY CLARK
                                         </h2> -->
                                     </li>
-                                    <li class="rev-item rev-item-1 rev-item--ov" data-transition="zoomout">
+
+                                    <li class="rev-item rev-item-1 rev-item--ov" data-transition="crossfade">
                                         <img class="rev-slidebg" src="./images/mae-portada-home.jpg" alt="Master Slider 01" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" />
                                         <h4 class="tp-caption tp-resizeme rev-text-4 rs-parallaxlevel-1" data-frames="[{&quot;delay&quot;:300,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                         data-x="['right']" data-y="['bottom']" data-hoffset="[-8, 120, 120, 0, 0]" data-voffset="[-40, 40, 40, 30, 30]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]"
@@ -500,11 +525,23 @@
                                         data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]" data-whitespace="normal" data-color="#fff" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]" data-textalign="[left, left, left, left, left]">MAE
                                         </h2> -->
                                     </li>
-                                    <li class="rev-item rev-item-1 rev-item--ov" data-transition="zoomin">
-                                        <img class="rev-slidebg" src="./imagenes/Regus/portada-regus.jpg" alt="Master Slider 01" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" />
+
+                                    <li class="rev-item rev-item-1 rev-item--ov" data-transition="crossfade">
+                                        <img class="rev-slidebg" src="./images/regus-portada-home.jpg" alt="Master Slider 01" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" />
                                         <h4 class="tp-caption tp-resizeme rev-text-4 rs-parallaxlevel-1" data-frames="[{&quot;delay&quot;:300,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                         data-x="['right']" data-y="['bottom']" data-hoffset="[-8, 120, 120, 0, 0]" data-voffset="[-40, 40, 40, 30, 30]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]"
                                         data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#ececec" data-fontweight="400" data-lineheight="[30, 30, 26, 30, 30]" data-fontsize="[18, 18, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Regus</h4>
+                                        <!-- <h2 class="tp-caption tp-resizeme rev-text-3 rs-parallaxlevel-2" data-frames="[{&quot;delay&quot;:200,&quot;speed&quot;:1100,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
+                                        data-x="[left]" data-y="[bottom]" data-hoffset="[0, 75, 70, 65, 65]" data-voffset="[-28, 50, 70, 65, 65]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[370, 370, 690, 510, 576]"
+                                        data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]" data-whitespace="normal" data-color="#fff" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]" data-textalign="[left, left, left, left, left]">Regus
+                                        </h2> -->
+                                    </li>
+
+                                    <li class="rev-item rev-item-1 rev-item--ov" data-transition="crossfade">
+                                        <img class="rev-slidebg" src="./images/wenance-portada-home.jpg" alt="Master Slider 01" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" />
+                                        <h4 class="tp-caption tp-resizeme rev-text-4 rs-parallaxlevel-1" data-frames="[{&quot;delay&quot;:300,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
+                                        data-x="['right']" data-y="['bottom']" data-hoffset="[-8, 120, 120, 0, 0]" data-voffset="[-40, 40, 40, 30, 30]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]"
+                                        data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#ececec" data-fontweight="400" data-lineheight="[30, 30, 26, 30, 30]" data-fontsize="[18, 18, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Wenance</h4>
                                         <!-- <h2 class="tp-caption tp-resizeme rev-text-3 rs-parallaxlevel-2" data-frames="[{&quot;delay&quot;:200,&quot;speed&quot;:1100,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                         data-x="[left]" data-y="[bottom]" data-hoffset="[0, 75, 70, 65, 65]" data-voffset="[-28, 50, 70, 65, 65]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[370, 370, 690, 510, 576]"
                                         data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]" data-whitespace="normal" data-color="#fff" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]" data-textalign="[left, left, left, left, left]">Regus
@@ -523,7 +560,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonios">
+            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="dark" data-title="Testimonios">
                 
                 <div class="section-content">
                     <div class="container">
@@ -800,7 +837,7 @@
 
                                 <div class="screen-item">
                                     <a class="img-client" href="#" style='cursor: unset' onclick='noRedirect(event)'>
-                                        <img style='transform: scale(0.8)'
+                                        <img style='transform: scale(0.8); filter: grayscale(1) !important'
                                             src="images/icon/clientes/carrier.png" alt="carrier.png">
                                     </a>
                                 </div>

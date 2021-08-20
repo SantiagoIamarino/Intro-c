@@ -1048,14 +1048,21 @@ a:hover {
     overflow: hidden;
 }
 .blog .entry-image > a {
-    display: block;
     overflow: hidden;
+    width: 560px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dad9d933;
 }
 .blog .entry-image img {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
+    height: 100%;
+    width: auto;
 }
 .blog .entry-image:hover img,
 .media-project-3 .media__img img {
@@ -5191,6 +5198,11 @@ button {
 .wp-post-image {
     display: block;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+.wp-post-image:hover {
+    transition: .3s all ease;
+    opacity: .7;
 }
 
 .medallia-video{
@@ -6392,8 +6404,14 @@ button {
 .bg-pattern-2 {
     background: url(../images/icon/bg-pattern-03.jpg) center center/cover no-repeat;
 }
+.bg-gray {
+    background-color: #cdcdcd;
+}
 .bg-image-1 {
-    background-color: #dcdcdc;
+    background: url(../images/logos-clientes-portada.jpg) center center/cover no-repeat;
+}
+.bg-image-1 .pp-tableCell {
+    backdrop-filter: brightness(0.5);
 }
 .bg-image-2 {
     background: url(../images/bg-page-02.jpg) center center/cover no-repeat;
@@ -13826,7 +13844,8 @@ button:focus {
     filter: grayscale(0);
 }
 .img-client img {
-    filter: grayscale(1);
+    filter: brightness(0) invert(0.9);
+    opacity: .9;
     width: auto;
     max-height: 100px;
 }

@@ -1,4 +1,7 @@
 <?php
+
+    /* $url = 'http://www.introarquitectura.com.ar/'; */
+    $url = 'http://localhost/Intro/'; 
     
     /* ESTAS VAN A PRODUCCIÓN */
     // $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
@@ -11,7 +14,7 @@
     $password = ''; 
 
     //dev
-    $upload_dir = 'C:/xampp/htdocs/Intro/uploads/';
+    $upload_dir = 'D:/Programas/xampp/htdocs/Intro/uploads/';
     //prod
     // $upload_dir = '/home/rquitectur/public_html/uploads/';
 
