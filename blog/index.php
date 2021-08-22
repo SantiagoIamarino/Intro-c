@@ -9,7 +9,15 @@
     $start = ($perPage * $page) - $perPage;
     $end = $perPage * $page;
 
-    $statement = $db->prepare("SELECT * FROM posts ORDER BY id DESC LIMIT $start, $end ");
+    $query = "SELECT * FROM posts WHERE category = 'blog' ";
+
+    if(isset($_GET['term']) && !empty($_GET['term'])) {
+        $query .= "AND title LIKE '%" . $_GET['term'] . "%' ";
+    }
+
+    $query .= "ORDER BY id DESC LIMIT $start, $end";
+
+    $statement = $db->prepare($query);
     $statement->execute();
     $posts = $statement->fetchAll();
 
@@ -18,6 +26,10 @@
     $total = $statement->fetch()['total'];
 
     $totalPages = ceil($total / $perPage);
+
+    $statement = $db->prepare("SELECT * FROM posts LIMIT 0,5");
+    $statement->execute();
+    $popularPosts = $statement->fetchAll();
 
 ?>
 
@@ -109,36 +121,66 @@
             </section>
             <!-- END PAGE HEADING-->
 
-            <!-- BLOG-->
-            <section class="section">
+            <!-- BLOG -->
+            <section>
                 <div class="container">
-                    <div class="row gutter-xl">
-                        <?php foreach($posts as $post): ?>
-                            <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9">
+                            <?php foreach($posts as $post): ?>
                                 <article class="blog">
                                     <figure class="entry-image">
-                                        <a href="../articulo/?postId=<?php echo $post['id'] ?>">
-                                            <img src="<?php echo '../uploads/' . $post['imageUrl'] ?>" alt="<?php echo $post['title'] ?>" />
+                                        <a href="<?php echo $url . 'articulo/?postId=' . $post['id'] ?>">
+                                            <img src="<?php echo '../uploads/' . $post['imageUrl'] ?>" 
+                                                alt="the  villa overlooks dramatic mountainous scenery">
                                         </a>
                                     </figure>
                                     <div class="entry-summary">
                                         <h4 class="entry-title">
-                                            <a href="../articulo/?postId=<?php echo $post['id'] ?>"><?php echo $post['title'] ?></a>
+                                            <a href="<?php echo $url . 'articulo/?postId=' . $post['id'] ?>">
+                                                <?php echo $post['title'] ?>
+                                            </a>
                                         </h4>
-                                        <span class="entry-meta">
-                                            <?php echo date('d', strtotime($post['date'])) ?> - <?php echo date('m', strtotime($post['date'])) ?> - <?php echo date('Y', strtotime($post['date'])) ?>
-                                        </span>
+                                        <span class="entry-meta"><?php echo date('d-m-Y', strtotime($post['date'])) ?></span>
                                         <p class="entry-excerpt">
                                             <?php echo $post['metaDescription'] ?>
                                         </p>
                                     </div>
                                 </article>
-                            </div>
-                        <?php endforeach; ?>
+                            <?php endforeach; ?>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <aside class="widget-area widget-sidebar">
+                                <div class="widget widget_search" style='background: #f6f7f8; padding: 25px'>
+                                    <form class="search-form" method="GET" 
+                                        action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+                                        <input (keyup.enter)='submitForm()'
+                                            value="<?php echo (isset($_GET['term'])) ? htmlspecialchars($_GET['term']) : '' ?>"
+                                            name='term' class="search-field" type="text" placeholder="Buscar aquí...">
+                                        <button class="search-submit" type="submit">
+                                            <span class="ti-search"></span>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="widget widget_recent_entries" style='background: #f6f7f8; padding: 25px'>
+                                    <h4 class="widget-title">Post populares</h4>
+                                    <ul>
+
+                                    <?php foreach($popularPosts as $post): ?>
+                                        <li>
+                                            <a href="<?php echo $url . 'articulo/?postId=' . $post['id'] ?>">
+                                                <?php echo $post['title'] ?>
+                                            </a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- END BLOG-->
+
             <?php if($total > $perPage): ?>
                 <nav class="navigation blog-navigation">
                     <div class="container">

@@ -68,7 +68,7 @@
                 </li>
                 <li class='blog-option'>
                     <a href="blog.php">
-                        <i class="bi bi-pencil-square"></i> Blog
+                        <i class="bi bi-pencil-square"></i> Articulos
                     </a>
                 </li>
             </ul>

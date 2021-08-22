@@ -109,29 +109,27 @@
                                 <footer class="entry-footer">
                                     <div class="entry-share">
                                         <span class="title-6">Compartir:</span>
+
+                                        <?php
+                                            $actualUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://". $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                                        ?>
+
                                         <ul class="list-social list-social--light2">
                                             <li class="list-social__item">
-                                                <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
+                                                <a class="ic-fb" target="_blank" 
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $actualUrl ?>">
                                                     <i class="zmdi zmdi-facebook"></i>
                                                 </a>
                                             </li>
                                             <li class="list-social__item">
-                                                <a class="ic-insta" target="_blank" href="https://www.instagram.com/intro_arquitectura/">
-                                                    <i class="zmdi zmdi-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="list-social__item">
-                                                <a class="ic-twi" href="#">
-                                                    <i class="zmdi zmdi-twitter"></i>
+                                                <a class="ic-whatsapp" target="_blank" 
+                                                    href="https://api.whatsapp.com/send?text=Mira%20este%20articulo%20<?php echo $actualUrl ?>">
+                                                    <i class="zmdi zmdi-whatsapp"></i>
                                                 </a>
                                             </li>
                                             <li class="list-social__item">
-                                                <a class="ic-pinterest" href="#">
-                                                    <i class="zmdi zmdi-pinterest"></i>
-                                                </a>
-                                            </li> -->
-                                            <li class="list-social__item">
-                                                <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
+                                                <a class="ic-linkedin" target="_blank" 
+                                                    href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $actualUrl ?>">
                                                     <i class="zmdi zmdi-linkedin"></i>
                                                 </a>
                                             </li>
@@ -140,8 +138,7 @@
                                 </footer>
                             </article>
                         </div>
-                        <div class="col-md-4 col-lg-3" 
-                            style='border-left: 1px solid #cdcdcd; padding-top: 20px'>
+                        <div class="col-md-4 col-lg-3" style='padding-top: 20px'>
                             <aside class="widget-area widget-sidebar">
                                 <!-- <div class="widget widget_search">
                                     <form class="search-form" method="GET" action="#">
@@ -151,8 +148,21 @@
                                         </button>
                                     </form>
                                 </div> -->
-                                <div class="widget widget_recent_entries">
-                                    <h4 class="widget-title">Post populares</h4>
+                                <div id="search-3" class="widget widget_search" 
+                                    style='background: #f6f7f8; padding: 25px'>
+                                    <div id="custom-search-input">  
+                                        <form class="search-form" method="GET" 
+                                            action="<?php echo $url . '/blog' ?>">
+                                            <input class="search-field" name="s" placeholder="Buscar aquí" type="text">
+                                            <button class="search-submit" type="submit">
+                                                <span class="ti-search"></span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div id="tatee_popular_posts_widget_id-3" class="widget widget_recent_entries"
+                                    style='background: #f6f7f8; padding: 25px'> 
+                                    <h4 class="widget-title">Articulos populares</h4>            
                                     <ul>
                                         <?php foreach($random_posts as $post): ?>
                                             <li>

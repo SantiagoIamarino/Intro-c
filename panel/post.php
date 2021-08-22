@@ -45,11 +45,12 @@
                     }
                     
         
-                    $statement = $db->prepare("UPDATE posts SET title = :title, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
+                    $statement = $db->prepare("UPDATE posts SET title = :title, category = :category, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
                             WHERE id = :postId");
 
                     $statement->execute(array(
                         'title' => $_POST['title'], 
+                        'category' => $_POST['category'],
                         'slug' => $_POST['slug'], 
                         'metaDescription' => $_POST['metaDescription'], 
                         'content' => $_POST['content'], 
@@ -67,10 +68,11 @@
                     $image = $upload_dir . basename($_FILES['image']['name']);
         
                     if (move_uploaded_file($_FILES['image']['tmp_name'], $image)) {
-                        $statement = $db->prepare("INSERT INTO posts(title, slug, metaDescription, content, imageUrl) 
-                                        VALUES (:title, :slug, :metaDescription, :content, :imageUrl)");
+                        $statement = $db->prepare("INSERT INTO posts(title, category, slug, metaDescription, content, imageUrl) 
+                                        VALUES (:title, :category, :slug, :metaDescription, :content, :imageUrl)");
                         $statement->execute((array(
                             'title' => $_POST['title'], 
+                            'category' => $_POST['category'],
                             'slug' => $_POST['slug'], 
                             'metaDescription' => $_POST['metaDescription'], 
                             'content' => $_POST['content'], 
@@ -103,6 +105,16 @@
                     <input type="text" class="form-control" name="title"
                         value="<?php echo (isset($post['title'])) ? $post['title'] : '' ?>"
                         id="title" placeholder="Título del artículo">
+                </div>
+
+                <div class="mb-3">
+                    <label for="category" class="form-label">Tipo</label>
+                    <select name="category" id="type" class='form-control'>
+                        <option <?php echo (isset($post['category']) && $post['category'] == 'blog') ? 'selected' : '' ?>
+                            value="blog">Articulo del blog</option>
+                        <option <?php echo (isset($post['category']) && $post['category'] == 'noticia') ? 'selected' : '' ?>
+                            value="noticia">Noticia</option>
+                    </select>
                 </div>
 
                 <div class="mb-3">

@@ -120,6 +120,9 @@
                                 <a onclick='closeMenu()' href="blog/">Blog</a>
                             </li>
                             <li class="menu-item">
+                                <a onclick='closeMenu()' href="noticias/">Noticias</a>
+                            </li>
+                            <li class="menu-item">
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
@@ -231,6 +234,9 @@
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="blog/">Blog</a>
+                            </li>
+                            <li class="menu-item">
+                                <a onclick='closeMenu()' href="noticias/">Noticias</a>
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>

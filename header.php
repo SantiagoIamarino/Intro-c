@@ -1,7 +1,6 @@
 <?php
 
-   /* $url = 'http://www.introarquitectura.com.ar/'; */
-     $url = 'http://localhost/Intro/'; 
+   require('config.php');
 
 ?> 
 
@@ -30,6 +29,9 @@
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>blog/">Blog</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="<?php echo $url ?>noticias/">Noticias</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>contacto/">Contacto</a>
@@ -142,6 +144,9 @@
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>blog/">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="<?php echo $url ?>noticias/">Noticias</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>contacto/">Contacto</a>

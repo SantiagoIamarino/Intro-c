@@ -1049,8 +1049,9 @@ a:hover {
 }
 .blog .entry-image > a {
     overflow: hidden;
-    width: 560px;
-    height: 370px;
+    min-width: 100%;
+    height: auto;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

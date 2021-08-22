@@ -39,10 +39,11 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Titulo</th>
-                    <th scope="col">Fecha</th>
-                    <th scope="col">Acción</th>
+                        <th scope="col">#</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col" class="text-center">Categoria</th>
+                        <th scope="col" class="text-center">Fecha</th>
+                        <th scope="col" class="text-center">Acción</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -50,8 +51,9 @@
                         <tr>
                             <th scope="row"><?php echo ($key + 1) ?></th>
                             <td><?php echo $post['title'] ?></td>
-                            <td><?php echo date('d/m/Y', strtotime($post['date'])) ?></td>
-                            <td>
+                            <td class="text-center"><?php echo $post['category'] ?></td>
+                            <td class="text-center"><?php echo date('d/m/Y', strtotime($post['date'])) ?></td>
+                            <td class="text-center">
                                 <button onclick="location.href = 'post.php?postId=<?php echo $post['id'] ?>'"
                                     class='btn btn-outline-info'>
                                     <i class="bi bi-pencil"></i>
