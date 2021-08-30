@@ -126,6 +126,14 @@
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
+                        <div class="languages d-flex ">
+                            <div class="spanish" style='padding: 5px; cursor: pointer'>
+                                <i class="fa fa-flag"></i>
+                            </div>
+                            <div class="english" style='padding: 5px; cursor: pointer'>
+                            <i class="fa fa-flag"></i>
+                            </div>
+                        </div>
                     </nav>
                     <ul class="list-social list-social--big">
                         <li class="list-social__item">
@@ -162,6 +170,11 @@
                         <li class="list-social__item">
                             <a class="ic-linkedin" target='_blank' href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                 <i class="zmdi zmdi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-social__item">
+                            <a class="ic-youtube" target='_blank' href="https://www.youtube.com/channel/UC2FmA2sVcrsHigia6ciMWww">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </li>
                     </ul>
@@ -207,6 +220,11 @@
                                         <li class="list-social__item">
                                             <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                                 <i class="zmdi zmdi-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-social__item">
+                                            <a class="ic-youtube" target="_blank" href="https://www.youtube.com/channel/UC2FmA2sVcrsHigia6ciMWww">
+                                                <i class="fab fa-youtube"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -277,6 +295,11 @@
                         <i class="fab fa-linkedin icon"></i>
                     </a>
                 </li>
+                <!-- <li class="list-social__item">
+                    <a href="https://www.youtube.com/channel/UC2FmA2sVcrsHigia6ciMWww" target='_blank'>YouTube
+                        <i class="fab fa-youtube icon"></i>
+                    </a>
+                </li> -->
                 <!-- <li class="list-social__item">
                     <a href="#">pinterest
                         <i class="fab fa-pinterest-p icon"></i>
@@ -1093,7 +1116,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Contactanos">
+            <section class="section-pp pp-easing section-pp--pad bg-pattern-1" data-background="dark" data-title="Contactanos">
                 
                 <div class="section-content">
                     <div class="container">
@@ -1108,16 +1131,22 @@
                             <div class="col-lg-4">
                                 <div class="contact-info">
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2">dirección:</h5>
-                                        <p class="value value--dark">Av. del Libertador 88 - piso 2</br>Vicente Lopez, Buenos Aires, Argentina.</p>
+                                        <h5 class="title--sm2" style='color: white'>dirección:</h5>
+                                        <p class="value value--dark" style='color: white'>
+                                            Av. del Libertador 88 - piso 2</br>Vicente Lopez, Buenos Aires, Argentina.
+                                        </p>
                                     </div>
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2">NUMERO DE TELÉFONO :</h5>
-                                        <p class="value value--dark">(+54 11) 5199-1401</p>
+                                        <h5 class="title--sm2" style='color: white'>NUMERO DE TELÉFONO :</h5>
+                                        <p class="value value--dark" style='color: white'>
+                                            (+54 11) 5199-1401
+                                        </p>
                                     </div>
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2">email:</h5>
-                                        <p class="value value--dark">info@introarquitectura.com.ar</p>
+                                        <h5 class="title--sm2" style='color: white'>email:</h5>
+                                        <p class="value value--dark" style='color: white'>
+                                            info@introarquitectura.com.ar
+                                        </p>
                                     </div>
                                 </div>
                             </div>

@@ -296,12 +296,12 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <img src="../images/proyecto-llave-en-mano.jpg" alt="Proyectos llave en mano">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
-                                        <span class="number">28</span>
-                                        <span class="desc">years of experience</span>
+                                        <!-- <span class="number">28</span>
+                                        <span class="desc">years of experience</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -310,12 +310,12 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <img src="../images/equipo-intro.jpg" alt="Equipo Intro">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
-                                        <span class="number">28</span>
-                                        <span class="desc">years of experience</span>
+                                        <!-- <span class="number">28</span>
+                                        <span class="desc">years of experience</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -346,12 +346,12 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <img src="../images/espacios-de-trabajo-versatiles.jpg" alt="Espacios de trabajo versatiles">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
-                                        <span class="number">28</span>
-                                        <span class="desc">years of experience</span>
+                                        <!-- <span class="number">28</span>
+                                        <span class="desc">years of experience</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -360,12 +360,12 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <img src="../images/standares-well.jpg" alt="Diseños basados en estándares WELL">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
-                                        <span class="number">28</span>
-                                        <span class="desc">years of experience</span>
+                                        <!-- <span class="number">28</span>
+                                        <span class="desc">years of experience</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -426,12 +426,12 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="https://freebw.com/templates/tatee/images/about-01.jpg" alt="About">
+                                    <img src="../images/cumplimiento-plazos-acordados.jpg" alt="Cumplimiento de los plazos acordados">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
-                                        <span class="number">28</span>
-                                        <span class="desc">years of experience</span>
+                                        <!-- <span class="number">28</span>
+                                        <span class="desc">years of experience</span> -->
                                     </div>
                                 </div>
                             </div>

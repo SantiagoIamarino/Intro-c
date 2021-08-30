@@ -166,6 +166,11 @@
                                             <i class="zmdi zmdi-linkedin"></i>
                                         </a>
                                     </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-youtube" target="_blank" href="https://www.youtube.com/channel/UC2FmA2sVcrsHigia6ciMWww">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

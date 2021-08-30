@@ -58,8 +58,10 @@
                         $('#pp-nav').removeClass('light dark').addClass(color);
                         pageTitle.text(title);
                         header.removeClass('light dark').addClass(color);
-                        if (color === 'light') header.find('.logo img').attr('src', 'images/icon/logo-black.png');
-                        else header.find('.logo img').attr('src', 'images/icon/logo-white.png');
+                        let url = 'images/icon/';
+                        if(location.href.indexOf('en') >= 0) { url = '../' + url }
+                        if (color === 'light') header.find('.logo img').attr('src', url + 'logo-black.png');
+                        else header.find('.logo img').attr('src', url + 'logo-white.png');
 
 
                         /* EFFECTS */

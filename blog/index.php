@@ -193,7 +193,7 @@
                                         </a>
                                     </li>
                                 <?php endif; ?>
-                                <?php for($i = 0; $i < $total; $i++): ?>
+                                <?php for($i = 0; $i < $totalPages; $i++): ?>
                                     <li class="pagination-item <?php echo (($i + 1) == $page) ? 'active' : '' ?>">
                                         <a href="?page=<?php echo ($i+1) ?>">
                                             <span class="page-number">

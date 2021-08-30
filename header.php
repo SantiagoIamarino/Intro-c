@@ -12,7 +12,7 @@
                     <div class="header__content">
                         <div class="logo">
                             <a href="<?php echo $url ?>">
-                                <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
+                                <img src="<?php echo $assets_url ?>images/icon/logo-black.png" alt="Intro Arquitectura" />
                             </a>
                         </div>
                         <div class="header__content-right">
@@ -57,23 +57,18 @@
                                     </li>
                                     <li class="list-social__item">
                                         <a class="ic-tiktok" target="_blank" href="https://www.tiktok.com/@intro_arquitectura">
-                                            <img src="<?php echo $url ?>/images/icon/tik-tok.png" 
+                                            <img src="<?php echo $assets_url ?>/images/icon/tik-tok.png" 
                                                 style='height: 13px !important; margin-top: -3px'>
                                         </a>
                                     </li>
-                                    <!-- <li class="list-social__item">
-                                        <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-pinterest" href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                        </a>
-                                    </li> -->
                                     <li class="list-social__item">
                                         <a class="ic-linkedin" target="_blank" href="https://www.linkedin.com/company/intro-arquitectura-srl-">
                                             <i class="zmdi zmdi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-social__item">
+                                        <a class="ic-youtube" target="_blank" href="https://www.youtube.com/channel/UC2FmA2sVcrsHigia6ciMWww">
+                                            <i class="fab fa-youtube"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -89,7 +84,7 @@
             <div class="container-fluid">
                 <div class="header-mobile__bar-inner">
                     <a class="logo" href="<?php echo $url ?>">
-                        <img src="<?php echo $url ?>images/icon/logo-black.png" alt="Tatee" />
+                        <img src="<?php echo $assets_url ?>images/icon/logo-black.png" alt="Intro Arquitectura" />
                     </a>
                     <div class="right d-flex align-items center">
                         <div class="socials mt-1">

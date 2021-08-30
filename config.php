@@ -1,7 +1,8 @@
 <?php
 
     /* $url = 'http://www.introarquitectura.com.ar/'; */
-    $url = 'http://localhost/Intro/'; 
+    $url = 'http://localhost/Intro/';
+    $assets_url = 'http://localhost/Intro/';
     
     /* ESTAS VAN A PRODUCCIÓN */
     // $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
