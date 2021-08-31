@@ -126,14 +126,14 @@
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
-                        <div class="languages d-flex ">
+                        <!-- <div class="languages d-flex ">
                             <div class="spanish" style='padding: 5px; cursor: pointer'>
                                 <i class="fa fa-flag"></i>
                             </div>
                             <div class="english" style='padding: 5px; cursor: pointer'>
                             <i class="fa fa-flag"></i>
                             </div>
-                        </div>
+                        </div> -->
                     </nav>
                     <ul class="list-social list-social--big">
                         <li class="list-social__item">
