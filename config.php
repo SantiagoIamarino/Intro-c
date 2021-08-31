@@ -12,9 +12,9 @@
     $password = 'Pv!-,ZBkW[WS';
 
     /* ESTAS SON PARA DEV  */
-    //  $dsn = 'mysql:dbname=intro;host=localhost';
-    // $user = 'root';
-    // $password = ''; 
+     $dsn = 'mysql:dbname=intro;host=localhost';
+    $user = 'root';
+    $password = ''; 
 
     //dev
     // $upload_dir = 'D:/Programas/xampp/htdocs/Intro/uploads/';

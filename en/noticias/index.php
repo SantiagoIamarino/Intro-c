@@ -27,7 +27,7 @@
 
     $totalPages = ceil($total / $perPage);
 
-    $statement = $db->prepare("SELECT * FROM posts LIMIT 0,5");
+    $statement = $db->prepare("SELECT * FROM posts WHERE category = 'noticia' LIMIT 0,5");
     $statement->execute();
     $popularPosts = $statement->fetchAll();
 
