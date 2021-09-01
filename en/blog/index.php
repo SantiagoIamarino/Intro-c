@@ -27,9 +27,9 @@
 
     $totalPages = ceil($total / $perPage);
 
-    $statement = $db->prepare("SELECT * FROM posts LIMIT 0,5");
-    $statement->execute();
-    $popularPosts = $statement->fetchAll();
+    // $statement = $db->prepare("SELECT * FROM posts ORDER BY RAND() LIMIT 5");
+    // $statement->execute();
+    // $popularPosts = $statement->fetchAll();
 
 ?>
 
