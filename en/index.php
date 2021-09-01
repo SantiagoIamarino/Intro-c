@@ -1120,13 +1120,6 @@
                 
                 <div class="section-content">
                     <div class="container">
-                        <div class="map-wrapper js-google-map m-b-60" data-makericon="images/icon/marker.png" data-makers="[[&quot;TATEE&quot;, &quot;Now that you visited our website,&lt;br&gt; how about checking out our office too?&quot;, -34.5339297, -58.4682629]]">
-                            
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13147.099740890539!2d-58.4682629!3d-34.5339297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9f9e0e39c7fe497!2sIntroarquitectura!5e0!3m2!1ses!2sar!4v1614021819744!5m2!1ses!2sar" 
-                                style='max-width: 100%; border: none'
-                                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                            </iframe>
-                        </div>
                         <div class="row no-gutters">
                             <div class="col-lg-4">
                                 <div class="contact-info">
