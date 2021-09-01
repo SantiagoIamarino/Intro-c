@@ -125,8 +125,8 @@
             <section>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-lg-9">
-                            <?php foreach($posts as $post): ?>
+                        <?php foreach($posts as $post): ?>
+                            <div class="col-12 col-md-6">
                                 <article class="blog">
                                     <figure class="entry-image">
                                         <a href="<?php echo $url . 'articulo/?postId=' . $post['id'] ?>">
@@ -146,36 +146,8 @@
                                         </p>
                                     </div>
                                 </article>
-                            <?php endforeach; ?>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <aside class="widget-area widget-sidebar">
-                                <div class="widget widget_search" style='background: #f6f7f8; padding: 25px'>
-                                    <form class="search-form" method="GET" 
-                                        action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-                                        <input (keyup.enter)='submitForm()'
-                                            value="<?php echo (isset($_GET['term'])) ? htmlspecialchars($_GET['term']) : '' ?>"
-                                            name='term' class="search-field" type="text" placeholder="Buscar aquí...">
-                                        <button class="search-submit" type="submit">
-                                            <span class="ti-search"></span>
-                                        </button>
-                                    </form>
-                                </div>
-                                <div class="widget widget_recent_entries" style='background: #f6f7f8; padding: 25px'>
-                                    <h4 class="widget-title">Post populares</h4>
-                                    <ul>
-
-                                    <?php foreach($popularPosts as $post): ?>
-                                        <li>
-                                            <a href="<?php echo $url . 'articulo/?postId=' . $post['id'] ?>">
-                                                <?php echo $post['title'] ?>
-                                            </a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                    </ul>
-                                </div>
-                            </aside>
-                        </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </section>
