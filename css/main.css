@@ -4039,8 +4039,16 @@ button {
     margin-bottom: 2px;
 }
 .blog-detail-1 .wp-post-image {
+    margin: 0 auto;
     margin-bottom: 30px;
+    max-height: 650px;
 }
+
+.blog-detail-1 img {
+    max-height: 650px;
+    margin: 0 auto;
+}
+
 .blog-detail-1 .entry-date {
     font-size: 11px;
     color: #888;
@@ -4055,6 +4063,7 @@ button {
 }
 .blog-detail-1 .entry-content p {
     margin-bottom: 30px;
+    display: flex;
 }
 .blog-detail-1 .entry-content blockquote {
     background: #f8f8f8;
