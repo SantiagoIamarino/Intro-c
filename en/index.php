@@ -950,7 +950,7 @@
                                 </div>
                                 <div class="screen-item">
                                     <a class="img-client" href="../proyectos/Mega.php">
-                                        <img src="../images/icon/clientes/LOGO-MEGA.jpg" alt="LOGO-MEGA.jpg">
+                                        <img src="../images/icon/clientes/LOGO-MEGA.png" alt="LOGO-MEGA.png">
                                     </a>
                                 </div>
                                 <div class="screen-item">

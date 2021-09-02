@@ -14056,3 +14056,12 @@ button:focus {
         right: 20px;
     }
 }
+
+#aboutUsCarousel .carousel-item {
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+#aboutUsCarousel .carousel-item img {
+    margin: auto;
+}
