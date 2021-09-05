@@ -31,7 +31,7 @@
                                 <a href="<?php echo $url ?>about-us/">About us</a>
                             </li>
                             <li>
-                                <a href="<?php echo $url ?>proyectos/">Proyects</a>
+                                <a href="<?php echo $url ?>proyectos/">projects</a>
                             </li>
                             <li>
                                 <a href="<?php echo $url ?>contacto/">Contact</a>

@@ -25,7 +25,7 @@
                                         <a href="<?php echo $url ?>about-us/">About us</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>proyectos/">Proyects</a>
+                                        <a href="<?php echo $url ?>proyectos/">projects</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>blog/">Blog</a>
@@ -151,7 +151,7 @@
                         <a href="<?php echo $url ?>about-us/">About us</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>proyectos/">Proyects</a>
+                        <a href="<?php echo $url ?>proyectos/">projects</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>blog/">Blog</a>
