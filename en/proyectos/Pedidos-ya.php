@@ -107,22 +107,22 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">2400 m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Pedidos Ya</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio Liberateur, CABA, Buenos Aires, Argentina</span>
+                                            <h4 class="key">LOCATION:</h4>
+                                            <span class="value">Liberateur Building, CABA, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -131,17 +131,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    “Delivery” significa servicio de entrega a domicilio. Tomando este concepto clave para el cliente como base, se proyectó un espacio de trabajo que tomó elementos de la vía pública y los introdujo en el interior de la oficina.
+                                    "Pedidos Ya" is a home delivery service. This was a key concept for the client, and we took it as a basis to design a workspace that took elements from the streets and brought them inside the office.
                                 </p>
                                 <p>
-                                    El proyecto consta de un sector operativo con formato de open space con largas islas de trabajo blancas y losa a la vista pintada de blanca. Las áreas de uso común como las salas de reuniones, meetings, phonebooth y coffee fueron diseñadas con una estética más “callejera”, con materiales de exterior como cemento, ladrillo, hierro y madera.
+                                    The project consists of an open space operational sector with long white work islands and white-painted exposed slab. Common use areas, such as the meeting rooms, phonebooth and coffee room, were designed with a more “street” aesthetic, with outdoor materials such as concrete, brick, iron, and wood.
                                 </p>
                                 <p>
-                                    El diseño, a partir de los espacios amplios y estéticamente atractivos, logró promover el confort y la familiaridad espacial.
+                                    The design, based on the spacious and aesthetically attractive spaces, managed to promote comfort and spatial familiarity.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

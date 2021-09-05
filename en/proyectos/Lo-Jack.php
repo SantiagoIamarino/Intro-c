@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2018</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">2000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Lo Jack</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,21 +131,20 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La premisa fue desarrollar un proyecto renovador e inspirador.
-                                    Se proyectó una oficina abierta bañada en luz natural, con paneles bajos para que las personas puedan interactuar y así fomentar el trabajo en equipo. El color blanco fue el predominante y se utilizaron colores pasteles combinados con madera para los sectores de sociabilización.
+                                    The premise was to develop an invigorating and inspiring project. We projected an open office bathed in natural light, with low panels so that people can interact and thus encourage teamwork. White was the predominant color and pastel colors combined with wood were used for socialization sectors.
                                 </p>
                                 <p>
-                                    Alrededor del núcleo de servicios del edificio se adosaron las funciones sociales como salas de reuniones, pool de impresión, meetings y phonebooths, con el objetivo de liberar los ventanales con vistas al exterior para los puestos operativos y privados.
+                                    Social functions, such as meeting rooms, printing pool, and phonebooths, were placed around the building’s service core, with the objective of freeing up the windows with exterior views for operational and private stations.
                                 </p>
                                 <p>
-                                    Con la idea de que todo el equipo pudiera disfrutar de las mejores vistas de la oficina, se generaron espacios de reunión informales y de esparcimiento en las esquinas y centro de la planta.
+                                   With the goal of having the whole team enjoy the office’s views, we created informal meeting and recreational spaces in the corners and center of the floor.
                                 </p>
                                 <p>
-                                    El objetivo fue crear un espacio de trabajo con el que las personas se sientan identificadas y satisfechas y que incremente la productividad y la retención de talento.
+                                    The objective was to create a workspace that people identify and feel satisfied with, and that increases productivity and talent retention.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

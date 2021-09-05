@@ -107,22 +107,22 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">1500m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Regus</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio Laminar II, CABA, Buenos Aires, Argentina</span>
+                                            <h4 class="key">LOCATION:</h4>
+                                            <span class="value">Laminar II Building, CABA, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -131,15 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Regus se propuso convertir sus espacios de coworking en oficinas modernas.
-                                    La idea del diseño de estos nuevos espacios fue generar ambientes de trabajo ajustables a cada usuario y que potencien al máximo su productividad, tomando la premisa de que en un coworking es preciso que cada usuario se sienta cómodo.
+                                    Regus set out to turn their coworking spaces into modern offices. The idea behind the design of these new spaces was to create work environments that adjust to each user and maximize their productivity, taking into consideration the premise that, in a coworking space, it is necessary for each user to feel comfortable.
                                 </p>
                                 <p>
-                                    Los ambientes de trabajo creados tienen la particularidad de ser lugares confortables, renovados y cálidos. Se utilizaron materiales como la madera y una gama de colores verdes que ayudan a fomentar el pensamiento creativo y el desarrollo de ideas..
+                                    The work environments created have the particularity of being comfortable, renovated, and warm places. We used materials such as wood and a range of green tones to help encourage creative thinking and the development of ideas.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

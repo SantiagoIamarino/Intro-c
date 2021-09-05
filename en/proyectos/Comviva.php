@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2021</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">850 m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Comviva</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,20 +131,20 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Para el diseño de estas oficinas se proyectó un espacio laboral formato open space, con áreas colaborativas de apoyo para fomentar el trabajo en equipo y la comunicación entre los usuarios.
+                                    For the design of these offices, we projected a workspace with an open space format and collaborative support areas to promote teamwork and communication between users.
                                 </p>
                                 <p>
-                                Las funciones privadas se encuentran en un núcleo central, de esta manera, los puestos operativos reciben las visuales directas a las fachadas, además de luz natural.
+                                The private functions are located in a central nucleus, in this way, the operational stations have direct visuals to the facades, in addition to natural light.
                                 </p>
                                 <p>
-                                    Los colores corporativos aparecen en detalles de alfombras y mobiliarios en lugares estratégicos de la oficina. 
+                                    Corporate colors appear in carpet and furniture details in strategic locations throughout the office. 
                                 </p>
                                 <p>
-                                Resultó fundamental la incorporación de plantas y revestimientos que evoquen el entorno natural para apoyar el bienestar emocional y psicológico de los ocupantes.
+                               The incorporation of vegetation and coatings that evoke the natural environment was essential to encourage the emotional and psychological wellbeing of the occupants.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

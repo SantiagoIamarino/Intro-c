@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">1000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Daikin</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,15 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento fue proyectar un espacio de trabajo abierto donde la jerarquía de los puestos no esté dada por espacios cerrados, sino por una diferenciación en el equipamiento, favoreciendo el trabajo en equipo y el desarrollo de una estructura organizativa horizontal.
+                                    The requirement was to design an open workspace where the hierarchy the stations isn’t defined by closed spaces, but by a differentiation in equipment, favoring teamwork and the development of a horizontal organizational structure.
                                 </p>
                                 <p>
-                                    Una escala de grises de tonos claros protagonizó la estética de la oficina, y se incorporaron elementos de madera para adicionar calidez al espacio de trabajo. 
-                                    El comedor se diseñó como un lugar de encuentro recreativo y laboral, con mobiliarios de distintos tamaños para cumplir con cada necesidad; comer, trabajar o simplemente tomarse un break. En este espacio se incorporó color a través de los asientos para marcar una diferencia con el área de trabajo operativo.
+                                    The main protagonist of the office’s aesthetics is a grayscale of light tones, and wooden elements were incorporated to add warmth to the workspace. The dining room was designed as a recreational and work meeting place, with furniture of different sizes to meet every need: eat, work or just take a break. Color was incorporated to this space through the seats, in order to differentiate it from the operational work area.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

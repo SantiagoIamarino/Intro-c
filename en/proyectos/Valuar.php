@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2017</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">200m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Valuar</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Jerónimo Salguero 2745, CABA, Argentina</span>
                                         </div>
                                     </div>
@@ -131,11 +131,11 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento del cliente fue transformar sus oficinas en un ambiente de trabajo motivador y elegante con espacios abiertos, salas privadas y salas de reuniones. La propuesta de Intro Arquitectura fue diseñar un concepto que juega con los límites a través de una malla metálica completamente permeable. Esto brindó una sensación de limite virtual que, pintada de blanco y con la incorporación de  biofilia, dio una delicada privacidad a los puestos gerenciales.
+                                    The client's requirement was to transform their offices into a motivating and elegant work environment with open spaces, private rooms, and meeting rooms. Intro Arquitectura's proposal was to design a concept that toys with boundaries through the use of a completely permeable metal mesh. This provided a virtual sense of boundaries that, painted white and with the incorporation of biophilia, resulted in a delicate kind privacy for the managerial stations.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

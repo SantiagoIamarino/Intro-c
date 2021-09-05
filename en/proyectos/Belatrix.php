@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2017</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">2000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Belatrix</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Gutiérrez 50, Mendoza, Argentina</span>
                                         </div>
                                     </div>
@@ -131,17 +131,19 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El proyecto se desarrolló en un edificio del 1900 y la idea principal fue revitalizar un espacio histórico por medio de los detalles de su arquitectura original para lograr un diálogo armonioso con la tecnología de una empresa del rubro tecnológico.
+                                    The project was developed in a building from the 1900s, and the main idea was to revitalize a historical space through the details of its original architecture to achieve a harmonious dialogue with the technology of a company in the technology field.
                                 </p>
                                 <p>
-                                    La espacialidad del lugar y sus sistemas de ventanas le proporcionaron luz natural en casi la totalidad del espacio. Su diseño open space le otorgó la posibilidad de desarrollar una propuesta conceptual en la que los empleados puedan identificarse con las nuevas oficinas modernas. Para lograr este objetivo, las estaciones de trabajo se ubicaron estratégicamente en el centro del diseño, aprovechando los espacios más grandes y las mejores condiciones para la luz natural. Las salas de reuniones están adaptadas al diseño abierto, aunque separadas.
+                                    The spatiality of the place and its window systems provided natural light in almost the entire space. Its open space design offered the possibility to develop a conceptual proposal in which employees can identify with the new modern offices. To achieve this goal, the workstations were strategically placed at the center of the design, taking advantage of the largest spaces and the best conditions for natural light. The meeting rooms are adapted to the open layout, although separate.
                                 </p>
                                 <p>
-                                    El encanto del espacio singular al que se dio forma, se logró manteniendo los espacios abiertos, pocos muros y mucha luz en un diseño de oficina contemporánea conviviendo con arquitectura clásica.
+                                    The charm of this singular space we created was achieved by keeping open spaces, few walls, and lots of light in a contemporary office design that coexists with classic architecture.
+ 
+
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks:</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

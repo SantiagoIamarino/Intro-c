@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2016</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">5000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Andreani</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,18 +131,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La oficina está ubicada en la planta operativa de Norlog, rodeada de espacios verdes.
+                                    The office is located in the Norlog operating plant, surrounded by green areas.
                                 </p>
                                 <p>
-                                    El diseño contó con una estética moderna y elegante con materiales nobles y de excelente calidad. La madera fue la gran protagonista de este proyecto, aportando textura a los espacios con la intención de incorporar la naturaleza del exterior al interior del edificio.
+                                    The design had a modern and elegant aesthetic with noble and excellent quality materials. Wood was the main protagonist of this project, providing texture to the spaces with the intention of bringing nature from the exterior into the interior of the building.
                                 </p>
                                 <p>
-                                    Los detalles fueron la gran premisa de este proyecto. Para tal fin, se fabricaron muebles pensados para cada espacio en particular y se utilizaron artefactos de iluminación colgantes estratégicamente seleccionadas para dar calidez y armonía a una oficina ubicada en el interior de una planta de logística.
-                                    Crear ambientes que evocan el entorno natural, logra apoyar el bienestar emocional y psicológico de los ocupantes potenciando su productividad.
+                                    Details were the great premise of this project. To this end, we used furniture specifically designed for each particular space and pendant lighting fixtures strategically selected to bring warmth and harmony to an office located inside a logistics site. The creation of spaces that evoke the natural environment helps encourage the emotional and psychological wellbeing of the occupants, enhancing their productivity.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks:</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

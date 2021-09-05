@@ -115,7 +115,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Blog</h4>
-                        <h2 class="title-2">Últimas novedades</h2>
+                        <h2 class="title-2">Latest news</h2>
                     </div>
                 </div>
             </section>

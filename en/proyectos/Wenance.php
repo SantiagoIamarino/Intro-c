@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2017</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">2000m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Wenance</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Av. Libertador 2242, Olivos, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,20 +131,20 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Nuestro cliente se caracteriza por tener un espíritu inquieto y un ADN innovador, lo que nos incentivó a diseñar cada milímetro de la oficina con características exclusivas e innovadoras.
+                                    Our client is characterized by having a restless spirit and an innovative DNA, which encouraged us to design every inch of this office with exclusive and innovative features.
                                 </p>
                                 <p>
-                                    El concepto fue de open space con una estética industrial; con losa e instalaciones a la vista, campanas tipo galponeras colgantes, islas de madera con hierro, sillas de colores y piso símil cemento alisado. Se trató de un diseño ecléctico en donde la combinación de estilos, colores y muebles con ese toque industrial consiguió enlazar una armonía de elementos.
+                                    We created an open space concept with an industrial aesthetic; with exposed slab and installations, hanging warehouse-type lighting, wood and iron islands, colored chairs, and smoothed cement-like floor. It was an eclectic design where the combination of styles, colors, and furniture was all linked together by the industrial touch.
                                 </p>
                                 <p>
-                                    Las salas de reuniones fueron repartidas a lo largo de la oficina, cada una con una estética y colores diferentes para su rápido reconocimiento. Los livings para reuniones informales fueron estratégicamente ubicados para darle aire y tener espacios mas privados para hablar por teléfono o tener una meeting. Los “privados” también tuvieron su diseño específico con escritorios únicos, iluminación especial y piso símil madera. 
+                                    The meeting rooms were distributed throughout the office, each one with different aesthetics and colors for quick recognition. The living rooms for informal meetings were strategically located for better flow and to create more private spaces to talk on the phone or have a meeting. The “private sectors” also had a specific design with unique desks, special lighting, and wood-like flooring. 
                                 </p>
                                 <p>
-                                    Materiales como cemento, chapa, hierro, madera, fueron los que primaron en este proyecto para apoyar esa imagen de industria en pleno crecimiento.
+                                    The predominant use of materials such as cement, sheet metal, iron, and wood reinforce the image of a growing industry.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

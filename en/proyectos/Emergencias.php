@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">500m2                                            </span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Emergencias</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,15 +131,15 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Para esta obra se proyectó un espacio de trabajo de impronta industrial en escala de grises con unos toques de color suaves y claros que humanizan el entorno generando un equilibrio agradable. El uso del color cambia en función de las actividades realizadas en los distintos entornos.
-                                    La incorporación de plantas (biofilia) ayudó al equilibrio de colores, además de colaborar con la disminución del estrés y el aumento de la productividad, entre otros beneficios.
+                                    For this project, we designed a workspace with an industrial imprint in grayscale with soft and light color details that humanize the environment, creating a pleasant balance. The use of color changes depending on the activities that take place in the different environments.
+                                    The incorporation of vegetation (biophilia) helped balance the colors out, in addition to helping with stress reduction and increased productivity, among other benefits.
                                 </p>
                                 <p>
-                                    La fusión entre el concepto de espacio de trabajo abierto y la losa a la vista como estética industrial, planteó un gran desafío en lo que respecta al confort acústico. Por este motivo se instalaron sobre los puestos de trabajo unos baffles de fieltro que, mediante una distribución estratégica, potenciaron la absorción acústica volumétrica permitiendo alcanzar los estándares óptimos de confort acústico y estético.
+                                    The fusion between the concept of open workspace and exposed slab as an industrial aesthetic posed a great challenge in terms of acoustic comfort. For this reason, felt baffles were installed in the workstations, which, through strategic distribution, enhanced volumetric acoustic absorption, allowing us to achieve the optimum standards of acoustic and aesthetic comfort.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

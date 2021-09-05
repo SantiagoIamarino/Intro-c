@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2018</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">450m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Despegar</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,17 +131,21 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La empresa necesitaba un espacio de capacitaciones flexible que se pudiera adaptar a todas las necesidades. Con esa premisa, se proyectó un espacio con un tabiques móviles para adaptarlo acorde a las necesidades.
+                                    The company needed a flexible training space adaptable to their every need. With that premise in mind, we designed a space with mobile partitions to adapt it as needed.
+ 
+
                                 </p>
                                 <p>
-                                    El concepto de flexibilidad no sólo se vio reflejado en la sala de capacitaciones, sino también en un área común de trabajo informal, donde el look se asemeja a un área de estar.
+                                    The concept of flexibility was not only reflected in the training room, but also in a common informal work area, whose look resembles a living area.
                                 </p>
                                 <p>
-                                    La selección de los materiales y mobiliario se adaptaron para diferentes opciones de usos de los espacios.
+                                    The selection of materials and furniture was adapted for different options of space usage.
+ 
+
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

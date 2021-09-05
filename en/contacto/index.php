@@ -80,12 +80,12 @@
                 <div class="container">
                     <div class="page-heading">
                         <!-- <h4 class="title-sub title-sub--c8 m-b-15">¡Trabajemos juntos!</h4> -->
-                        <p >Nos encantaría ser parte de tu proyecto.</p>
-                        <p> Si quieres que transformemos tus espacios de trabajo o quieres hacernos alguna consulta, ¡no dudes en contactarte con nosotros!
+                        <p >We would love to be part of your project.</p>
+                        <p> If you want us to transform your workspaces or you want to ask us any questions, do not hesitate to contact us!
 
-                            Déjanos un mensaje debajo. ¡Vamos a responder tu consulta a la brevedad!	
+                            Leave us a message below or text us directly through the WhatsApp button. We’ll get back to you shortly!	
                             
-                            Si quieres dejarnos tu cv, escríbenos a cv@introarquitectura.com.ar ¡Gracias!</p>
+                            If you want to send us your CV, write us at cv@introarquitectura.com.ar Thank you!</p>
                     </div>
                 </div>
             </section>
@@ -98,15 +98,15 @@
                         <div class="col-lg-4 extra-info">
                             <div class="contact-info">
                                 <div class="contact-info__item">
-                                    <h5 class="title--sm2">dirección:</h5>
-                                    <p class="value value--dark">Av. del Libertador 88 - piso 2</br>Vicente Lopez, Buenos Aires, Argentina.</p>
+                                    <h5 class="title--sm2">ADDRESS:</h5>
+                                    <p class="value value--dark">Av. del Libertador 88 - 2nd floor</br>Vicente Lopez, Buenos Aires, Argentina.</p>
                                 </div>
                                 <div class="contact-info__item">
-                                    <h5 class="title--sm2">NUMERO DE TELÉFONO :</h5>
+                                    <h5 class="title--sm2">PHONE NUMBER:</h5>
                                     <p class="value value--dark">(+54 11) 5199-1401</p>
                                 </div>
                                 <div class="contact-info__item">
-                                    <h5 class="title--sm2">email:</h5>
+                                    <h5 class="title--sm2">E-MAIL:</h5>
                                     <p class="value value--dark">info@introarquitectura.com.ar</p>
                                 </div>
                             </div>
