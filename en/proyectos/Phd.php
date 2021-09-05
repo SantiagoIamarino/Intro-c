@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2017</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">900m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">PHD</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Juan Diaz de Solis 1330, Vicente Lopez, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,14 +131,16 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Al ser una empresa basada en la innovación y creatividad, realizamos la construcción de sus oficinas con esas características, con losa a la vista e iluminación colgante formando diagonales para descontracturar la imagen clásica de oficina.
+                                    For this company centered on innovation and creativity, we carried out the construction of their offices with those same characteristics in mind, with exposed slab and pendant lighting forming diagonals to loosen the classic office image.
                                 </p>
                                 <p>
-                                    Se proyectaron espacios lúdicos a lo largo del open space como “pulmones de manzana” para darle aire a los puestos operativos y generar espacios para compartir e intercambiar ideas y conocimiento entre los equipos de trabajo.
+                                    We projected playful spaces throughout the open space as a "breathing area" to offer relaxation from the operational stations and to create spaces for sharing and exchanging ideas and knowledge among the work teams.
+ 
+
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

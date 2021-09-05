@@ -107,22 +107,22 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2020</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">1200m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Mercado Abierto Electrónico (MAE)</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio American Express, CABA, Buenos Aires, Argentina</span>
+                                            <h4 class="key">LOCATION:</h4>
+                                            <span class="value">American Express Building, CABA, Argentina</span>
                                         </div>
                                     </div>
                                 </div>
@@ -131,20 +131,20 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El gran desafío que tuvimos en este proyecto fue la transformación de las oficinas tradicionales que se distribuían entre dos pisos y contaban con una gran cantidad de privados y espacios cerrados a un nuevo modelo de open space en un único piso.
+                                    Our greatest challenge in this project was transforming traditional offices that were distributed between two floors and had a large number of private and closed spaces into a new open space model on a single floor.
                                 </p>
                                 <p>
-                                    Ésta nueva modalidad de espacio de trabajo obliga a la integración y comunicación entre los distintos equipos de trabajo apostando a utilizar estructuras organizativas totalmente distintas y renovadas.
+                                    This new type of workspace requires the integration and communication between the different work teams through the use of completely different and renewed organizational structures.
                                 </p>
                                 <p>
-                                    El alma del proyecto fue una pieza central que, a través de sus funciones, cumplió con el requerimiento central de MAE: la unión e interacción entre los diferentes sectores. En este núcleo social se encuentran las áreas colaborativas como salas de reunión, livings para reuniones informales, meetings.
+                                    The soul of the project was a central piece that, through its functions, fulfilled MAE’s main requirement: the union and interaction of different sectors. This social nucleus contains collaborative areas such as meeting rooms and living rooms for informal meetings.
                                 </p>
                                 <p>
-                                    La pieza conectora creó un recorrido que generó interés y  brindó calidad espacial. En ella se da toda interacción, las sinergias y colaboraciones entre los trabajadores.
+                                   The connecting piece created a path that garnered interest and provided spatial quality. All interactions, synergies, and collaborations among workers take place here.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

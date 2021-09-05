@@ -28,13 +28,13 @@
                         <h4 class="widget-title">Link</h4>
                         <ul>
                             <li>
-                                <a href="<?php echo $url ?>about-us/">Nosotros</a>
+                                <a href="<?php echo $url ?>about-us/">About us</a>
                             </li>
                             <li>
-                                <a href="<?php echo $url ?>proyectos/">Proyectos</a>
+                                <a href="<?php echo $url ?>proyectos/">Proyects</a>
                             </li>
                             <li>
-                                <a href="<?php echo $url ?>contacto/">Contacto</a>
+                                <a href="<?php echo $url ?>contacto/">Contact</a>
                             </li>
                         </ul>
                     </div>

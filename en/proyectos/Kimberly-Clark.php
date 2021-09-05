@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR :</h4>
                                             <span class="value">2020</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">3400m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Kimberly Clark</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Dr. Nicolás Repetto 3653, Olivos, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,15 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El diseño de la oficina tuvo como punto de partida el área colaborativa, donde diferentes funciones aparecían en la misma área: espacios de trabajo informal, de relax y de reuniones abiertas y cerradas. Se plasmó como un punto de encuentro e interacción desestructurados para todos los usuarios de la empresa. Todos estos espacios hacen del open space y el resto de las funciones formales el éxito del funcionamiento de las áreas entre sí.
-                                    El desarrollo de la arquitectura interior y la estética tuvieron una impronta muy fuerte y característica que hacen al resultado final de una oficina integrada y llena de vida.
+                                    The starting point for the office’s design was the collaborative area, where different functions meet in the same place: spaces for informal work, for relaxation, and for open and closed meetings. It was conceived as an unstructured meeting and interaction space for all users in the company. All these spaces make for the success of the open space and the rest of the formal functions’ operation. The development of the interior architecture and aesthetics had a strong and characteristic imprint that result in an integrated and lively office.
                                 </p>
                                 <p>
-                                    Los ambientes de trabajo saludables fueron diseñados para optimizar la productividad y, por lo tanto, debieron ser suficientemente adaptables para trabajar, concentrarse, colaborar y descansar.
+                                    Healthy work environments were designed to optimize productivity and, therefore, had to be adaptable enough to work, focus, collaborate, and rest.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

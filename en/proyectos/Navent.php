@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2014</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">700m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Navent</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Rondou 2664, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,18 +131,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    La premisa del joven equipo de TI era crear un ambiente divertido y motivador con espacios de trabajo abiertos, salones y áreas de recreación. Intro Arquitectura respondió con un concepto que yuxtapone trabajo, entretenimiento y relajación en un solo espacio.
+                                    The premise of this young IT team was to create a fun and motivating environment with open workspaces, lounges, and recreation areas. Intro Arquitectura responded with a concept that juxtaposes work, entertainment, and relaxation in a single space.
                                 </p>
                                 <p>
-                                    Las diferentes funciones de trabajo quedaron comunicadas a través de un trillage de madera que permite la conexión visual entre los espacios, enfatizando el concepto de oficina abierta y apoyando la comunicación fluida. 
-                                    Se diseñaron solamente una oficina privada y una pequeña sala de reuniones como espacios cerrados, que cuentan con paredes de vidrio simples que se integran perfectamente con el espacio abierto.
+                                    The different work functions are come together through a wooden treillage that allows for a visual connection between the spaces, emphasizing the concept of an open office while encouraging fluid communication. We only designed one private office and a small meeting room as closed spaces, featuring simple glass walls that blend seamlessly with the open space.
                                 </p>
                                 <p>
-                                    La decoración con paneles de madera OSB ayudó a crear una esencia más natural, pero siempre con un punto más moderno y atrevido por su aspecto reciclado. Este tipo de material que se vincula también con el aprovechamiento y el reciclaje, se utilizó para acentuar una estética más industrial y moderna.
+                                    The decoration with OSB wood panels helped bring out a more natural essence, but always with a more modern and daring twist due to its recycled look. This type of material, which is also linked to repurposing and recycling, was used to highlight the more industrial and modern aesthetic.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks:</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

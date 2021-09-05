@@ -111,21 +111,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">2400m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Medallia</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Edificio Boutique Work 3, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -135,17 +135,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Intro Arquitectura fue la empresa encargada de la construcción del interiorismo de las oficinas de Medallia ubicadas en la calle Arévalo. La intervención se realizó en todo el edificio, abarcando el hall de acceso, los espacios sociales y de esparcimiento y los espacios dedicados al trabajo.
+                                    Intro Arquitectura was the company in charge of the interior design and architecture of the Medallia offices located on Arévalo Street. The intervention was carried out throughout the building, covering the entrance hall, the social and recreational spaces, and the spaces dedicated to work.
                                 </p>
                                 <p>
-                                    La premisa fue crear una oficina acorde a un usuario joven. Se buscó integrar a los equipos a partir del diseño de open space; se diseñó una estética industrial que motive el trabajo colaborativo, con gran cantidad de salas de reuniones y sin necesidad de considerar oficinas privadas. Los puestos fueron ubicados cerca de las ventanas para que los usuarios puedan gozar de la luz natural, la vista a las copas de los árboles y a la ciudad.
+                                    The premise was to create an office fitting for a young user. We sought to integrate the teams through an open space design; we designed an industrial aesthetic to encourage collaborative work by including a large number of meeting rooms and without the need to consider private offices. The stations were located near the windows so that users can enjoy natural light, and the view of the treetops and the city.
                                 </p>
                                 <p>
-                                    Este proyecto se caracteriza por tener un concepto de interiorismo moderno que aporta, entre otras cosas, conceptos de bienestar y tecnología vanguardista.
+                                    This project is characterized by a modern interior design concept that provides, among other things, concepts of wellbeing and avant-garde technology.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

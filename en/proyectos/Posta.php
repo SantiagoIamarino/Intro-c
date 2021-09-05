@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2018</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">700m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Posta</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Complejo al Río, Vicente Lopez, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,15 +131,17 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Siguiendo ese requerimiento, se diseñó un bloque central que integra las funciones sociales como las salas de reuniones, meetings y la sala de capacitación que unifica los dos espacios de trabajo:
+                                    This project had a great premise: to design a single office with two completely different spaces in terms of functionality and aesthetics, but with shared sectors.
+                                    With this in mind, we designed a central block that integrates social functions, such as meeting rooms and the training room, which unifies the two workspaces:
+
                                     <ul class='pl-2'>
-                                        <li>Una oficina con modalidad de call center con puestos temporales e itinerantes diseñada con una estética clásica. </li>
-                                        <li>Un open space con puestos fijos pero flexibles diseñado con una estética industrial, equipamiento especial de hierro y madera, y losa a la vista.</li>
+                                        <li>An office with a call center modality with temporary and itinerant stations designed with a classic aesthetic.</li>
+                                        <li>An open space with fixed but flexible stations designed with an industrial aesthetic, special iron and wood equipment, and exposed slab.</li>
                                     </ul>
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

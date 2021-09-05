@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">1800m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Compañía Mega </span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Edificio San Martin 344, CABA, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,14 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento de Mega fue la construcción de una oficina de una presencia tranquila y un ambiente sutilmente elegante. Esta solicitud llevó a Intro Arquitectura a diseñar un espacio de trabajo que combina madera con grandes frentes vidriados.
+                                    Mega's requirement was to build an office with a quiet presence and an environment that was subtly elegant. This request led Intro Arquitectura to design a workspace that combines wood with large glass fronts. 
                                 </p>
                                 <p>
-                                    La incorporación de vidrio con diferentes matices y opacidades permite apreciar las visuales y el ingreso luz natural al centro de la planta donde se encuentra el open space. A su vez, ayuda a reducir las distracciones a la hora de trabajar. Colores neutros predominan la oficina con detalles en madera y colores suaves en sectores de uso común.
+                                    The incorporation of glass of different shades and opacities allows us to appreciate the visuals and natural light that enter the center of the floor where the open space is located. In turn, it helps reduce distractions when it comes to work. Neutral colors are predominant in the office, with wooden details and soft colors in areas of common use.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

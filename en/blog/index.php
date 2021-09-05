@@ -115,7 +115,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Blog</h4>
-                        <h2 class="title-2">Últimas novedades</h2>
+                        <h2 class="title-2">Latest news</h2>
                     </div>
                 </div>
             </section>
@@ -155,14 +155,14 @@
                                         action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
                                         <input (keyup.enter)='submitForm()'
                                             value="<?php echo (isset($_GET['term'])) ? htmlspecialchars($_GET['term']) : '' ?>"
-                                            name='term' class="search-field" type="text" placeholder="Buscar aquí...">
+                                            name='term' class="search-field" type="text" placeholder="Search here...">
                                         <button class="search-submit" type="submit">
                                             <span class="ti-search"></span>
                                         </button>
                                     </form>
                                 </div>
                                 <div class="widget widget_recent_entries" style='background: #f6f7f8; padding: 25px'>
-                                    <h4 class="widget-title">Post populares</h4>
+                                    <h4 class="widget-title">Popular posts</h4>
                                     <ul>
 
                                     <?php foreach($popularPosts as $post): ?>

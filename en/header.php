@@ -19,22 +19,22 @@
                             <nav class="header-nav-menu">
                                 <ul class="menu nav-menu">
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>">Inicio</a>
+                                        <a href="<?php echo $url ?>">Home</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>about-us/">Nosotros</a>
+                                        <a href="<?php echo $url ?>about-us/">About us</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>proyectos/">Proyectos</a>
+                                        <a href="<?php echo $url ?>proyectos/">Proyects</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>blog/">Blog</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>noticias/">Noticias</a>
+                                        <a href="<?php echo $url ?>noticias/">News</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="<?php echo $url ?>contacto/">Contacto</a>
+                                        <a href="<?php echo $url ?>contacto/">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -139,22 +139,22 @@
             <div class="container-fluid">
                 <ul class="menu nav-menu menu-mobile">
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>">Inicio</a>
+                        <a href="<?php echo $url ?>">Home</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>about-us/">Nosotros</a>
+                        <a href="<?php echo $url ?>about-us/">About us</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>proyectos/">Proyectos</a>
+                        <a href="<?php echo $url ?>proyectos/">Proyects</a>
                     </li>
                     <li class="menu-item">
                         <a href="<?php echo $url ?>blog/">Blog</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>noticias/">Noticias</a>
+                        <a href="<?php echo $url ?>noticias/">News</a>
                     </li>
                     <li class="menu-item">
-                        <a href="<?php echo $url ?>contacto/">Contacto</a>
+                        <a href="<?php echo $url ?>contacto/">Contact</a>
                     </li>
                 </ul>
             </div>

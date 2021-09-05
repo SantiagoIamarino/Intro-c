@@ -108,22 +108,22 @@
                     <nav class="menu-sidebar-nav-menu">
                         <ul class="menu nav-menu" id="nav-menu-sidebar">
                             <li class="menu-item menu-item-has-children">
-                                <a href="#" >Inicio</a>
+                                <a href="#" >Home</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="about-us/">Nosotros</a>
+                                <a onclick='closeMenu()' href="about-us/">About us</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
+                                <a onclick='closeMenu()' href="proyectos/">Projects</a>
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="blog/">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="noticias/">Noticias</a>
+                                <a onclick='closeMenu()' href="noticias/">News</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contacto/">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto/">Contact</a>
                             </li>
                         </ul>
                         <div class="languages d-flex ">
@@ -245,19 +245,19 @@
                                 <a href="#" >Inicio</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="about-us/">Nosotros</a>
+                                <a onclick='closeMenu()' href="about-us/">About us</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="proyectos/">Proyectos</a>
+                                <a onclick='closeMenu()' href="proyectos/">Projects</a>
                             </li>
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="blog/">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="noticias/">Noticias</a>
+                                <a onclick='closeMenu()' href="noticias/">News</a>
                             </li>
                             <li class="menu-item">
-                                <a onclick='closeMenu()' href="contacto/">Contacto</a>
+                                <a onclick='closeMenu()' href="contacto/">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -312,14 +312,15 @@
                 </li> -->
             </ul>
            
-            <h3 class="page-info__title">Nosotros</h3>
+            <h3 class="page-info__title">About us</h3>
         </div>
         <!-- END PAGE INFO-->
 
         <!-- PAGE PILLING-->
         <div class="page-pagepiling-wrap js-pagepilling">
             <!-- SLIDER-->
-            <section class="section-pp pp-table pp-easing home-projects-slider" data-background="dark" data-title="Nosotros">
+            <section class="section-pp pp-table pp-easing home-projects-slider" data-background="dark" data-title="About us
+            ">
                 
                 <div class="mouse-wheel-wrap">
                     <a class="mouse-wheel js-mouse-wheel" href="#">
@@ -338,15 +339,14 @@
                                     data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingbottom="[50, 50, 50, 50]" 
                                     data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]" 
                                     data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400"
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Somos INTRO Arquitectura</h4>
+                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">We are Intro Arquitectura</h4>
                                     <h2 class="tp-caption tp-resizeme rev-text-2"
                                     data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0px;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
                                     data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
                                     data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
-                                    construcción y transformación de espacios de trabajo.</h2>
+                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.</h2>
                                 <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[105, 105, 105, 105, 105]"
@@ -363,15 +363,16 @@
                                     data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingbottom="[50, 50, 50, 50]" 
                                     data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]" 
                                     data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400"
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]" ">Somos INTRO Arquitectura</h4>
+                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]" ">We are Intro Arquitectura</h4>
                                 <h2 class="tp-caption tp-resizeme rev-text-2"
                                     data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
                                     data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
                                     data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
-                                    construcción y transformación de espacios de trabajo.</h2>
+                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
+
+</h2>
                                 <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[95, 95, 105, 105, 85]"
@@ -388,15 +389,16 @@
                                     data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]"
                                     data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]"
                                     data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400" data-paddingbottom="[50, 50, 50, 50]" 
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Somos INTRO Arquitectura</h4>
+                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">We are Intro Arquitectura</h4>
                                 <h2 class="tp-caption tp-resizeme rev-text-2"
                                     data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
                                     data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
                                     data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
-                                    construcción y transformación de espacios de trabajo.</h2>
+                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
+
+</h2>
                                 <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
@@ -413,15 +415,16 @@
                                     data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingbottom="[50, 50, 50, 50]" 
                                     data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]"
                                     data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400"
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Somos INTRO Arquitectura</h4>
+                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">We are Intro Arquitectura</h4>
                                 <h2 class="tp-caption tp-resizeme rev-text-2"
                                     data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
                                     data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
                                     data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
-                                    construcción y transformación de espacios de trabajo.</h2>
+                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
+
+</h2>
                                <!--  <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
@@ -438,15 +441,16 @@
                                     data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingbottom="[50, 50, 50, 50]" 
                                     data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]" 
                                     data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400"
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">Somos INTRO Arquitectura</h4>
+                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">We are Intro Arquitectura</h4>
                                 <h2 class="tp-caption tp-resizeme rev-text-2"
                                     data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
                                     data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
                                     data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">Nos especializamos en el diseño,
-                                    construcción y transformación de espacios de trabajo.</h2>
+                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
+
+</h2>
                                 <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
@@ -462,7 +466,7 @@
             <!-- END SLIDER-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Que hacemos">
+            <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="What we do">
                 
                 <div class="section-content">
                     <div class="container">
@@ -477,11 +481,11 @@
                                     </figure>
                                     <div class="media__title title-number">
                                         <h3 class="title title--sm">
-                                            <p>Escuchamos</p>
+                                            <p>WE LISTEN</p>
                                         </h3>
                                         <span class="number">01</span>
                                     </div>
-                                    <p class="media__text">Nos caracterizamos por la atención personalizada que brindamos a nuestros clientes; escuchamos y evaluamos atentamente sus necesidades para ofrecerle una solución 100% a medida.</p>
+                                    <p class="media__text">We are characterized by the personalized attention we provide to our clients; we listen and carefully evaluate your needs to offer a 100% tailored solution.</p>
                                 </article>
                             </div>
                             <div class="col-md-4">
@@ -494,11 +498,11 @@
                                     </figure>
                                     <div class="media__title title-number">
                                         <h3 class="title title--sm">
-                                            <p>Proponemos</p>
+                                            <p>WE PROPOSE</p>
                                         </h3>
                                         <span class="number">02</span>
                                     </div>
-                                    <p class="media__text">Transformamos ideas en verdaderas experiencias. Brindamos soluciones integrales y versátiles, hechas a medida. Nuestra flexibilidad y trabajo continuo con el cliente dan como resultado propuestas que superan sus expectativas.</p>
+                                    <p class="media__text">We transform ideas into real experiences. We provide comprehensive and versatile solutions, made-to-measure. Our flexibility and constant work with the client result in proposals that exceed expectations.</p>
                                 </article>
                             </div>
                             <div class="col-md-4">
@@ -511,11 +515,11 @@
                                     </figure>
                                     <div class="media__title title-number">
                                         <h3 class="title title--sm">
-                                            <p>Desarrollamos</p>
+                                            <p>WE DEVELOP</p>
                                         </h3>
                                         <span class="number">03</span>
                                     </div>
-                                    <p class="media__text">La supervisión constante en el gerenciamiento y ejecución integral de las obras sumado a una amplia trayectoria ha consolidado nuestra especialización en la creación de ambientes óptimos para el desarrollo del capital humano.</p>
+                                    <p class="media__text">The constant supervision of the works’ management and integral execution, in addition to our wide trajectory, has consolidated our specialization in the creation of environments that are optimal for the development of human capital.</p>
                                 </article>
                             </div>
                         </div>
@@ -525,7 +529,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-pattern-1 section-pp--pad projects-slider" data-background="dark" data-title="Últimos trabajos">
+            <section class="section-pp pp-easing bg-pattern-1 section-pp--pad projects-slider" data-background="dark" data-title="Latest projects">
                 
                 <div class="section-content">
                     <div class="container">
@@ -581,7 +585,7 @@
                             </div>
                         </div>
                         <div class="text-center p-t-80">
-                            <a class="au-btn au-btn--light" href="proyectos/">Ver más proyectos</a>
+                            <a class="au-btn au-btn--light" href="proyectos/">See more projects</a>
                         </div>
                     </div>
                 </div>
@@ -589,13 +593,13 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Testimonios">
+            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Testimonials">
                 
                 <div class="section-content">
                     <div class="container">
                         <div class="row m-b-10">
                             <div class="col-12 title m-b-20">
-                                <h2 style='padding-bottom: 10px'>Proyecto Medallia</h2>
+                                <h2 style='padding-bottom: 10px'>Medallia Project</h2>
                                 <hr>
                             </div>
                             <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
@@ -608,16 +612,16 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Por que elegirnos">
+            <section class="section-pp pp-easing section-pp--pad" data-background="light" data-title="Why choose us">
                
                 <div class="section-content">
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col-md-8 p-r-155">
-                                <h4 class="title-sub m-b-15">¿Por qué trabajar con nosotros?</h4>
-                                <h2 class="title-0 m-b-40 h2-nos-especializamos">Nos especializamos en el diseño de oficinas corporativas.</h2>
+                                <h4 class="title-sub m-b-15">Why work with us?:</h4>
+                                <h2 class="title-0 m-b-40 h2-nos-especializamos">We specialize in the design of corporate offices.</h2>
                                 <p class="m-b-65">
-                                    Nuestros proyectos son concebidos desde la dinámica de la empresa, el análisis de los individuos y su relación con el entorno.
+                                    Our projects are conceived through combining the company’s dynamics, an analysis of the people involved, and their relationship with the environment.
                                 </p>
                                 <div class="row no-gutters section-numbers">
                                     <div class="media-about-3">
@@ -628,7 +632,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <a href="https://www.introarquitectura.com.ar/about-us/">Proyectos llave en mano.</a>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">-  Turnkey projects.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -640,7 +644,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <a href="https://www.introarquitectura.com.ar/about-us/">Equipo de profesionales especializados.</a>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">-  Team of specialized professionals.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -654,7 +658,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                 <a href="https://www.introarquitectura.com.ar/about-us/">Espacios de trabajo versátiles.</a>
+                                                 <a href="https://www.introarquitectura.com.ar/about-us/">- Versatile workspaces.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -666,7 +670,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                 <a href="https://www.introarquitectura.com.ar/about-us/">Diseño basado en estándares Well.</a>
+                                                 <a href="https://www.introarquitectura.com.ar/about-us/">- Design based on Well Standards.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -678,7 +682,7 @@
                                         </div>
                                         <div class="media__body">
                                             <h4 class="media__title title--sm titulos-de-cuadrados">
-                                                <a href="https://www.introarquitectura.com.ar/about-us/">Cumplimiento de los plazos acordados</a>
+                                                <a href="https://www.introarquitectura.com.ar/about-us/">-  Compliance with agreed upon deadlines.</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -692,7 +696,7 @@
                                         <span class="line line-bottom"></span>
                                         <div class="media__img-inner">
                                             <span class="number">15</span>
-                                            <span class="desc">Años de experiencia </br>y más de 500.000 m2 construidos.</span>
+                                            <span class="desc">15 years of experience </br>and more than 500,000 m2 built.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -704,7 +708,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonios">
+            <section class="section-pp pp-easing bg-image-1 section-pp--pad" data-background="dark" data-title="Testimonials">
               
                 <div class="section-content">
                     <div class="container">
@@ -1016,7 +1020,7 @@
                                 <div class="slick-content js-slick-content">
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“Una gran experiencia trabajar con Intro. Destaco la flexibilidad, agilidad y disposición en relación con los compromisos asumidos. Tuvimos un gran acompañamiento para finalizar la obra.”</p>
+                                            <p class="media__text">“Working with Intro was a great experience. I highlight the flexibility, agility, and disposition in relation to the commitments assumed. We had great support until the end of the project."</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Maria Teresa Suarez</a> -->
@@ -1030,7 +1034,7 @@
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“Agradecemos mucho la paciencia y el empeño que le pusieron al proyecto de remodelación para llegar en tiempo y forma.”</p>
+                                            <p class="media__text">"We greatly appreciate the patience and effort they put into the remodeling project to be able to finalize it in a timely manner."</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Jeanette Martinez Quiroga</a> -->
@@ -1045,7 +1049,7 @@
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“Entendieron perfectamente la necesidad de realizar una obra con equilibrio entre características y presupuesto. La predisposición de todo el equipo para estar presentes cada vez que eran requeridos fue fundamental”</p>
+                                            <p class="media__text">“They understood perfectly well the need to carry out the work by maintaining a fair balance between characteristics and budget. The willingness of the entire team to be present whenever they were required was essential.”</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Daniel Rodriguez</a> -->
@@ -1060,7 +1064,7 @@
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“La cercanía y el seguimiento de sus profesionales. Nos tuvieron mucha paciencia y nunca perdieron la calidez y profesionalismo.”</p>
+                                            <p class="media__text">“The closeness and monitoring offered by its professionals. They were very patient with us and never lost their warmth and professionalism."</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Gustavo Goldman</a> -->
@@ -1075,7 +1079,7 @@
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“Excelente calidad humana y profesional de todo el equipo. Presupuestos muy competitivos, completos y con varias opciones de materiales. Cumplimiento de tiempos de obra pactados.”</p>
+                                            <p class="media__text">“The entire team is of excellent human and professional quality. Very competitive budgets, complete and with several options of materials. Compliance with agreed upon work times."</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Florencia Nardini</a> -->
@@ -1090,7 +1094,7 @@
                                     </div>
                                     <div class="slick-item">
                                         <div class="media-testi light">
-                                            <p class="media__text">“Disponibilidad, atención, empatía, compromiso con lo que requería el cliente”</p>
+                                            <p class="media__text">"Availability, attention, empathy, commitment to what the client required."</p>
                                             <div class="media__title">
                                                 <h4 class="name">
                                                     <!-- <a>Gilberto Monteiro</a> -->
@@ -1116,7 +1120,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing section-pp--pad bg-pattern-1" data-background="dark" data-title="Contactanos">
+            <section class="section-pp pp-easing section-pp--pad bg-pattern-1" data-background="dark" data-title="Contact us">
                 
                 <div class="section-content">
                     <div class="container">
@@ -1131,19 +1135,19 @@
                             <div class="col-lg-4">
                                 <div class="contact-info">
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2" style='color: white'>dirección:</h5>
+                                        <h5 class="title--sm2" style='color: white'>ADDRESS:</h5>
                                         <p class="value value--dark" style='color: white'>
-                                            Av. del Libertador 88 - piso 2</br>Vicente Lopez, Buenos Aires, Argentina.
+                                            Av. del Libertador 88 - 2nd floor</br>Vicente Lopez, Buenos Aires, Argentina.
                                         </p>
                                     </div>
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2" style='color: white'>NUMERO DE TELÉFONO :</h5>
+                                        <h5 class="title--sm2" style='color: white'>PHONE NUMBER :</h5>
                                         <p class="value value--dark" style='color: white'>
                                             (+54 11) 5199-1401
                                         </p>
                                     </div>
                                     <div class="contact-info__item">
-                                        <h5 class="title--sm2" style='color: white'>email:</h5>
+                                        <h5 class="title--sm2" style='color: white'>E-MAIL:</h5>
                                         <p class="value value--dark" style='color: white'>
                                             info@introarquitectura.com.ar
                                         </p>

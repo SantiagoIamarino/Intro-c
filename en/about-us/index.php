@@ -10,7 +10,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Nosotros</title>
+    <title>About us</title>
 
     <!-- Icons font CSS-->
     <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -79,7 +79,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h4 class="title-sub title-sub--c8 m-b-15">Intro Arquitectura</h4>
-                       <!--  <h2 class="title-1">El equipo de Intro Arquitectura está conformado colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.</h2> -->
+                       <!--  <h2 class="title-1">The Intro Arquitectura team is made up of collaborators and consultants with extensive experience in the corporate architecture industry.</h2> -->
                     </div>
                 </div>
             </section>
@@ -106,7 +106,7 @@
                                     <div class="media-statistic-2">
                                         <div class="media__body">
                                             <span class="media__number js-counterup-custom">15</span>
-                                            <h5 class="media__title title-sub">Años de experiencia</h5>
+                                            <h5 class="media__title title-sub">Years of experience</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@
                                     <div class="media-statistic-2">
                                         <div class="media__body">
                                             <span class="media__number js-counterup-custom">500.000</span>
-                                            <h5 class="media__title title-sub">Metros construídos</h5>
+                                            <h5 class="media__title title-sub">Square meters built</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                                     <div class="media-statistic-2">
                                         <div class="media__body">
                                             <span class="media__number js-counterup-custom">300</span>
-                                            <h5 class="media__title title-sub">Proyectos realizados</h5>
+                                            <h5 class="media__title title-sub">Projects completed</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -138,14 +138,15 @@
                         </div>
                         <div class="col-lg-6">
                             <p class="text--s18-40 m-b-15">
-                                <strong class="text--c2">El equipo</strong>
+                                <strong class="text--c2">The Intro Arquitectura team</strong>
 
-                                 de Intro Arquitectura está conformado por colaboradores y asesores de amplia trayectoria en la industria de la arquitectura corporativa.
+                                  is made up of collaborators and consultants with extensive experience in the corporate architecture industry.
+                                 
                             </p>
                             <p class="text--s18-40">
-                                <strong class="text--c2">Desarrollamos</strong>
+                                <strong class="text--c2">We develop</strong>
 
-                                 nuestro trabajo diario en seis áreas interdisciplinarias: Desarrollo, Proyectos, Obras, Administración, Comercial y Presupuestos que nos permite desarrollar la ejecución integral de obras de forma optimizada, en menos tiempo y con excelentes resultados para nuestros clientes.
+                                  our daily work in six interdisciplinary areas: Development, Projects, Works, Administration, Commercial, and Budgets. This allows us to carry out the integral execution of works in an optimized way, in less time, and with excellent results for our clients.
                             </p>
                         </div>
                     </div>
@@ -212,8 +213,8 @@
             <div class="p-t-60 p-b-60 services-section">
                 <div class="container">
                     <div class="section-title">
-                        <h5 class="title-sub">Lo que hacemos</h5>
-                        <h2 class="title-1 h2-nos-especializamos-nosotros">Nos especializamos en:</h2>
+                        <h5 class="title-sub">What we do</h5>
+                        <h2 class="title-1 h2-nos-especializamos-nosotros">We specialize in:</h2>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -226,11 +227,11 @@
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
-                                        <p>PLANIFICACIÓN</p>
+                                        <p>PLANNING</p>
                                     </h3>
                                     <span class="number">01</span>
                                 </div>
-                                <p class="media__text">Desarrollamos el plan de obra para cada cliente de forma personalizada, siguiendo las necesidades de su negocio y equipo de trabajo.</p>
+                                <p class="media__text">We develop a work plan for each client in a personalized way, taking into consideration the needs of your business and work team.</p>
                             </article>
                         </div>
                         <div class="col-md-4">
@@ -243,11 +244,11 @@
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
-                                        <p>DISEÑO</p>
+                                        <p>DESIGN</p>
                                     </h3>
                                     <span class="number">02</span>
                                 </div>
-                                <p class="media__text">Nuestras propuestas son innovadoras y responden a las últimas tendencias en diseño, sustentabilidad y bienestar de las personas.</p>
+                                <p class="media__text">Our proposals are innovative and answer to the latest trends in design, sustainability, and wellness.</p>
                             </article>
                         </div>
                         <div class="col-md-4">
@@ -260,11 +261,11 @@
                                 </figure>
                                 <div class="media__title title-number">
                                     <h3 class="title title--sm">
-                                        <p>CONSTRUCCIÓN</p>
+                                        <p>BUILDING</p>
                                     </h3>
                                     <span class="number">03</span>
                                 </div>
-                                <p class="media__text">Brindamos soluciones integrales y versátiles que se adaptan a las características propias de cada cliente y espacio.</p>
+                                <p class="media__text">We provide comprehensive and versatile solutions that adapt to the characteristics of each client and space.</p>
                             </article>
                         </div>
                     </div>
@@ -274,29 +275,29 @@
             <section style='background: #f8f8f8' class='last-text p-b-100 p-t-100'>
                 <div class="container">
                     <div class="section-title m-b-100">
-                        <h5 class="title-sub">nosotros</h5>
-                        <h2 class="title-1">Como lo hacemos</h2>
+                        <h5 class="title-sub">About us</h5>
+                        <h2 class="title-1"> HOW WE DO IT</h2>
                     </div>
 
                     <div class="media-about m-b-30" style='font-size: 16px'>
                         <div class="row align-items-center m-b-100">
                             <div class="col-lg-7">
                                 <div class="media__body">
-                                    <h2 class="title-1" style='font-size: 28px'>Proyectos Llave en Mano</h2>
-                                    <p>Nos ocupamos de su proyecto de principio a fin, centralizando todos los procesos y requerimientos, brindando la garantía de contar con un proyecto más dinámico, 100% personalizado, con un interlocutor directo, mediante el mecanismo Desing & Build: </p>
+                                    <h2 class="title-1" style='font-size: 28px'>Turnkey Projects:</h2>
+                                    <p>We take care of your project from start to finish, centralizing all processes and requirements, guaranteeing a more dynamic project, 100% personalized, with a direct interlocutor, through the Design & Build mechanics: </p>
                                     <ul>
-                                        <li>✔ ️ Análisis de necesidades. </li>
-                                        <li>✔ Definir el presupuesto en conjunto con el cliente, optimizando los recursos de modo que sugerir al cliente dónde es más conveniente poner el foco de su inversión.</li>
-                                        <li>✔ ️ Desarrollar el proyecto ejecutivo. </li>
-                                        <li>✔ ️ Construcción y Dirección de Obra. </li>
-                                        <li>✔  Asignación de un Project Manager de Intro para que realice un acompañamiento al cliente a lo largo de todo el proceso.</li>
-                                        <li>✔ ️ Logística de Mudanza.</li>
+                                        <li>✔ ️ Needs Analysis. </li>
+                                        <li>✔ Define the budget together with the client, optimizing resources in order to suggest the most convenient focus for the client’s investment.</li>
+                                        <li>✔ ️ Develop the executive project. </li>
+                                        <li>✔ ️ Construction and Site Management. </li>
+                                        <li>✔  Assignment of an Intro Project Manager to support the client throughout the entire process.</li>
+                                        <li>✔ ️ Moving Logistics.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="../images/proyecto-llave-en-mano.jpg" alt="Proyectos llave en mano">
+                                    <img src="../../images/proyecto-llave-en-mano.jpg" alt="Proyectos llave en mano">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
@@ -310,7 +311,7 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="../images/equipo-intro.jpg" alt="Equipo Intro">
+                                    <img src="../../images/equipo-intro.jpg" alt="Equipo Intro">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
@@ -321,15 +322,11 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="media__body">
-                                    <h2 class="title-1" style='font-size: 28px'>Equipo de profesionales especializados</h2>
+                                    <h2 class="title-1" style='font-size: 28px'>Compliance with agreed upon deadlines:</h2>
                                     <p>
-                                        Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
-                                        que asignamos un equipo de profesionales dedicados, con el conocimiento y la
-                                        experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
-                                        para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
-                                        profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
-                                        tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
-                                        una experiencia y calidad de trabajo que supere las expectativas. 
+                                        We know that this is a determining factor for our clients, since in many cases what’s on the line are office rent payments or the need to move out urgently. Therefore, we bring maximum peace of mind to our clients in terms of strict compliance with the deadlines agreed upon by both parties in the contract signed before the start of each project.
+
+
                                     </p>
                                 </div>
                             </div>
@@ -338,15 +335,16 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-7">
                                 <div class="media__body">
-                                    <h2 class="title-1" style='font-size: 28px'>Espacios de trabajo versátiles</h2>
+                                    <h2 class="title-1" style='font-size: 28px'>Team of specialized professionals:</h2>
                                     <p>
-                                     Proponemos e implementamos soluciones integrales y versátiles que diseñamos especialmente para cada cliente, y trabajamos con sumo detalle para transformar el espacio en un ambiente óptimo para el desarrollo del capital humano. Nuestro trabajo se caracteriza por la supervisión constante en el gerenciamiento y ejecución integral de las obras, trabajando siempre con profesionalismo, seriedad y compromiso, con el objetivo de superar las expectativas.
+                                    Undoubtedly, this is one of the most important benefits for our clients, since we assign a team of dedicated professionals with the knowledge and experience that each project requires for its development. In Intro we work to provide the client with a 100% personalized service along with a professional and human team with extensive experience, and trained in the latest technologies and modern office market trends. This way, we guarantee an experience and quality of work that exceeds customer expectations.
+
                                     </p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="../images/espacios-de-trabajo-versatiles.jpg" alt="Espacios de trabajo versatiles">
+                                    <img src="../../images/espacios-de-trabajo-versatiles.jpg" alt="Espacios de trabajo versatiles">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
@@ -360,7 +358,7 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="../images/standares-well.jpg" alt="Diseños basados en estándares WELL">
+                                    <img src="../../images/standares-well.jpg" alt="Diseños basados en estándares WELL">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">
@@ -371,29 +369,19 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="media__body">
-                                    <h2 class="title-1" style='font-size: 28px'>Diseños basados en estándares WELL</h2>
+                                    <h2 class="title-1" style='font-size: 28px'>Versatile workspaces:
+
+</h2>
                                     <p>
-                                        La Certificación WELL es un sistema de puntuación dinámico para edificios y
-                                        comunidades que permite identificar, medir y monitorear las características de los
-                                        espacios construidos que impactan en la salud y el bienestar de los ocupantes. Brinda
-                                        la oportunidad de diseñar y construir con un enfoque centrado en el ser humano,
-                                        ocupándose primordialmente en su salud. 
-                                    </p>
-                                    <p class='m-t-20'>
-                                        Desarrollar un buen lugar de trabajo está
-                                        siendo parte de las actividades prioritarias de las empresas. El término bienestar
-                                        puede referirse a muchos aspectos diferentes de una persona; puede involucrar
-                                        bienestar emocional, bienestar físico y un sentimiento general de compromiso y
-                                        felicidad que proviene de trabajar en un determinado rol profesional.
+                                       We propose and implement comprehensive and versatile solutions designed specifically for each client, and we work in great detail to transform the space into an environment that’s optimal for the development of human capital.
+
                                     </p>
 
-                                    <p class="m-t-20">
-                                        En Intro Arquitectura el diseño, la construcción y la transformación de los ambientes de
-                                        trabajo son concebidos desde una visión que incluye la dinámica de la empresa, el
-                                        análisis de los individuos y su relación con el entorno. Trabajamos y realizamos
-                                        nuestros proyectos guiándonos siempre por el concepto de bienestar WELL y
-                                        apostando por los espacios de trabajo que brindan comodidad y máximo rendimiento a
-                                        cada colaborador.
+                                    <p>
+
+                                       Our work is characterized the constant supervision of the works’ management and integral execution, always working with professionalism, seriousness, and commitment, with the objective of exceeding our client's expectations.
+                                    </p>
+                                 
                                     </p>
                                 </div>
                             </div>
@@ -402,31 +390,29 @@
                         <div class="row align-items-center m-b-120">
                             <div class="col-lg-7">
                                 <div class="media__body">
-                                    <h2 class="title-1" style='font-size: 28px'>Cumplimiento de los plazos acordados</h2>
+                                    <h2 class="title-1" style='font-size: 28px'>Designs based on WELL Standards:
+
+</h2>
                                     <p>
-                                        Sabemos que este es un factor determinante, ya que en muchos casos está en juego
-                                        el pago del alquiler de las oficinas o la necesidad de mudarse de manera urgente. Por
-                                        ello, llevamos la máxima tranquilidad a nuestros clientes en cuanto al cumplimiento
-                                        estricto de los plazos acordados en el contrato firmado entre las partes antes de
-                                        comenzar cada obra.
+                                        The WELL Certification is a dynamic scoring system for buildings and communities that identifies, measures, and monitors the features of built spaces that impact its occupants’ health and wellbeing. It offers the opportunity to design and build with a human-centered approach, with the main focus being health. 
                                     </p>
-                                    <p>
 
-                                        Equipo de profesionales especializados:
-                                        Sin dudas, este es uno de los beneficios más importantes para nuestros clientes ya
-                                        que asignamos un equipo de profesionales dedicados, con el conocimiento y la
-                                        experiencia que requiere cada proyecto para llevarlo adelante. En Intro trabajamos
-                                        para brindarle al cliente un servicio 100% personalizado de la mano de un equipo
-                                        profesional y humano, con amplia trayectoria y capacitado en las últimas tecnologías y
-                                        tendencias del mercado de oficinas modernas. De esta forma garantizamos brindar
-                                        una experiencia y calidad de trabajo que supere las expectativas.
+                                    <p class= "m-t-20">
+                                        Encouraging a healthy workplace has become one of companies’ main priorities. The term “wellness” can refer to many different aspects of a person, including their emotional wellbeing, physical wellbeing, and the general feeling of commitment and happiness that comes from working in a certain professional role.
+                                    </p>
 
+                                    <p class= "m-t-20">
+                                        In Intro Arquitectura, the design, construction, and transformation of work environments are conceived from a vision that takes into consideration the company’s dynamics, the analysis of the individuals, and their relationship with the environment. We always work and develop our projects with the concept of WELL wellness in mind, and betting on workspaces that provide each collaborator with comfort and maximum performance.
+
+                                    </p>
+
+                                        
                                     </p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="media__img js-line">
-                                    <img src="../images/cumplimiento-plazos-acordados.jpg" alt="Cumplimiento de los plazos acordados">
+                                    <img src="../../images/cumplimiento-plazos-acordados.jpg" alt="Cumplimiento de los plazos acordados">
                                     <span class="line active"></span>
                                     <span class="line line-bottom active"></span>
                                     <div class="media__img-inner wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeIn;">

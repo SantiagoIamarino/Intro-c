@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">900m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Etex Group</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Complejo Urbana, Vicente Lopez, Buenos Aires, Argentina</span>
                                         </div>
                                     </div>
@@ -131,14 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    Este proyecto se basó en la idea de utilizar la oficina como showroom de los productos que comercializan. En base a esta premisa, se diseñaron distintas situaciones proyectando juegos de cielorrasos y tabiques con el máximo aprovechamiento de las funciones y características principales de cada producto.
+                                    This project was based on the idea of using the office as a showroom for the products they commercialize. Based on this premise, we designed distinct situations by combining ceilings and partitions to make the best out of each product’s main functions and characteristics.
                                 </p>
                                 <p>
-                                    El armado de la oficina resultó estratégico, con el open space rodeado de ventanas para beneficiarse de la luz natural y de las visuales al exterior. Los puestos gerenciales obtuvieron privacidad a través de paneles divisorios bajos, La estética de la oficina fue neutra y sobria con un “touch” de naranja, el color institucional.
+                                    The office’s assembly was strategically planned, with an open space surrounded by windows to benefit from the natural light and outside views. Managerial stations achieved privacy through low dividing panels. The office’s aesthetic was neutral and sober with a “touch” of orange, the institutional color.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">

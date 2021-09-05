@@ -107,21 +107,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">AÑO:</h4>
+                                            <h4 class="key">YEAR:</h4>
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SUPERFICIE:</h4>
+                                            <h4 class="key">SURFACE:</h4>
                                             <span class="value">1200m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
-                                            <h4 class="key">CLIENTE:</h4>
+                                            <h4 class="key">CLIENT:</h4>
                                             <span class="value">Asapp</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">UBICACIÓN:</h4>
+                                            <h4 class="key">LOCATION:</h4>
                                             <span class="value">Argentina</span>
                                         </div>
                                     </div>
@@ -131,14 +131,14 @@
                         <div class="col-lg-7">
                             <div class="entry-content">
                                 <p>
-                                    El requerimiento del diseño de esta oficina fue crear un espacio interesante para atraer a nuevos talentos jóvenes a que formen parte de esta compañía que está en pleno crecimiento en Argentina.
+                                   This office’s design requirement was to create an interesting space to attract new young talent to be a part of this growing company in Argentina.
                                 </p>
                                 <p>
-                                    Se proyectó una espacio de trabajo de open space y salas de reunión y se sumaron espacios de apoyo y conexión con mesones altos, livings y áreas relajadas. La propuesta estética joven de tipo industrial, la losa y todas las instalaciones quedaron a la vista haciendo referencia al backstage de esta empresa tecnológica. Se utilizaron colores neutros oscuros para lograr un juego de luces y sombras con los ventanales del edificio. El espacio de trabajo es amplio, con mesas largas sin divisiones para facilitar la comunicación y el trabajo en equipo. A su vez, se diseñaron áreas colaborativas con el objetivo de garantizar la sociabilización de los empleados y fomentar un ambiente de trabajo más saludable y amigable.
+                                    We designed an open space workspace and meeting rooms, and added support and connection spaces with high counters, living rooms, and relaxation areas. In this young aesthetic proposal of the industrial type, all slab and installations were left exposed, in reference to the backstage of this technological company. Dark neutral colors were used to achieve light and shadow effects with the building's windows. The workspace is spacious, with long tables without divisions to facilitate communication and teamwork. In addition, we designed collaborative areas with the aim of guaranteeing socialization among employees, and promoting a healthier and friendlier work environment.
                                 </p>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Redes Sociales :</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
