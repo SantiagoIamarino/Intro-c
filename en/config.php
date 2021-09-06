@@ -1,6 +1,6 @@
 <?php
 
-    $url = 'http://www.introarquitectura.com.ar/';
+    $url = 'http://www.introarquitectura.com.ar/en/';
     $assets_url = 'http://www.introarquitectura.com.ar/';
     
     // $url = 'http://localhost/Intro/en/'; 
