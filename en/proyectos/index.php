@@ -97,7 +97,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <!-- <h4 class="title-sub title-sub--c8 m-b-15">Últimos proyectos realizados</h4> -->
-                        <h2 class="title-2">Últimos proyectos realizados</h2>
+                        <h2 class="title-2">Latest projects</h2>
                         
                         <!-- <h2 class="title-2">
                             Nuestros proyectos se destacan por estar orientados a brindar bienestar a los equipos de trabajo de nuestros clientes.
