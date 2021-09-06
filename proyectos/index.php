@@ -1,3 +1,9 @@
+
+<?php
+   require('../config.php');
+   require('../shared/language.php');
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 

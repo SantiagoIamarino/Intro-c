@@ -1,6 +1,7 @@
 <?php 
 
     require('../config.php');
+    require('../shared/language.php');
 
     $perPage = 10;
     $page = (isset($_GET['page']) && !empty($_GET['page'])) ? $_GET['page'] : 1;

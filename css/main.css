@@ -14065,3 +14065,22 @@ button:focus {
 #aboutUsCarousel .carousel-item img {
     margin: auto;
 }
+
+.language-item a {
+    display: inline-block;
+    padding: 0 !important;
+}
+
+.language-item img {
+    cursor: pointer; 
+    opacity: .4;
+}
+
+.language-item img.active {
+    opacity: 1;
+    transform:scale(1.2);
+    padding: 2px; 
+    border: 1px solid #333333bd;
+    margin-top: -1px;
+    border-radius: 2px;
+}

@@ -1,6 +1,7 @@
 <?php 
 
     require('../config.php');
+    require('../shared/language.php');
 
     if(!isset($_GET['postId']) || empty($_GET['postId'])){
         header('Location: ../');

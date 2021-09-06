@@ -1,3 +1,8 @@
+<?php
+    require_once('./config.php');
+    require_once('./shared/language.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -126,14 +131,20 @@
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
                         </ul>
-                        <!-- <div class="languages d-flex ">
-                            <div class="spanish" style='padding: 5px; cursor: pointer'>
-                                <i class="fa fa-flag"></i>
-                            </div>
-                            <div class="english" style='padding: 5px; cursor: pointer'>
-                            <i class="fa fa-flag"></i>
-                            </div>
-                        </div> -->
+                        <div class="languages">
+                            <label class='d-block'
+                                style='font-size: 20px; margin-bottom: 0'>Lenguaje:</label>
+
+                            <a href='#' style='cursor: pointer; font-size: 18px; font-weight: normal;color:black'>
+                                <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png" alt="">
+                                Español
+                            </a>
+                            <a href='./?language=en' class='ml-3'
+                                style='cursor: pointer; font-size: 18px; font-weight: normal; opacity: .6;color:black'>
+                                <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png" alt="">
+                                Ingles
+                            </a>
+                        </div>
                     </nav>
                     <ul class="list-social list-social--big">
                         <li class="list-social__item">

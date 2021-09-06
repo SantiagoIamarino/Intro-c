@@ -1,9 +1,3 @@
-<?php
-
-   require('config.php');
-
-?> 
-
 <header id="header">
     <div class="header header-1 d-none d-lg-block js-header-1">
         <div class="header__bar">
@@ -35,6 +29,17 @@
                                     </li>
                                     <li class="menu-item">
                                         <a href="<?php echo $url ?>contacto/">Contact</a>
+                                    </li>
+                                    <li class="menu-item language-item">
+                                        <a href="./?language=es">
+                                            <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png"
+                                                style='height: auto !important;'>
+                                        </a>
+
+                                        <a href="#">
+                                            <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png"
+                                                style='height: auto !important;' class='ml-2 active'>
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>

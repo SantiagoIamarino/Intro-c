@@ -1,3 +1,8 @@
+<?php
+   require('../config.php');
+   require('../../shared/language.php');
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +15,7 @@
     <meta name="keywords" content="Tatee Theme Templates">
 
     <!-- Title Page-->
-    <title>Contacto | Intro Arquitectura</title>
+    <title>Contact | Intro Arquitectura</title>
 
     <!-- Icons font CSS-->
     <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">

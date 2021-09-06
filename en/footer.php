@@ -17,7 +17,7 @@
                     </div>
                     <div class="widget widget-address">
                         <ul>
-                            <?php require('../../shared/contact-data.php') ?>
+                            <?php require('../../shared/contact-data-en.php') ?>
                         </ul>
                     </div>
                 </div>

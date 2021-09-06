@@ -1,3 +1,9 @@
+<?php
+    require_once('./config.php');
+    require_once('../shared/language.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -126,14 +132,21 @@
                                 <a onclick='closeMenu()' href="contacto/">Contact</a>
                             </li>
                         </ul>
-                        <!-- <div class="languages d-flex ">
-                            <div class="spanish" style='padding: 5px; cursor: pointer'>
-                                <i class="fa fa-flag"></i>
-                            </div>
-                            <div class="english" style='padding: 5px; cursor: pointer'>
-                            <i class="fa fa-flag"></i>
-                            </div>
-                        </div> -->
+                        <div class="languages">
+                            <label class='d-block font-weight-bold'
+                                style='font-size: 20px; margin-bottom: 0'>Language:</label>
+
+                            <a href='#' style='cursor: pointer; font-size: 16px; font-weight: normal;color:black'>
+                                <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png" alt="">
+                                English
+                            </a>
+
+                            <a href='../?language=es' class='ml-3'
+                                style='cursor: pointer; font-size: 16px; font-weight: normal; opacity: .6;color:black'>
+                                <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png" alt="">
+                                Spanish
+                            </a>
+                        </div>
                     </nav>
                     <ul class="list-social list-social--big">
                         <li class="list-social__item">
@@ -1148,7 +1161,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <?php  require('../contact-form.php') ?>
+                                <?php  require('./contact-form.php') ?>
                             </div>
                         </div>
                     </div>
