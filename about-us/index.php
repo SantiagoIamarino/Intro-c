@@ -94,7 +94,16 @@
             <section class="section">
                 <div class="wrap wrap--w1790">
                     <div class="container-fluid">
-                        <img src=".././images/nosotros/nosotros-foto-grupal-intro.jpg" alt="Intro Arquitectura">
+                        <div id="aboutUsCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../images/nosotros/nosotros-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/nosotros/nosotros-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -967,6 +976,13 @@
     <script>
         $('.about-us-clients a').click((event) => {
             event.stopImmediatePropagation();
+        })
+
+        $(document).ready(() => {
+            setInterval(() => {
+                console.log('entro');
+                $('#aboutUsCarousel').carousel('next');
+            }, 4000)
         })
     </script>
 
