@@ -616,7 +616,7 @@
                                 <hr>
                             </div>
                             <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
-                                <iframe src="https://www.youtube.com/embed/aw7bc18V8Gk" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/Rjbdg57UzII" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

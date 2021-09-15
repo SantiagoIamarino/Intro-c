@@ -116,8 +116,8 @@
                                             <span class="value">2019</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SURFACE:</h4>
-                                            <span class="value">1800m2</span>
+                                            <h4 class="key">SIZE:</h4>
+                                            <span class="value">1800sqft.</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">

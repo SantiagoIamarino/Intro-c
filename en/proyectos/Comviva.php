@@ -116,8 +116,8 @@
                                             <span class="value">2021</span>
                                         </div>
                                         <div class="entry-meta__item">
-                                            <h4 class="key">SURFACE:</h4>
-                                            <span class="value">850 m2</span>
+                                            <h4 class="key">SIZE:</h4>
+                                            <span class="value">850 sqft.</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">

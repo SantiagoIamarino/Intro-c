@@ -6,7 +6,8 @@
                     <div class="header__content">
                         <div class="logo">
                             <a href="<?php echo $url ?>">
-                                <img src="<?php echo $assets_url ?>images/icon/logo-black.png" alt="Intro Arquitectura" />
+                                <img src="<?php echo $assets_url ?>images/icon/logo-black.png" alt="Intro Arquitectura" 
+                                    style='padding: 8px 0;'/>
                             </a>
                         </div>
                         <div class="header__content-right">
