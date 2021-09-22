@@ -1,25 +1,31 @@
 <?php
 
-    $url = 'http://www.introarquitectura.com.ar/';
-    $assets_url = 'http://www.introarquitectura.com.ar/';
+    define('IS_PRODUCTION', false);
 
-    // $url = 'http://localhost/Intro/';
-    // $assets_url = 'http://localhost/Intro/';
-    
-    /* ESTAS VAN A PRODUCCIÓN */
-    $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
-    $user = 'introarquitectur_main';
-    $password = 'Pv!-,ZBkW[WS';
+    if(IS_PRODUCTION) {
 
-    /* ESTAS SON PARA DEV  */
-    //  $dsn = 'mysql:dbname=intro;host=localhost';
-    // $user = 'root';
-    // $password = ''; 
+        $url = 'http://www.introarquitectura.com.ar/';
+        $assets_url = 'http://www.introarquitectura.com.ar/';
 
-    //dev
-    // $upload_dir = 'D:/Programas/xampp/htdocs/Intro/uploads/';
-    //prod
-    $upload_dir = '/home/introarquitectur/public_html/uploads/';
+        $dsn = 'mysql:dbname=introarquitectur_main;host=localhost';
+        $user = 'introarquitectur_main';
+        $password = 'Pv!-,ZBkW[WS';
+
+        $upload_dir = '/home/introarquitectur/public_html/uploads/';
+
+    } else {
+
+        $url = 'http://localhost/Intro/';
+        $assets_url = 'http://localhost/Intro/';
+        
+        $dsn = 'mysql:dbname=intro;host=localhost';
+        $user = 'root';
+        $password = ''; 
+
+        $upload_dir = 'D:/Programas/xampp/htdocs/Intro/uploads/';
+
+    }
+
 
     try {
         $db = new PDO($dsn, $user, $password);
