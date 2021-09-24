@@ -104,12 +104,12 @@
                         </div>
                     </div>
 
-                    <div class="languages">
+                    <div class="header-top-languages">
                         <div class="spanish active">
-                            <img src="<?php echo $assets_url ?>images/icon/spain-flag-icon-32.png" alt="">
+                            <a href="#">Español</a>
                         </div>
                         <div class="english">
-                            <img src="<?php echo $assets_url ?>images/icon/usa-flag-icon-32.png" alt="">
+                            <a href='./?language=en'>English</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             <a href='./?language=en' class='ml-3'
                                 style='cursor: pointer; font-size: 18px; font-weight: normal; opacity: .6;color:black'>
                                 <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png" alt="">
-                                Ingles
+                                English
                             </a>
                         </div>
                     </nav>
@@ -279,6 +279,21 @@
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="contacto/">Contacto</a>
                             </li>
+
+                            <div class="languages">
+
+                                <a href='#' class='ml-3'
+                                    style='cursor: pointer; font-size: 16px; font-weight: normal;color:black'>
+                                    <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png" alt="">
+                                    Español
+                                </a>
+
+                                <a href='./?language=en' style='cursor: pointer; font-size: 16px; opacity: .6; font-weight: normal;color:black'>
+                                    <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png" alt="">
+                                    English
+                                </a>
+
+                            </div>
                         </ul>
                     </div>
                 </nav>

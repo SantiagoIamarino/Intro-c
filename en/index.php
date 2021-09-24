@@ -104,6 +104,16 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="header-top-languages">
+                        <div class="english active">
+                            <a href='#'>English</a>
+                        </div>
+                        <div class="spanish">
+                            <a href='../?language=es'>Español</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <aside class="menu-sidebar js-menusb" id="sidebar">
@@ -144,7 +154,7 @@
                             <a href='../?language=es' class='ml-3'
                                 style='cursor: pointer; font-size: 16px; font-weight: normal; opacity: .6;color:black'>
                                 <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png" alt="">
-                                Spanish
+                                Español
                             </a>
                         </div>
                     </nav>
@@ -272,6 +282,21 @@
                             <li class="menu-item">
                                 <a onclick='closeMenu()' href="contacto/">Contact</a>
                             </li>
+
+                            <div class="languages">
+                                
+                                <a href='#' style='cursor: pointer; font-size: 16px; font-weight: normal;color:black'>
+                                    <img src="<?php echo $assets_url ?>/images/icon/usa-flag-icon.png" alt="">
+                                    English
+                                </a>
+
+                                <a href='../?language=es' class='ml-3'
+                                    style='cursor: pointer; font-size: 16px; font-weight: normal; opacity: .6;color:black'>
+                                    <img src="<?php echo $assets_url ?>/images/icon/spain-flag-icon.png" alt="">
+                                    Español
+                                </a>
+
+                            </div>
                         </ul>
                     </div>
                 </nav>
@@ -606,7 +631,7 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Medallia">
+            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="dark" data-title="Medallia">
                 
                 <div class="section-content">
                     <div class="container">

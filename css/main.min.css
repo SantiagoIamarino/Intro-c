@@ -14076,33 +14076,64 @@ button:focus {
     right: -6px;
 }
 
-.languages {
+.header-top-languages {
     position: absolute;
     top: -32px;
-    right: 75px;
+    right: 80px;
     z-index: 999999;
     display: flex;
 }
 
-@media screen and(max-width: 1760px) {
-    .languages {
+.header-top-languages > div {
+    padding: 5px 10px;
+}
+
+.header-top-languages > div a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.header-page-pilling.light .header-top-languages > div a {
+    color: #555;
+} 
+
+.header-top-languages > div.active a,
+.header-top-languages > div a:hover {
+    transition: .3s all ease;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1760px) {
+    .header-top-languages {
         right: 15px;
     }
 }
 
-.languages > div {
-    padding: 10px 5px;
+@media screen and (max-width: 991px) {
+    .header-top-languages {
+        display: none;
+    }
 }
 
-.languages > div img {
-    padding: 0 5px;
-    border: 1px solid white;
-    border-radius: 3px;
-    cursor: pointer;
-}
+@media screen and (max-width: 991px) {
+    .header-top-languages {
+        display: none;
+    }
 
-.languages > div.active img {
-    background: #efefef;
+    .menu-mobile .languages {
+        padding: 10px;
+    }
+
+    .menu-mobile .languages label {
+        display: none !important;
+    }
+
+    .menu-mobile .languages a {
+        margin-left: 15px !important;
+    }
 }
 
 .language-item a {
