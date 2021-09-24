@@ -2058,7 +2058,7 @@ a:hover {
     padding: 62px 65px 60px;
 }
 .media-testi.light {
-    background: #eaeaeaf7;
+    background: #eaeaeae0;
 }
 .media-testi.light .quote {
     color: #f8f8f8;
@@ -6414,7 +6414,7 @@ button {
     background: url(../images/icon/bg-pattern-03.jpg) center center/cover no-repeat;
 }
 .bg-gray {
-    background-color: #cdcdcd;
+    background-color: #222;
 }
 .bg-image-1 {
     background: linear-gradient(black, black), url(../images/logos-clientes-portada.jpg) center center/cover no-repeat;
@@ -14066,6 +14066,44 @@ button:focus {
 #aboutUsCarousel .carousel-item img {
     margin: auto;
 } */
+
+.header__bar {
+    position: relative !important;
+}
+
+.header__bar .header__content-right {
+    position: relative;
+    right: -6px;
+}
+
+.languages {
+    position: absolute;
+    top: -32px;
+    right: 75px;
+    z-index: 999999;
+    display: flex;
+}
+
+@media screen and(max-width: 1760px) {
+    .languages {
+        right: 15px;
+    }
+}
+
+.languages > div {
+    padding: 10px 5px;
+}
+
+.languages > div img {
+    padding: 0 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.languages > div.active img {
+    background: #efefef;
+}
 
 .language-item a {
     display: inline-block;

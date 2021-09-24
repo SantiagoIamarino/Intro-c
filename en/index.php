@@ -606,14 +606,14 @@
             <!-- END SECTION-->
 
             <!-- SECTION-->
-            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Testimonials">
+            <section class="section-pp pp-easing bg-gray section-pp--pad" data-background="light" data-title="Medallia">
                 
                 <div class="section-content">
                     <div class="container">
                         <div class="row m-b-10">
                             <div class="col-12 title m-b-20">
-                                <h2 style='padding-bottom: 10px'>Medallia Project</h2>
-                                <hr>
+                                <h2 style='padding-bottom: 10px;color: #e4e4e4'>Medallia Project</h2>
+                                <hr style='border-color:rgba(255,255,255,.4)'>
                             </div>
                             <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
                                 <iframe src="https://www.youtube.com/embed/Rjbdg57UzII" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

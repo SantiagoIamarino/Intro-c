@@ -5,13 +5,17 @@
     $base_url = ($lang == 'es') ? $assets_url : $url . 'en/';
     
     if(isset($_GET['language']) && !empty($_GET['language'])){
-        // $_SESSION['lang'] = $lang;
+        $_SESSION['lang'] = $lang;
+
+        if($urlSplitted[2] == $lang) {
+            return;
+        };
 
         if(count($urlSplitted) > 3) { //Fuera del index
             $currentDirectory = ($lang == 'es') ? $urlSplitted[3] : $urlSplitted[2];
-            header('Location: ' . $base_url . $currentDirectory);
+            echo "<script>location.href='" . $base_url . $currentDirectory . "'</script>";
         } else { //Index
-            header('Location: ' . $base_url);
+            echo "<script>location.href='" . $base_url . "'</script>";
         }
     }
 

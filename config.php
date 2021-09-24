@@ -1,8 +1,8 @@
 <?php
 
-    define('IS_PRODUCTION', false);
+    $isProduction = false;
 
-    if(IS_PRODUCTION) {
+    if($isProduction) {
 
         $url = 'http://www.introarquitectura.com.ar/';
         $assets_url = 'http://www.introarquitectura.com.ar/';

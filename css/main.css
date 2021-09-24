@@ -2058,7 +2058,7 @@ a:hover {
     padding: 62px 65px 60px;
 }
 .media-testi.light {
-    background: #eaeaeaf7;
+    background: #eaeaeae0;
 }
 .media-testi.light .quote {
     color: #f8f8f8;
@@ -6414,7 +6414,7 @@ button {
     background: url(../images/icon/bg-pattern-03.jpg) center center/cover no-repeat;
 }
 .bg-gray {
-    background-color: #cdcdcd;
+    background-color: #222;
 }
 .bg-image-1 {
     background: linear-gradient(black, black), url(../images/logos-clientes-portada.jpg) center center/cover no-repeat;

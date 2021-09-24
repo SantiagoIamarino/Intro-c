@@ -967,7 +967,6 @@
 
         $(document).ready(() => {
             setInterval(() => {
-                console.log('entro');
                 $('#aboutUsCarousel').carousel('next');
             }, 4000)
         })
