@@ -7,7 +7,7 @@
     if(isset($_GET['language']) && !empty($_GET['language'])){
         $_SESSION['lang'] = $lang;
 
-        if($urlSplitted[2] == $lang) {
+        if(isset($urlSplitted[2]) && $urlSplitted[2] == $lang) {
             return;
         };
 
