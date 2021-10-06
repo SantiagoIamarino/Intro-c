@@ -27,7 +27,7 @@
 
     <div class="users page-container">
         <div class="title">
-            <h2>Administración de usuarios</h2>
+            <h2>Configuraciones generales</h2>
             <hr>
         </div>
 
