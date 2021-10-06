@@ -9,6 +9,10 @@ if(location.href.indexOf('blog') >= 0) {
     actualScreen = document.getElementsByClassName('blog-option')[0];
 }
 
+if(location.href.indexOf('configuraciones') >= 0) {
+  actualScreen = document.getElementsByClassName('configs-option')[0];
+}
+
 if(location.href.indexOf('post') >= 0) {
     actualScreen = document.getElementsByClassName('blog-option')[0];
 

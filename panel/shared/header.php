@@ -71,7 +71,7 @@
                         <i class="bi bi-pencil-square"></i> Articulos
                     </a>
                 </li>
-                <li class='blog-option'>
+                <li class='configs-option'>
                     <a href="configuraciones.php">
                         <i class="bi bi-gear"></i> Configuraciones
                     </a>
