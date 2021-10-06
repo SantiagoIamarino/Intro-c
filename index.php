@@ -1,6 +1,10 @@
 <?php
     require_once('./config.php');
     require_once('./shared/language.php');
+
+    $statement = $db->prepare("SELECT * FROM configs LIMIT 1");
+    $statement->execute();
+    $configs = $statement->fetch();
 ?>
 
 <!DOCTYPE html>
@@ -634,7 +638,7 @@
                                 <hr style='border-color:rgba(255,255,255,.4)'>
                             </div>
                             <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
-                                <iframe src="https://www.youtube.com/embed/aw7bc18V8Gk" title="Medallia - Intro Arquitectura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <?php echo $configs['url_home_video_spanish'] ?>
                             </div>
                         </div>
                     </div>
