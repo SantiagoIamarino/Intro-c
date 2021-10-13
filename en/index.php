@@ -642,7 +642,9 @@
                     <div class="container">
                         <div class="row m-b-10">
                             <div class="col-12 title m-b-20">
-                                <h2 style='padding-bottom: 10px;color: #e4e4e4'>Medallia Project</h2>
+                                <h2 style='padding-bottom: 10px;color: #e4e4e4'>
+                                    <?php echo $configs['title_home_video_english'] ?>
+                                </h2>
                                 <hr style='border-color:rgba(255,255,255,.4)'>
                             </div>
                             <div class="col-12 m-t-20 medallia-video" style='margin-bottom: -20px'>
