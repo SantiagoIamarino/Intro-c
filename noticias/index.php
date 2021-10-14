@@ -11,18 +11,21 @@
     $end = $perPage * $page;
 
     $query = "SELECT * FROM posts WHERE category = 'noticia' ";
+    $countQuery = "SELECT COUNT(*) as total FROM posts WHERE category = 'noticia' ";
 
     if(isset($_GET['term']) && !empty($_GET['term'])) {
         $query .= "AND title LIKE '%" . $_GET['term'] . "%' ";
+        $countQuery .= "AND title LIKE '%" . $_GET['term'] . "%' ";
     }
 
     $query .= "ORDER BY id DESC LIMIT $start, $end";
+    $countQuery .= "ORDER BY id DESC LIMIT $start, $end";
 
     $statement = $db->prepare($query);
     $statement->execute();
     $posts = $statement->fetchAll();
 
-    $statement = $db->prepare("SELECT COUNT(*) as total FROM posts");
+    $statement = $db->prepare($countQuery);
     $statement->execute();
     $total = $statement->fetch()['total'];
 
@@ -198,7 +201,7 @@
                                     <li class="pagination-item <?php echo (($i + 1) == $page) ? 'active' : '' ?>">
                                         <a href="?page=<?php echo ($i+1) ?>">
                                             <span class="page-number">
-                                                <?php echo ($i > 9) ? ($i + 1) : "0".($i + 1) ?>
+                                                <?php echo (($i + 1) > 9) ? ($i + 1) : "0".($i + 1) ?>
                                             </span>
                                         </a>
                                     </li>
