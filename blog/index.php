@@ -170,7 +170,7 @@
                                     <li class="pagination-item <?php echo (($i + 1) == $page) ? 'active' : '' ?>">
                                         <a href="?page=<?php echo ($i+1) ?>">
                                             <span class="page-number">
-                                                <?php echo ($i > 9) ? ($i + 1) : "0".($i + 1) ?>
+                                                <?php echo (($i + 1) > 9) ? ($i + 1) : "0".($i + 1) ?>
                                             </span>
                                         </a>
                                     </li>
