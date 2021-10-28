@@ -2,21 +2,19 @@
 
     include('../shared/header.php');
 
-    $statement = $db->prepare("SELECT * FROM posts");
+    $statement = $db->prepare("SELECT * FROM projects");
     $statement->execute();
 
-    $posts = $statement->fetchAll();
+    $projects = $statement->fetchAll();
 
-    if(isset($_GET['postId']) && !empty($_GET['postId'])) {
+    if(isset($_GET['projectId']) && !empty($_GET['projectId'])) {
         $statement = $db->prepare("DELETE FROM posts WHERE id = :id");
         $statement->execute(array(
-            'id' => $_GET['postId']
+            'id' => $_GET['projectId']
         ));
         
 
-        echo '<script>alert("Artículo eliminado correctamente"); location.href = "blog.php"</script>';
-        $_GET['postId'] = null;
-        getUsers();
+        echo '<script>alert("Proyecto eliminado correctamente"); location.href = "./"</script>';
     }
 
 ?>
@@ -43,24 +41,24 @@
                         <th scope="col">#</th>
                         <th scope="col">Titulo</th>
                         <th scope="col" class="text-center">Cliente</th>
-                        <th scope="col" class="text-center">Fecha</th>
+                        <th scope="col" class="text-center">Año</th>
                         <th scope="col" class="text-center">Acción</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($posts as $key=>$post): ?>
+                    <?php foreach($projects as $key=>$project): ?>
                         <tr>
                             <th scope="row"><?php echo ($key + 1) ?></th>
-                            <td><?php echo $post['title'] ?></td>
-                            <td class="text-center"><?php echo $post['category'] ?></td>
-                            <td class="text-center"><?php echo date('d/m/Y', strtotime($post['date'])) ?></td>
+                            <td><?php echo $project['title'] ?></td>
+                            <td class="text-center"><?php echo $project['client'] ?></td>
+                            <td class="text-center"><?php echo $project['year'] ?></td>
                             <td class="text-center">
-                                <button onclick="location.href = 'project.php?postId=<?php echo $post['id'] ?>'"
+                                <button onclick="location.href = 'project.php?projectId=<?php echo $project['id'] ?>'"
                                     class='btn btn-outline-info'>
                                     <i class="bi bi-pencil"></i>
                                     Editar
                                 </button>
-                                <button onclick="location.href = '?postId=<?php echo $post['id'] ?>'"
+                                <button onclick="deleteProject('<?php echo $project['id']; ?>')"
                                     class='btn btn-outline-danger'>
                                     <i class="bi bi-trash"></i>
                                     Eliminar
@@ -72,6 +70,18 @@
             </table>
         </div>
     </div>
+
+    <script>
+
+        function deleteProject(projectId) {
+
+            if(confirm('¿Estás seguro/a que deseas eliminar este proyecto?')) {
+                location.href = '?projectId=' + projectId;
+            }
+            
+        }
+
+    </script>
 
 <?php 
     include('../shared/footer.php');
