@@ -13,6 +13,8 @@
         header('Location: ' . $assets_url . 'panel/login');
     }
 
+    echo "<script>var uploadsDir = '" . $assets_url . "uploads'</script>";
+
 ?>
 
 <!DOCTYPE html>

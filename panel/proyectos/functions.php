@@ -32,38 +32,6 @@ function validateProject($project) {
     return true;
 }
 
-function editProject() {
-
-    global $db;
-
-    if(isset($_FILES['image']) && !empty($_FILES['image']['name'])) {
-        $image = basename($_FILES['image']['name']);
-
-        if (!move_uploaded_file($_FILES['image']['tmp_name'], $upload_dir . $image)) {
-            echo '<script>alert("No se ha podido subir la imagen")</script>';
-        }
-    } else {
-        $image = $_POST['imageUrl'];
-    }
-    
-
-    $statement = $db->prepare("UPDATE posts SET title = :title, category = :category, slug = :slug, metaDescription = :metaDescription, content = :content, imageUrl = :imageUrl
-            WHERE id = :projectId");
-
-    $statement->execute(array(
-        'title' => $_POST['title'], 
-        'category' => $_POST['category'],
-        'slug' => $_POST['slug'], 
-        'metaDescription' => $_POST['metaDescription'], 
-        'content' => $_POST['content'], 
-        'imageUrl' => $image,
-        'projectId' => $_POST['projectId']
-    ));
-
-    header('Location: post.php?projectId=' . $_POST['projectId']);
-
-}
-
 function uploadImage($image_field) {
     global $upload_dir;
 
@@ -160,6 +128,42 @@ function createProject() {
 
     echo "<script>alert('Proyecto cargado correctamente)'</script>";
     echo "<script>location.href = './'</script>";
+
+}
+
+function editProject() {
+
+    global $db;
+    
+    $statement = $db->prepare("
+        UPDATE 
+            projects 
+        SET 
+            title = :title, principal_img = :principal_img, year = :year, client = :client, 
+            location = :location, surface = :surface, es_content = :es_content, en_content = :en_content,
+            little_image_1 = :little_image_1, little_image_2 = :little_image_2, 
+            vertical_image = :vertical_image, under_vertical_image = :under_vertical_image
+        WHERE id = :projectId
+    ");
+
+    $statement->execute(array(
+        'title' => $_POST['title'], 
+        'principal_img' => $images['principal_img']['fileUrl'],
+        'year' => $_POST['year'], 
+        'client' => $_POST['client'], 
+        'location' => $_POST['location'], 
+        'surface' => $_POST['surface'], 
+        'es_content' => $_POST['es_content'], 
+        'en_content' => $_POST['en_content'], 
+        'little_image_1' => $images['little_image_1']['fileUrl'],
+        'little_image_2' => $images['little_image_2']['fileUrl'],
+        'vertical_image' => $images['vertical_image']['fileUrl'],
+        'under_vertical_image' => $images['under_vertical_image']['fileUrl'],
+        'projectId' => $_POST['projectId']
+    ));
+
+    // echo "<script>alert('Proyecto editado correctamente)'</script>";
+    // echo "<script>location.href = './?projectId=" . $_POST['projectId'] . "'</script>";
 
 }
 

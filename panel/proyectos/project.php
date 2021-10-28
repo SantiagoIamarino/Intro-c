@@ -49,12 +49,16 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="principal_img" class="form-label w-100">Imagen vista previa</label>
-                    <input type="file" name='principal_img'>
-                    
+
+    <label for="principal_img" class="form-label w-100">Imagen vista previa</label>
+
                     <?php if(isset($project['principal_img']) && !empty($project['principal_img'])): ?>
+                        <div class='image-preview mb-2' data-image-file='<?php echo $project['principal_img'] ?>'></div>
                         <input type="hidden" name='principal_img' value="<?php echo $project['principal_img']; ?>">
                     <?php endif; ?>
+
+                    <input type="file" name='principal_img'>
+
                 </div>
                 
                 <div class="row mb-3">
@@ -91,41 +95,57 @@
 
                 <div class="row mb-3">
                     <div class="col-12 col-md-6">
+
                         <label for="little_image_1" class="form-label w-100">Imagen pequeña 1</label>
-                        <input type="file" name='little_image_1'>
-                        
+
                         <?php if(isset($project['little_image_1']) && !empty($project['little_image_1'])): ?>
+                            <div class='image-preview mb-2' data-image-file='<?php echo $project['little_image_1'] ?>'></div>
                             <input type="hidden" name='little_image_1' value="<?php echo $project['little_image_1']; ?>">
                         <?php endif; ?>
+
+                        <input type="file" name='little_image_1'>
+
                    </div>
     
                    <div class="col-12 col-md-6">
+
                         <label for="little_image_2" class="form-label w-100">Imagen pequeña 2</label>
+
+                       <?php if(isset($project['little_image_2']) && !empty($project['little_image_2'])): ?>
+                           <div class='image-preview mb-2' data-image-file='<?php echo $project['little_image_2'] ?>'></div>
+                           <input type="hidden" name='little_image_2' value="<?php echo $project['little_image_2']; ?>">
+                       <?php endif; ?>
+
                         <input type="file" name='little_image_2'>
-                        
-                        <?php if(isset($project['little_image_2']) && !empty($project['little_image_2'])): ?>
-                            <input type="hidden" name='little_image_2' value="<?php echo $project['little_image_2']; ?>">
-                        <?php endif; ?>
+
                    </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col-12 col-md-6">
+
                         <label for="vertical_image" class="form-label w-100">Imagen vertical</label>
-                        <input type="file" name='vertical_image'>
-                        
+
                         <?php if(isset($project['vertical_image']) && !empty($project['vertical_image'])): ?>
+                            <div class='image-preview mb-2' data-image-file='<?php echo $project['vertical_image'] ?>'></div>
                             <input type="hidden" name='vertical_image' value="<?php echo $project['vertical_image']; ?>">
                         <?php endif; ?>
+
+                        <input type="file" name='vertical_image'>
+
                    </div>
     
                    <div class="col-12 col-md-6">
+
                         <label for="under_vertical_image" class="form-label w-100">Imagen debajo vertical</label>
+
+                       <?php if(isset($project['under_vertical_image']) && !empty($project['under_vertical_image'])): ?>
+                           <div class='image-preview mb-2' data-image-file='<?php echo $project['under_vertical_image'] ?>'></div>
+                           <input type="hidden" name='under_vertical_image' value="<?php echo $project['under_vertical_image']; ?>">
+                       <?php endif; ?>
+
                         <input type="file" name='under_vertical_image'>
-                        
-                        <?php if(isset($project['under_vertical_image']) && !empty($project['under_vertical_image'])): ?>
-                            <input type="hidden" name='under_vertical_image' value="<?php echo $project['under_vertical_image']; ?>">
-                        <?php endif; ?>
+
                    </div>
                 </div>
 
