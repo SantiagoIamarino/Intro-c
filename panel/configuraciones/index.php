@@ -1,5 +1,5 @@
 <?php 
-    include('./shared/header.php');
+    include('../shared/header.php');
 
     $statement = $db->prepare("SELECT * FROM configs LIMIT 1");
     $statement->execute();
@@ -23,7 +23,7 @@
         ));
 
         echo "<script>alert('Configuracion actualizada correctamente')</script>";
-        echo "<script>location.href='./configuraciones.php'</script>";
+        echo "<script>location.href='./'</script>";
 
     }
 
@@ -96,4 +96,4 @@
         </div>
     </div>
 
-<?php include('./shared/footer.php') ?>
+<?php include('../shared/footer.php') ?>

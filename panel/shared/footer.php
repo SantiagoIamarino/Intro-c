@@ -7,6 +7,6 @@
 
     <!-- Core build with no theme, formatting, non-essential modules -->
     <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-    <script src='./shared/panel.js'></script>
+    <script src='<?php echo $assets_url ?>panel/shared/panel.js'></script>
 </body>
 </html>

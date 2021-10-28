@@ -5,6 +5,10 @@ if(location.href.indexOf('usuarios') >= 0) {
     actualScreen = document.getElementsByClassName('users-option')[0];
 }
 
+if(location.href.indexOf('proyectos') >= 0) {
+  actualScreen = document.getElementsByClassName('proyectos-option')[0];
+}
+
 if(location.href.indexOf('blog') >= 0) {
     actualScreen = document.getElementsByClassName('blog-option')[0];
 }

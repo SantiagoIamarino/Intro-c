@@ -1,5 +1,5 @@
 <?php 
-    include('./shared/header.php');
+    include('../shared/header.php');
 
     global $upload_dir;
 
@@ -176,5 +176,5 @@
     </div>
 
 <?php 
-    include('./shared/footer.php');
+    include('../shared/footer.php');
 ?>

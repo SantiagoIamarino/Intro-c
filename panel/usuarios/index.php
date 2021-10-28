@@ -1,5 +1,5 @@
 <?php 
-    include('./shared/header.php');
+    include('../shared/header.php');
 
     $users = null;
 
@@ -142,4 +142,4 @@
         </div>
     </div>
 
-<?php include('./shared/footer.php') ?>
+<?php include('../shared/footer.php') ?>

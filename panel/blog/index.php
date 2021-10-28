@@ -1,5 +1,6 @@
 <?php 
-    include('./shared/header.php');
+
+    include('../shared/header.php');
 
     $statement = $db->prepare("SELECT * FROM posts");
     $statement->execute();
@@ -73,5 +74,5 @@
     </div>
 
 <?php 
-    include('./shared/footer.php');
+    include('../shared/footer.php');
 ?>

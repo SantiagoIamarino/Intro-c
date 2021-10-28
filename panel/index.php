@@ -5,6 +5,6 @@
         return;
     }
 
-    header('Location: usuarios.php');
+    header('Location: usuarios');
 
 ?>

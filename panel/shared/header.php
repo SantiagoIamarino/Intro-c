@@ -5,7 +5,7 @@
         return;
     }
 
-    include('../config.php');
+    include('../../config.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['logout'])){
         session_destroy();
@@ -24,8 +24,8 @@
     <title>Intro arquitectura | Panel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="shared/header.css">
-    <link rel="stylesheet" href="shared/main.css">
+    <link rel="stylesheet" href="<?php echo $assets_url ?>panel/shared/header.css">
+    <link rel="stylesheet" href="<?php echo $assets_url ?>panel/shared/main.css">
 <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,7 +44,7 @@
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand" href="../">
-                    <img src="../images/icon/logo_intro.png" alt="" class="d-inline-block align-top">
+                    <img src="<?php echo $assets_url ?>images/icon/logo_intro.png" alt="" class="d-inline-block align-top">
                     <span>Administración Intro</span>
                 </a>
                 <form method='POST' action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
@@ -62,17 +62,22 @@
         <div class="panel-options">
             <ul>
                 <li class='users-option'>
-                    <a href="usuarios.php">
+                    <a href="<?php echo $url ?>panel/usuarios">
                         <i class="bi bi-people"></i> Usuarios
                     </a>
                 </li>
+                <li class='proyectos-option'>
+                    <a href="<?php echo $url ?>panel/proyectos">
+                        <i class="bi bi-book"></i> Proyectos
+                    </a>
+                </li>
                 <li class='blog-option'>
-                    <a href="blog.php">
+                    <a href="<?php echo $url ?>panel/blog">
                         <i class="bi bi-pencil-square"></i> Articulos
                     </a>
                 </li>
                 <li class='configs-option'>
-                    <a href="configuraciones.php">
+                    <a href="<?php echo $url ?>panel/configuraciones">
                         <i class="bi bi-gear"></i> Configuraciones
                     </a>
                 </li>
