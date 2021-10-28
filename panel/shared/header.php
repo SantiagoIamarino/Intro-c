@@ -1,16 +1,16 @@
 <?php session_start();
     
+    include('../../config.php');
+
     if(!isset($_SESSION['userEmail']) || !isset($_SESSION['userName'])) {
-        header('Location: ./login');
+        header('Location: ' . $assets_url . 'panel/login');
         return;
     }
-
-    include('../../config.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['logout'])){
         session_destroy();
 
-        header('Location: ./login');
+        header('Location: ' . $assets_url . 'panel/login');
     }
 
 ?>

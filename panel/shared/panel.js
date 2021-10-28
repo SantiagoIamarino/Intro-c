@@ -1,5 +1,6 @@
 let actualScreen;
 let editor;
+let enEditor;
 
 if(location.href.indexOf('usuarios') >= 0) {
     actualScreen = document.getElementsByClassName('users-option')[0];
@@ -17,7 +18,7 @@ if(location.href.indexOf('configuraciones') >= 0) {
   actualScreen = document.getElementsByClassName('configs-option')[0];
 }
 
-if(location.href.indexOf('post') >= 0) {
+if(location.href.indexOf('post') >= 0 || location.href.indexOf('project') >= 0) {
     actualScreen = document.getElementsByClassName('blog-option')[0];
 
     const container = document.getElementById('text-editor');
@@ -48,6 +49,12 @@ if(location.href.indexOf('post') >= 0) {
       };
       
     editor = new Quill(container, options);
+
+    if(document.getElementById('en-text-editor')) {
+
+      enEditor = new Quill(document.getElementById('en-text-editor'), options);
+
+    }
 }
 
 
