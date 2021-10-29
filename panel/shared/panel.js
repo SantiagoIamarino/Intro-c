@@ -19,7 +19,6 @@ if(location.href.indexOf('configuraciones') >= 0) {
 }
 
 if(location.href.indexOf('post') >= 0 || location.href.indexOf('project') >= 0) {
-    actualScreen = document.getElementsByClassName('blog-option')[0];
 
     const container = document.getElementById('text-editor');
     var options = {

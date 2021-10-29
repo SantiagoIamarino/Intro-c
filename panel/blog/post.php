@@ -150,7 +150,7 @@
                 <div class="mt-4 mb-3">
                     <label for="text-editor" class="form-label">Contenido del artículo</label>
                     <div id="toolbar-container"></div>
-                    <div id="text-editor"></div>
+                    <div id="text-editor" class='text-editor'></div>
                     <input type="hidden" id='content_hidden' name='content'>
                 </div>
 
