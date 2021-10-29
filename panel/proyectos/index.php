@@ -1,6 +1,7 @@
 <?php 
 
     include('../shared/header.php');
+    include('functions.php');
 
     $statement = $db->prepare("SELECT * FROM projects");
     $statement->execute();
@@ -8,7 +9,25 @@
     $projects = $statement->fetchAll();
 
     if(isset($_GET['projectId']) && !empty($_GET['projectId'])) {
-        $statement = $db->prepare("DELETE FROM posts WHERE id = :id");
+
+        $statement = $db->prepare("SELECT * FROM projects WHERE id = :id");
+        $statement->execute(array(
+            'id' => $_GET['projectId']
+        ));
+
+        $project = $statement->fetch();
+
+        // Deleting images
+        foreach ($images as $key => $image) {
+
+            $field_name = $image['field'];
+            $image_url = $project[$field_name];
+    
+            deleteImage($image_url);
+    
+        }
+
+        $statement = $db->prepare("DELETE FROM projects WHERE id = :id");
         $statement->execute(array(
             'id' => $_GET['projectId']
         ));
