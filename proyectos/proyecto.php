@@ -1,6 +1,24 @@
 <?php
    require('../config.php');
    require('../shared/language.php');
+
+    if(!isset($_GET['projectId']) || empty($_GET['projectId'])) {
+        header('Location: ./');
+        return;
+    }
+
+    $projectId = $_GET['projectId'];
+
+    $statement = $db->prepare("SELECT * FROM projects WHERE id = :projectId");
+    $statement->execute(array( 'projectId' => $projectId ));
+    $project = $statement->fetch();
+
+    if(empty($project)) {
+        header('Location: ./');
+        return;
+    }
+
+
 ?> 
 
 <!DOCTYPE html>
@@ -10,12 +28,12 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tatee Theme Templates">
-    <meta name="author" content="AuCreative">
-    <meta name="keywords" content="Tatee Theme Templates">
+    <meta name="description" content="Proyecto <?php echo $project['title'] ?> Intro Arquitectura">
+    <meta name="author" content="Intro Arquitectura">
+    <meta name="keywords" content="Intro Arquitectura">
 
     <!-- Title Page-->
-    <title>Mae</title>
+    <title><?php echo $project['title'] ?></title>
 
     <!-- Icons font CSS-->
     <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -85,24 +103,34 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">MAE</h2>
+                        <h2 class="entry-title"><?php echo $project['title'] ?></h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Mae/ImgMae1.jpg" alt="Post 1">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['little_image_1'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Mae/ImgMae2.jpg" alt="Post 2">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['little_image_2'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Mae/ImgMaeV.jpg" alt="Post 3">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['vertical_image'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Mae/portadaMae.jpg" alt="Post 4">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['principal_img'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../imagenes/Mae/ImgMae3.jpg" alt="Post 5">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['under_vertical_image'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                         </div>
                     </div>
@@ -113,21 +141,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">AÑO:</h4>
-                                            <span class="value">2020</span>
+                                            <span class="value"><?php echo $project['year'] ?></span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SUPERFICIE:</h4>
-                                            <span class="value">1200m2</span>
+                                            <span class="value"><?php echo $project['surface'] ?>m2</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENTE:</h4>
-                                            <span class="value">Mercado Abierto Electrónico (MAE)</span>
+                                            <span class="value"><?php echo $project['client'] ?></span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">UBICACIÓN:</h4>
-                                            <span class="value">Edificio American Express, CABA, Buenos Aires, Argentina</span>
+                                            <span class="value"><?php echo $project['location'] ?></span>
                                         </div>
                                     </div>
                                 </div>
@@ -135,18 +163,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="entry-content">
-                                <p>
-                                    El gran desafío que tuvimos en este proyecto fue la transformación de las oficinas tradicionales que se distribuían entre dos pisos y contaban con una gran cantidad de privados y espacios cerrados a un nuevo modelo de open space en un único piso.
-                                </p>
-                                <p>
-                                    Ésta nueva modalidad de espacio de trabajo obliga a la integración y comunicación entre los distintos equipos de trabajo apostando a utilizar estructuras organizativas totalmente distintas y renovadas.
-                                </p>
-                                <p>
-                                    El alma del proyecto fue una pieza central que, a través de sus funciones, cumplió con el requerimiento central de MAE: la unión e interacción entre los diferentes sectores. En este núcleo social se encuentran las áreas colaborativas como salas de reunión, livings para reuniones informales, meetings.
-                                </p>
-                                <p>
-                                    La pieza conectora creó un recorrido que generó interés y  brindó calidad espacial. En ella se da toda interacción, las sinergias y colaboraciones entre los trabajadores.
-                                </p>
+                                <?php echo $project['es_content'] ?>
                             </div>
                             <div class="entry-share">
                                 <span class="key">Redes Sociales :</span>

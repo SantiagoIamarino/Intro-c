@@ -1,6 +1,23 @@
 <?php
    require('../config.php');
    require('../../shared/language.php');
+
+    if(!isset($_GET['projectId']) || empty($_GET['projectId'])) {
+        header('Location: ./');
+        return;
+    }
+
+    $projectId = $_GET['projectId'];
+
+    $statement = $db->prepare("SELECT * FROM projects WHERE id = :projectId");
+    $statement->execute(array( 'projectId' => $projectId ));
+    $project = $statement->fetch();
+
+    if(empty($project)) {
+        header('Location: ./');
+        return;
+    }
+
 ?> 
 
 <!DOCTYPE html>
@@ -10,12 +27,12 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tatee Theme Templates">
-    <meta name="author" content="AuCreative">
-    <meta name="keywords" content="Tatee Theme Templates">
+    <meta name="description" content="<?php echo $project['title'] ?> project Intro Arquitectura">
+    <meta name="author" content="Intro Arquitectura">
+    <meta name="keywords" content="Intro Arquitectura">
 
     <!-- Title Page-->
-    <title>Navent</title>
+    <title><?php echo $project['title'] ?></title>
 
     <!-- Icons font CSS-->
     <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -85,24 +102,34 @@
             <div class="container">
                 <article class="project-style-4 mb-4 pb-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">NAVENT</h2>
+                        <h2 class="entry-title"><?php echo $project['title'] ?></h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
                             <div class="col-md-6 col-lg-4 isotope-item isotope-item-sizer">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../../imagenes/Navent/ImgNavent1.jpg" alt="Post 1">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['little_image_1'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../../imagenes/Navent/ImgNavent2.jpg" alt="Post 2">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['little_image_2'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../../imagenes/Navent/ImgNavent3.jpg" alt="Post 3">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['vertical_image'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-lg-8 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../../imagenes/Navent/portadaNavent.jpg" alt="Post 4">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['principal_img'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                             <div class="col-md-6 col-lg-4 isotope-item">
-                                <img class="wp-post-image" data-fancybox="gallery" src="../../imagenes/Navent/ImgNavent4.jpg" alt="Post 5">
+                                <img class="wp-post-image" data-fancybox="gallery" 
+                                    src="<?php echo $assets_url . 'uploads/' . $project['under_vertical_image'] ?>" 
+                                    alt="<?php echo $project['title'] ?> Intro Arquitectura">
                             </div>
                         </div>
                     </div>
@@ -113,21 +140,21 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">YEAR:</h4>
-                                            <span class="value">2014</span>
+                                            <span class="value"><?php echo $project['year'] ?></span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">SIZE:</h4>
-                                            <span class="value">700sqft.</span>
+                                            <span class="value"><?php echo $project['surface'] ?>sqtf.</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">CLIENT:</h4>
-                                            <span class="value">Navent</span>
+                                            <span class="value"><?php echo $project['client'] ?></span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">LOCATION:</h4>
-                                            <span class="value">Rondou 2664, CABA, Buenos Aires, Argentina</span>
+                                            <span class="value"><?php echo $project['location'] ?></span>
                                         </div>
                                     </div>
                                 </div>
@@ -135,18 +162,10 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="entry-content">
-                                <p>
-                                    The premise of this young IT team was to create a fun and motivating environment with open workspaces, lounges, and recreation areas. Intro Arquitectura responded with a concept that juxtaposes work, entertainment, and relaxation in a single space.
-                                </p>
-                                <p>
-                                    The different work functions are come together through a wooden treillage that allows for a visual connection between the spaces, emphasizing the concept of an open office while encouraging fluid communication. We only designed one private office and a small meeting room as closed spaces, featuring simple glass walls that blend seamlessly with the open space.
-                                </p>
-                                <p>
-                                    The decoration with OSB wood panels helped bring out a more natural essence, but always with a more modern and daring twist due to its recycled look. This type of material, which is also linked to repurposing and recycling, was used to highlight the more industrial and modern aesthetic.
-                                </p>
+                                <?php echo $project['en_content'] ?>
                             </div>
                             <div class="entry-share">
-                                <span class="key">Social networks:</span>
+                                <span class="key">Social networks :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
                                         <a class="ic-fb" target="_blank" href="https://www.facebook.com/IntroArquitectura/?fref=ts">
