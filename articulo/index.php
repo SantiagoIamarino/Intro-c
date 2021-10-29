@@ -7,13 +7,17 @@
         header('Location: ../');
     }
 
+    $postId = $_GET['postId'];
+
     $statement = $db->prepare('SELECT * FROM posts WHERE id = :postId');
-    $statement->execute(array('postId' => $_GET['postId']));
+    $statement->execute(array('postId' => $postId));
     $post = $statement->fetch();
 
     $statement = $db->prepare("SELECT * FROM posts ORDER BY RAND() LIMIT 5");
     $statement->execute();
     $random_posts = $statement->fetchAll();
+
+    require('../shared/popularity.php');
 
 ?>
 

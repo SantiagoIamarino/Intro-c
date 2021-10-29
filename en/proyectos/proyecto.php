@@ -18,6 +18,8 @@
         return;
     }
 
+    require('../../shared/popularity.php');
+
 ?> 
 
 <!DOCTYPE html>

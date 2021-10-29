@@ -45,7 +45,7 @@
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid d-flex justify-content-between">
-                <a class="navbar-brand" href="../">
+                <a class="navbar-brand" href="<?php echo $url ?>">
                     <img src="<?php echo $assets_url ?>images/icon/logo_intro.png" alt="" class="d-inline-block align-top">
                     <span>Administración Intro</span>
                 </a>

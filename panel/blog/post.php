@@ -80,7 +80,7 @@
                         )));
         
                         echo '<script>alert("Articulo subido correctamente")</script>';
-                        header('Location: blog.php');
+                        header('Location: index.php');
                     } else {
                         echo '<script>alert("No se ha podido subir la imagen")</script>';
                     }

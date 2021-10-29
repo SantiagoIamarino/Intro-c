@@ -18,6 +18,7 @@
         return;
     }
 
+    require('../shared/popularity.php');
 
 ?> 
 

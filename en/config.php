@@ -1,6 +1,6 @@
 <?php
 
-    $isProduction = true;
+    $isProduction = false;
 
     if($isProduction) {
 
