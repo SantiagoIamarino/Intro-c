@@ -133,14 +133,14 @@
                             <div class="col-12 col-md-6">
                                 <article class="blog">
                                     <figure class="entry-image">
-                                        <a href="<?php echo $assets_url . 'articulo/?postId=' . $post['id'] ?>">
+                                        <a href="<?php echo $url . 'blog/' . $post['slug'] ?>">
                                             <img src="<?php echo '../../uploads/' . $post['imageUrl'] ?>" 
                                                 alt="the  villa overlooks dramatic mountainous scenery">
                                         </a>
                                     </figure>
                                     <div class="entry-summary">
                                         <h4 class="entry-title">
-                                            <a href="<?php echo $assets_url . 'articulo/?postId=' . $post['id'] ?>">
+                                            <a href="<?php echo $url . 'blog/' . $post['slug'] ?>">
                                                 <?php echo $post['title'] ?>
                                             </a>
                                         </h4>

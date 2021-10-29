@@ -136,7 +136,7 @@
                                 <span class="line line--bottom"></span>
                                 <div class="media__body">
                                     <h3 class="title">
-                                        <a href="./proyecto.php?projectId=<?php echo $project['id'] ?>">
+                                        <a href="./<?php echo $project['slug'] ?>">
                                             <?php echo $project['title'] ?>
                                         </a>
                                     </h3>

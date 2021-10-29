@@ -115,6 +115,15 @@ function manageImagesToEdit() {
 
 }
 
+function createSlug($title) {
+
+    $slug = preg_replace('/\s+/', '-', $title);
+    $slug = str_replace('ñ', 'n', $slug);
+
+    return $slug;
+
+}
+
 function createProject() {
 
     global $db;
@@ -130,21 +139,24 @@ function createProject() {
 
     }
 
+    $slug = createSlug($_POST['title']);
+
     $statement = $db->prepare("
         INSERT INTO 
             projects(
-                title, principal_img, year, client, location, surface, es_content,  
+                title, slug, principal_img, year, client, location, surface, es_content,  
                 en_content, little_image_1, little_image_2, vertical_image, under_vertical_image
             ) 
         VALUES 
             (
-                :title, :principal_img, :year, :client, :location, :surface, :es_content, 
+                :title, :slug, :principal_img, :year, :client, :location, :surface, :es_content, 
                 :en_content, :little_image_1, :little_image_2, :vertical_image, :under_vertical_image
             ) 
     ");
 
     $statement->execute(array(
         'title' => $_POST['title'], 
+        'slug' => $slug,
         'principal_img' => $images['principal_img']['fileUrl'],
         'year' => $_POST['year'], 
         'client' => $_POST['client'], 
@@ -158,8 +170,8 @@ function createProject() {
         'under_vertical_image' => $images['under_vertical_image']['fileUrl']
     ));
 
-    echo "<script>alert('Proyecto cargado correctamente)'</script>";
-    echo "<script>location.href = './'</script>";
+    // echo "<script>alert('Proyecto cargado correctamente)'</script>";
+    // echo "<script>location.href = './'</script>";
 
 }
 

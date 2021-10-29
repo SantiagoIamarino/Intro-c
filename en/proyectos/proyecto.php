@@ -7,11 +7,11 @@
         return;
     }
 
-    $projectId = $_GET['projectId'];
-
-    $statement = $db->prepare("SELECT * FROM projects WHERE id = :projectId");
-    $statement->execute(array( 'projectId' => $projectId ));
+    $statement = $db->prepare("SELECT * FROM projects WHERE slug = :slug");
+    $statement->execute(array( 'slug' => $_GET['slug'] ));
     $project = $statement->fetch();
+
+    $projectId = $project['id'];
 
     if(empty($project)) {
         header('Location: ./');
