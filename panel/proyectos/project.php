@@ -179,13 +179,22 @@
 
                 <div class="w-100 save-btn d-flex justify-content-center mt-4">
                     <?php if(isset($_GET['projectId']) && !empty($_GET['projectId'])): ?>
+
                         <input type="hidden" name='projectId'
                             value='<?php echo htmlspecialchars($_GET['projectId']) ?>'>
+
+                        <input type="hidden" name="last_title"
+                            value="<?php echo $project['title'] ?>">
+
+                        <input type="hidden" name="slug"
+                            value="<?php echo $project['slug'] ?>">
+
                         <button class='save-btn' onclick='getProjectContent(event)'
                             type='submit' name='postEdit'>
                             <i class="bi bi-pencil"></i>
                             Editar artículo
                         </button>
+
                     <?php else: ?>
                         <button onclick='getProjectContent(event)' type='submit'
                             style='min-width: 300px' class='save-btn' name='postEdit'>

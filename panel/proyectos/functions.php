@@ -182,11 +182,17 @@ function editProject() {
     
     manageImagesToEdit();
 
+    $slug = $_POST['slug'];
+
+    if($_POST['title'] !== $_POST['last_title']) {
+        $slug = createSlug($_POST['title']);
+    }
+
     $statement = $db->prepare("
         UPDATE 
             projects 
         SET 
-            title = :title, principal_img = :principal_img, year = :year, client = :client, 
+            title = :title, slug =:slug, principal_img = :principal_img, year = :year, client = :client, 
             location = :location, surface = :surface, es_content = :es_content, en_content = :en_content,
             little_image_1 = :little_image_1, little_image_2 = :little_image_2, 
             vertical_image = :vertical_image, under_vertical_image = :under_vertical_image
@@ -195,6 +201,7 @@ function editProject() {
 
     $statement->execute(array(
         'title' => $_POST['title'], 
+        'slug' => $slug, 
         'principal_img' => $images['principal_img']['fileUrl'],
         'year' => $_POST['year'], 
         'client' => $_POST['client'], 
