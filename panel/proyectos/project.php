@@ -50,14 +50,14 @@
 
                 <div class="mb-3">
 
-    <label for="principal_img" class="form-label w-100">Imagen vista previa</label>
+                    <label for="principal_img" class="form-label w-100">Imagen vista previa</label>
 
                     <?php if(isset($project['principal_img']) && !empty($project['principal_img'])): ?>
                         <div class='image-preview mb-2' data-image-file='<?php echo $project['principal_img'] ?>'></div>
                         <input type="hidden" name='principal_img' value="<?php echo $project['principal_img']; ?>">
                     <?php endif; ?>
 
-                    <input type="file" name='principal_img'>
+                    <input type="file" name='principal_img' onchange='imageChanged(event)'>
 
                 </div>
                 
@@ -103,7 +103,7 @@
                             <input type="hidden" name='little_image_1' value="<?php echo $project['little_image_1']; ?>">
                         <?php endif; ?>
 
-                        <input type="file" name='little_image_1'>
+                        <input type="file" name='little_image_1' onchange='imageChanged(event)'>
 
                    </div>
     
@@ -116,7 +116,7 @@
                            <input type="hidden" name='little_image_2' value="<?php echo $project['little_image_2']; ?>">
                        <?php endif; ?>
 
-                        <input type="file" name='little_image_2'>
+                        <input type="file" name='little_image_2' onchange='imageChanged(event)'>
 
                    </div>
                 </div>
@@ -131,7 +131,7 @@
                             <input type="hidden" name='vertical_image' value="<?php echo $project['vertical_image']; ?>">
                         <?php endif; ?>
 
-                        <input type="file" name='vertical_image'>
+                        <input type="file" name='vertical_image' onchange='imageChanged(event)'>
 
                    </div>
     
@@ -144,14 +144,14 @@
                            <input type="hidden" name='under_vertical_image' value="<?php echo $project['under_vertical_image']; ?>">
                        <?php endif; ?>
 
-                        <input type="file" name='under_vertical_image'>
+                        <input type="file" name='under_vertical_image' onchange='imageChanged(event)'>
 
                    </div>
                 </div>
 
                 <?php 
                     if(isset($project['es_content']) && !empty($project['es_content'])){
-                        echo "<script>setTimeout(() => editor.root.innerHTML = '" . $project['content'] . "', 500)</script>";
+                        echo "<script>setTimeout(() => editor.root.innerHTML = '" . $project['es_content'] . "', 500)</script>";
                     }
 
                 ?>
@@ -165,7 +165,7 @@
 
                 <?php 
                     if(isset($project['en_content']) && !empty($project['en_content'])){
-                        echo "<script>setTimeout(() => enEditor.root.innerHTML = '" . $project['content'] . "', 500)</script>";
+                        echo "<script>setTimeout(() => enEditor.root.innerHTML = '" . $project['en_content'] . "', 500)</script>";
                     }
 
                 ?>

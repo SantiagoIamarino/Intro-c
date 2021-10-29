@@ -51,6 +51,10 @@ button.save-btn{
     box-shadow: 1px 1px 3px gray;
 }
 
+.text-editor {
+    max-height: 400px;
+}
+
 .text-editor .ql-editor{
     border: 1px solid #cdcdcd;
     min-height: 400px;

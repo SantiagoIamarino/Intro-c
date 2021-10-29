@@ -1,14 +1,10 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 /*
 
     validateProject
-    editProject
     createProject
+    editProject
     
 */
 
@@ -83,6 +79,42 @@ function validateImages() {
     
 }
 
+function deleteImage($fileUrl) {
+
+    global $upload_dir;
+    $filePath = $upload_dir . $fileUrl;
+
+    if(file_exists($filePath)){
+        unlink($filePath);
+    }
+
+}
+
+function manageImagesToEdit() {
+
+    global $images;
+
+    foreach ($images as $key => $image) {
+
+        $field_name = $image['field'];
+        $image_name = $image['name'];
+
+        if(!empty($_FILES[$field_name]['tmp_name'])) {
+
+            deleteImage($_POST[$field_name]);
+
+            $images[$field_name]['fileUrl'] = uploadImage($field_name);
+
+        } else {
+
+            $images[$field_name]['fileUrl'] = $_POST[$field_name];
+
+        }
+
+    }
+
+}
+
 function createProject() {
 
     global $db;
@@ -134,7 +166,10 @@ function createProject() {
 function editProject() {
 
     global $db;
+    global $images;
     
+    manageImagesToEdit();
+
     $statement = $db->prepare("
         UPDATE 
             projects 
@@ -162,8 +197,8 @@ function editProject() {
         'projectId' => $_POST['projectId']
     ));
 
-    // echo "<script>alert('Proyecto editado correctamente)'</script>";
-    // echo "<script>location.href = './?projectId=" . $_POST['projectId'] . "'</script>";
+    echo "<script>alert('Proyecto editado correctamente')</script>";
+    echo "<script>location.href = './project.php?projectId=" . $_POST['projectId'] . "'</script>";
 
 }
 
