@@ -110,6 +110,12 @@
                         </div>
                     </div>
 
+                    <!-- Search bar -->
+                     <div class='search-bar'>
+                        <?php require('./shared/search.php') ?>
+                    </div>
+                    <!-- Search bar -->
+
                     <div class="header-top-languages">
                         <div class="english active">
                             <a href='#'>English</a>

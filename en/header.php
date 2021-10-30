@@ -93,6 +93,10 @@
                     </div>
                 </div>
             </div>
+
+            <div class="search-bar">
+                <?php require('../shared/search.php') ?>
+            </div>
         </div>
     </div>
     <div class="header-mobile d-block d-lg-none">

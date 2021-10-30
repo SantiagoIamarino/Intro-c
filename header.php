@@ -1,6 +1,6 @@
 <header id="header">
     <div class="header header-1 d-none d-lg-block js-header-1">
-        <div class="header__bar">
+        <div class="header__bar light">
             <div class="wrap wrap--w1790">
                 <div class="container-fluid">
                     <div class="header__content">
@@ -83,6 +83,13 @@
                     </div>
                 </div>
             </div>
+
+            <div class="light">
+                <div class="search-bar search-bar-header">
+                    <?php require('../shared/search.php') ?>
+                </div>
+            </div>
+            
         </div>
     </div>
     <div class="header-mobile d-block d-lg-none">
