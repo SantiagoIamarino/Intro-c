@@ -22,7 +22,7 @@
         $user = 'root';
         $password = ''; 
 
-        $upload_dir = 'D:/xampp/htdocs/Intro/uploads/';
+        $upload_dir = 'C:/xampp/htdocs/Intro/uploads/';
 
     }
 
