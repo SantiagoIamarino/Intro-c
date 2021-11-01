@@ -2,7 +2,8 @@
    require('../config.php');
    require('../../shared/language.php');
 
-    if(!isset($_GET['projectId']) || empty($_GET['projectId'])) {
+   
+    if(!isset($_GET['slug']) || empty($_GET['slug'])) {
         header('Location: ./');
         return;
     }

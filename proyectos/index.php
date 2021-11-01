@@ -1,7 +1,7 @@
 
 <?php
-   require('../config.php');
-   require('../shared/language.php');
+    require('../config.php');
+    require('../shared/language.php');
 
     $statement = $db->prepare('SELECT * FROM projects');
     $statement->execute();
@@ -124,48 +124,29 @@
                 <div class="container">
                     <div class="row gutter-xl projects-overview">
                         
-                    <?php foreach ($projects as $key => $project) : ?>
-                        <div class="col-md-6">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="<?php echo $assets_url . 'uploads/' . $project['principal_img']?>" 
-                                        alt="<?php echo $project['title'] ?>" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./<?php echo $project['slug'] ?>">
-                                            <?php echo $project['title'] ?>
-                                        </a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
-                    <?php endforeach ?>
-
-                        <!-- Proyecto Navent -->
-                        <div class="col-md-6 project-hidden">
-                            <article class="media media-project m-b-50" onclick='goToProject(event)'>
-                                <figure class="media__img">
-                                    <img src="../imagenes/Navent/portadaNavent.jpg" alt="Navent" />
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="./Navent.php">Navent</a>
-                                    </h3>
-                                    <!--<div class="address"></div>-->
-                                </div>
-                            </article>
-                        </div>
+                        <?php foreach ($projects as $key => $project) : ?>
+                            <div class="col-md-6">
+                                <article class="media media-project m-b-50" onclick='goToProject(event)'>
+                                    <figure class="media__img">
+                                        <img src="<?php echo $assets_url . 'uploads/' . $project['principal_img']?>" 
+                                            alt="<?php echo $project['title'] ?>" />
+                                    </figure>
+                                    <div class="bg-overlay"></div>
+                                    <span class="line"></span>
+                                    <span class="line line--bottom"></span>
+                                    <div class="media__body">
+                                        <h3 class="title">
+                                            <a href="./<?php echo $project['slug'] ?>">
+                                                <?php echo $project['title'] ?>
+                                            </a>
+                                        </h3>
+                                        <!--<div class="address"></div>-->
+                                    </div>
+                                </article>
+                            </div>
+                        <?php endforeach ?>
 
                     </div>
-
 
                     <div class="text-center p-t-10 load-more-btn">
                         <a onclick="seeAllProjects(event)"
