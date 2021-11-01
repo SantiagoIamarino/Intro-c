@@ -19,6 +19,9 @@
 
 <script>
 
-    const siteUrl= "<?php echo $assets_url ?>";
+    if(!siteUrl) {
+        var searchLogicUrl= "<?php echo $assets_url ?>/shared/search-logic.php";
+        var siteUrl= "<?php echo $url ?>";
+    }
 
 </script>

@@ -112,7 +112,7 @@
 
                     <!-- Search bar -->
                      <div class='search-bar'>
-                        <?php require('./shared/search.php') ?>
+                        <?php require('../shared/search.php') ?>
                     </div>
                     <!-- Search bar -->
 
@@ -308,6 +308,10 @@
                                 </a>
 
                             </div>
+
+                            <div class="search-bar-mobile light">
+                                <?php require('../shared/search.php') ?>
+                            </div>
                         </ul>
                     </div>
                 </nav>
@@ -421,7 +425,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
 
-</h2>
+                                </h2>
                                 <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[95, 95, 105, 105, 85]"
@@ -447,7 +451,7 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
 
-</h2>
+                                </h2>
                                 <!-- <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
                                     data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
                                     data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
@@ -473,41 +477,8 @@
                                     data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
                                     data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
 
-</h2>
-                               <!--  <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
-                                    data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                                    data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
-                                    data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
-                                    data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]">
-                                    <span class="rev-btn-2">Contactanos</span>
-                                </a>  -->   
+                                </h2>
                             </li>
-                           <!--  <li class="rev-item rev-item-1" data-transition="crossfade">
-                                <img class="rev-slidebg" src="../images/slider-05.jpg" alt="Master Slider 01" />
-                                <h4 class="tp-caption tp-resizeme rev-text-1"
-                                    data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[0];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                                    data-x="['left']" data-y="['middle']" data-hoffset="[0, 0, 0, 0, 0]"
-                                    data-voffset="[-128, -118, -150, -130, -130]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingbottom="[50, 50, 50, 50]" 
-                                    data-paddingright="[0, 0, 0, 0, 15]" data-width="['auto']" data-height="[&quot;auto&quot;]" 
-                                    data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]" data-color="#fff" data-fontweight="400"
-                                    data-fontsize="[11, 11, 14, 16, 16]" data-textalign="[left, left, left, center, center]">We are Intro Arquitectura</h4>
-                                <h2 class="tp-caption tp-resizeme rev-text-2"
-                                    data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:0;opacity:1;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                                    data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 0]" data-voffset="[-45, -40, 0, 0, 0]"
-                                    data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]"
-                                    data-width="[1170, 930, 690, 510, 576]" data-height="[&quot;auto&quot;]" data-lineheight="[60, 58, 54, 38, 36]"
-                                    data-whitespace="normal" data-color="#ebebeb" data-fontweight="700" data-fontsize="[48, 42, 46, 32, 32]"
-                                    data-textalign="[left, left, left, left, left]">We specialize in the design, construction, and transformation of workspaces.
-
-</h2>
-                                <a class="tp-caption tp-resizeme" href="contacto/" target="_self"
-                                    data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                                    data-x="[left]" data-y="[center]" data-hoffset="[0, 0, 0, 0, 15]" data-voffset="[185, 185, 210, 180, 170]"
-                                    data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on" data-responsive="off"
-                                    data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]">
-                                    <span class="rev-btn-2">Contactanos</span>
-                                </a>    
-                            </li> -->
                         </ul>
                     </div>
                 </div>

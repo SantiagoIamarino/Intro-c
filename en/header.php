@@ -94,8 +94,10 @@
                 </div>
             </div>
 
-            <div class="search-bar">
-                <?php require('../shared/search.php') ?>
+            <div class="light">
+                <div class="search-bar search-bar-header">
+                    <?php require('../../shared/search.php') ?>
+                </div>
             </div>
         </div>
     </div>
@@ -173,6 +175,9 @@
                         <a href="<?php echo $url ?>contacto/">Contact</a>
                     </li>
                 </ul>
+                <div class="search-bar-mobile light">
+                    <?php require('../../shared/search.php') ?>
+                </div>
             </div>
         </nav>
     </div>

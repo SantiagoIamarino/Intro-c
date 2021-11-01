@@ -4602,6 +4602,7 @@ button {
     top: 45px;
     width: 100%;
     display: none;
+    z-index: 999;
 }
 
 .search-content .results ul {
@@ -4620,6 +4621,12 @@ button {
 .search-content .results li:hover {
     transition: .2s all ease;
     background-color: rgb(243, 243, 243);
+}
+
+@media screen and (max-width: 991px) {
+    .search-bar {
+        display: none;
+    }
 }
 
 .menu a {

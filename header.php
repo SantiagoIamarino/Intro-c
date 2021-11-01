@@ -166,6 +166,9 @@
                         <a href="<?php echo $url ?>contacto/">Contacto</a>
                     </li>
                 </ul>
+                <div class="search-bar-mobile light">
+                    <?php require('../shared/search.php') ?>
+                </div>
             </div>
         </nav>
     </div>

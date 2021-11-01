@@ -304,6 +304,10 @@
                                 </a>
 
                             </div>
+
+                            <div class="search-bar-mobile light">
+                                <?php require('./shared/search.php') ?>
+                            </div>
                         </ul>
                     </div>
                 </nav>

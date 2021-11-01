@@ -136,8 +136,6 @@ function searchContent(event) {
         return;
     }
 
-    const searchLogicUrl = siteUrl + '/shared/search-logic.php';
-
     $.ajax({
         url: searchLogicUrl,
         data: { term: term },
@@ -151,6 +149,7 @@ function searchContent(event) {
             }
 
             if(response.results.length == 0) {
+                $('.search-content .results').css('display', 'block');
                 $('.search-content .results ul').html(`
                     <li>No se han encontado resultados para '${term}'</li>
                 `);
