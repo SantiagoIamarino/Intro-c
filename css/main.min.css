@@ -4580,16 +4580,20 @@ button {
 }
 
 .light .search-content .form-group input {
+    transition: 2s all ease;
     color: #444 !important;
     border-color:#444 !important;
+    background-color: white !important;
 }
 
 .light .search-content .form-group input::placeholder {
     color: #444 !important;
 }
 .light .search-btn i {
+    transition: 2s all ease;
     color: rgba(68, 68, 68, 0.815) !important;
     border: 1px solid #444 !important;
+    background-color: white !important;
 }
 
 .menu a {
