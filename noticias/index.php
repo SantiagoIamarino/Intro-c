@@ -245,6 +245,7 @@
 
     <!-- Main JS-->
     <script src="../js/global.js"></script>
+    <script src="../js/custom.js"></script>
 
 </body>
 

@@ -4544,6 +4544,7 @@ button {
 
 .search-content {
     display: flex;
+    position: relative;
 }
 
 .search-content .form-group {
@@ -4594,6 +4595,31 @@ button {
     color: rgba(68, 68, 68, 0.815) !important;
     border: 1px solid #444 !important;
     background-color: white !important;
+}
+
+.search-content .results {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    display: none;
+}
+
+.search-content .results ul {
+    background: white;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.search-content .results li {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-top: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
+.search-content .results li:hover {
+    transition: .2s all ease;
+    background-color: rgb(243, 243, 243);
 }
 
 .menu a {

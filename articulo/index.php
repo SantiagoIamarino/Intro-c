@@ -211,6 +211,7 @@
 
     <!-- Main JS-->
     <script src="<?php echo $assets_url ?>js/global.js"></script>
+    <script src="<?php echo $assets_url ?>js/custom.js"></script>
 
 </body>
 

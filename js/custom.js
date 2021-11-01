@@ -119,3 +119,69 @@ $(document).ready(() => {
     }
     
 })
+
+// Search bar
+function searchContent(event) {
+    const term = event.target.value;
+    
+    if(!term) {
+        $('.search-content .results').css('display', 'none');
+        return;
+    }
+
+    if(term.length < 3) {
+        $('.search-content .results').css('display', 'block');
+        $('.search-content .results ul').html('<li>Escribe al menos 3 letras..</li>');
+
+        return;
+    }
+
+    const searchLogicUrl = siteUrl + '/shared/search-logic.php';
+
+    $.ajax({
+        url: searchLogicUrl,
+        data: { term: term },
+        method: 'POST',
+        success: (res) => {
+
+            const response = JSON.parse(res);
+
+            if(!response.ok) {
+                return;
+            }
+
+            if(response.results.length == 0) {
+                $('.search-content .results ul').html(`
+                    <li>No se han encontado resultados para '${term}'</li>
+                `);
+                return;
+            }
+
+            let html = "";
+
+            for (let i = 0; i < response.results.length; i++) {
+                const result = response.results[i];
+                let typeUrl = (result?.category) ? result.category : 'proyectos';
+
+                if(typeUrl == 'noticia') typeUrl = 'noticias';
+
+                const resultUrl = `${siteUrl}${typeUrl}/${result.slug}`;
+
+                html += `
+                    <li onclick="location.href='${resultUrl}'">
+                        ${result.title}
+                    </li>
+                `;
+
+                if((i + 1) == 5) {
+                    break;
+                }
+                
+            }
+
+            $('.search-content .results ul').html(html);
+
+        }
+    })
+    
+}
